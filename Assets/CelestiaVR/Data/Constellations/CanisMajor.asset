@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4023991b8e2344f8a85e3682d1d19dc2, type: 3}
+  m_Name: CanisMajor
+  m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.ConstellationData
+  constellationName: Canis Major
+  mythology: "Orion's faithful hunting dog, home to Sirius \u2014 the brightest star
+    in the night sky."
+  stars:
+  - starName: Sirius
+    raHours: 6.752481
+    decDegrees: -16.716116
+  - starName: Mirzam
+    raHours: 6.378329
+    decDegrees: -17.955917
+  - starName: Muliphein
+    raHours: 7.062637
+    decDegrees: -15.633286
+  - starName: Wezen
+    raHours: 7.139857
+    decDegrees: -26.3932
+  - starName: Adhara
+    raHours: 6.977097
+    decDegrees: -28.972084
+  - starName: Aludra
+    raHours: 7.401584
+    decDegrees: -29.303104
+  - starName: Nu2 CMa
+    raHours: 6.6114
+    decDegrees: -19.2559
+  - starName: Omi1 CMa
+    raHours: 6.90221
+    decDegrees: -24.1842
+  - starName: Iota CMa
+    raHours: 6.93562
+    decDegrees: -17.0542
+  - starName: Theta CMa
+    raHours: 6.90317
+    decDegrees: -12.0386
+  connectionIndices: 0100000000000000000000000300000003000000040000000300000005000000010000000600000006000000070000000700000004000000000000000800000008000000020000000200000009000000
+  lineColor: {r: 0.55, g: 0.75, b: 1, a: 0.55}
+  highlightColor: {r: 0.7, g: 0.9, b: 1, a: 1}
+  lineWidth: 0.12
+  highlightWidth: 0.22
+  linkedObjects:
+  - {fileID: 11400000, guid: 162c57cce3c92406791c9b2c5438130e, type: 2}

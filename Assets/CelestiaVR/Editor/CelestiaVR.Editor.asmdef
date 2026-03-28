@@ -1,0 +1,20 @@
+{
+    "name": "CelestiaVR.Editor",
+    "rootNamespace": "CelestiaVR.Editor",
+    "references": [
+        "CelestiaVR.Sky",
+        "CelestiaVR.Telescope",
+        "CelestiaVR.UI",
+        "CelestiaVR.Inspection",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,735 @@
+using System.Linq;
+using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
+using UnityEngine.Rendering;
+using TMPro;
+
+namespace CelestiaVR.Editor
+{
+    /// <summary>
+    /// One-click scene setup for CelestiaVR.
+    /// Run each step from the CelestiaVR menu in order.
+    /// </summary>
+    public static class SceneSetup
+    {
+        // ─────────────────────────────────────────────────────────────────────
+        // 1. Layer
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/1 - Create CelestialObject Layer")]
+        public static void CreateCelestialLayer()
+        {
+            var tagManager = new SerializedObject(
+                AssetDatabase.LoadAssetAtPath<Object>("ProjectSettings/TagManager.asset"));
+            var layers = tagManager.FindProperty("layers");
+
+            // Check if already exists
+            for (int i = 0; i < layers.arraySize; i++)
+            {
+                if (layers.GetArrayElementAtIndex(i).stringValue == "CelestialObject")
+                {
+                    Debug.Log("[CelestiaVR] Layer 'CelestialObject' already exists.");
+                    return;
+                }
+            }
+
+            // Find first empty user layer (8–31)
+            for (int i = 8; i < layers.arraySize; i++)
+            {
+                var el = layers.GetArrayElementAtIndex(i);
+                if (string.IsNullOrEmpty(el.stringValue))
+                {
+                    el.stringValue = "CelestialObject";
+                    tagManager.ApplyModifiedProperties();
+                    Debug.Log($"[CelestiaVR] Created layer 'CelestialObject' at index {i}.");
+                    return;
+                }
+            }
+            Debug.LogError("[CelestiaVR] No free layer slot found.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 2. Telescope eyepiece
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/2 - Setup Telescope Eyepiece")]
+        public static void SetupTelescopeEyepiece()
+        {
+            // Find EyepieceCamera GO
+            var eyepieceCamGO = GameObject.Find("EyepieceCamera");
+            if (eyepieceCamGO == null) { Debug.LogError("[CelestiaVR] EyepieceCamera not found in scene."); return; }
+
+            // Add / configure Camera
+            var cam = eyepieceCamGO.GetComponent<Camera>();
+            if (cam == null) cam = eyepieceCamGO.AddComponent<Camera>();
+            cam.fieldOfView  = 60f;
+            cam.nearClipPlane = 0.1f;
+            cam.farClipPlane  = 2000f;
+            cam.clearFlags   = CameraClearFlags.Skybox;
+            cam.enabled      = false;
+
+            // Find or create EyepieceRT
+            var rt = AssetDatabase.LoadAssetAtPath<RenderTexture>(
+                "Assets/CelestiaVR/Prefabs/telescope/source/EyepieceRT.asset");
+            if (rt == null)
+            {
+                rt = new RenderTexture(512, 512, 16);
+                rt.dimension = UnityEngine.Rendering.TextureDimension.Tex2D;
+                rt.name = "EyepieceRT";
+                AssetDatabase.CreateAsset(rt, "Assets/CelestiaVR/Prefabs/telescope/source/EyepieceRT.asset");
+                AssetDatabase.SaveAssets();
+            }
+            cam.targetTexture = rt;
+
+            // Create EyepieceDisplay quad as child of EyepieceCamera
+            var existing = eyepieceCamGO.transform.Find("EyepieceDisplay");
+            if (existing != null) Object.DestroyImmediate(existing.gameObject);
+
+            var quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            quad.name = "EyepieceDisplay";
+            quad.transform.SetParent(eyepieceCamGO.transform, false);
+            quad.transform.localPosition = new Vector3(0f, 0f, 0.08f);
+            quad.transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
+            quad.transform.localScale    = new Vector3(0.05f, 0.05f, 1f);
+            Object.DestroyImmediate(quad.GetComponent<MeshCollider>());
+
+            // Create unlit material using EyepieceRT
+            var mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+            mat.mainTexture = rt;
+            mat.name = "EyepieceMaterial";
+            AssetDatabase.CreateAsset(mat, "Assets/CelestiaVR/Prefabs/telescope/source/EyepieceMaterial.mat");
+            quad.GetComponent<MeshRenderer>().sharedMaterial = mat;
+
+            EditorUtility.SetDirty(eyepieceCamGO);
+            Debug.Log("[CelestiaVR] Eyepiece camera + display quad set up.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 3. Wire TelescopeController
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/3 - Wire Telescope Controller")]
+        public static void WireTelescopeController()
+        {
+            var telescopeGO = GameObject.Find("Telescope");
+            if (telescopeGO == null) { Debug.LogError("[CelestiaVR] Telescope not found."); return; }
+
+            var controller = telescopeGO.GetComponent<TelescopeController>();
+            if (controller == null) { Debug.LogError("[CelestiaVR] TelescopeController not on Telescope."); return; }
+
+            var so = new SerializedObject(controller);
+
+            // EyepieceCamera
+            var eyepieceCamGO = FindInChildren(telescopeGO.transform, "EyepieceCamera");
+            if (eyepieceCamGO != null)
+            {
+                var cam = eyepieceCamGO.GetComponent<Camera>();
+                so.FindProperty("eyepieceCamera").objectReferenceValue = cam;
+
+                var rt = cam?.targetTexture;
+                so.FindProperty("eyepieceRenderTexture").objectReferenceValue = rt;
+            }
+
+            // BarrelPivot
+            var barrelPivot = FindInChildren(telescopeGO.transform, "BarrelPivot");
+            if (barrelPivot != null)
+                so.FindProperty("barrelPivot").objectReferenceValue = barrelPivot;
+
+            so.ApplyModifiedProperties();
+            EditorUtility.SetDirty(controller);
+            Debug.Log("[CelestiaVR] TelescopeController wired.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 4. Assign CelestialObject layer to CelestialObjects GO + Dwell
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/4 - Assign CelestialObject Layer")]
+        public static void AssignCelestialLayer()
+        {
+            int layer = LayerMask.NameToLayer("CelestialObject");
+            if (layer == -1) { Debug.LogError("[CelestiaVR] Run step 1 first to create the layer."); return; }
+
+            var celestialObjectsGO = GameObject.Find("CelestialObjects");
+            if (celestialObjectsGO != null)
+            {
+                celestialObjectsGO.layer = layer;
+                foreach (Transform child in celestialObjectsGO.transform)
+                    child.gameObject.layer = layer;
+                EditorUtility.SetDirty(celestialObjectsGO);
+                Debug.Log("[CelestiaVR] CelestialObjects layer assigned.");
+            }
+
+            // Wire layer mask into TelescopeDwellController
+            var telescope = GameObject.Find("Telescope");
+            if (telescope != null)
+            {
+                var dwell = telescope.GetComponent<TelescopeDwellController>();
+                if (dwell != null)
+                {
+                    var so = new SerializedObject(dwell);
+                    so.FindProperty("celestialObjectLayer").intValue = 1 << layer;
+                    so.ApplyModifiedProperties();
+                    EditorUtility.SetDirty(dwell);
+                    Debug.Log("[CelestiaVR] TelescopeDwellController layer mask set.");
+                }
+            }
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 5. Wire ConstellationManager
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/5 - Wire Constellation Manager")]
+        public static void WireConstellationManager()
+        {
+            var cmGO = GameObject.Find("ConstellationManager");
+            if (cmGO == null) { Debug.LogError("[CelestiaVR] ConstellationManager not in scene."); return; }
+
+            var cm = cmGO.GetComponent<ConstellationManager>();
+            if (cm == null) { Debug.LogError("[CelestiaVR] ConstellationManager component missing."); return; }
+
+            var so = new SerializedObject(cm);
+
+            // SkyDome reference
+            var skyDome = GameObject.Find("SkyDome");
+            if (skyDome != null)
+                so.FindProperty("skyDome").objectReferenceValue = skyDome.transform;
+
+            so.FindProperty("skyDomeRadius").floatValue = 50f;
+
+            // ConstellationLine material
+            var lineMat = AssetDatabase.LoadAssetAtPath<Material>(
+                "Assets/CelestiaVR/Prefabs/ConstellationLine.mat");
+            if (lineMat == null)
+            {
+                lineMat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+                lineMat.color = new Color(0.4f, 0.7f, 1f, 0.6f);
+                lineMat.name = "ConstellationLine";
+                AssetDatabase.CreateAsset(lineMat, "Assets/CelestiaVR/Prefabs/ConstellationLine.mat");
+                AssetDatabase.SaveAssets();
+            }
+            so.FindProperty("constellationLineMaterial").objectReferenceValue = lineMat;
+
+            // Load all constellation assets
+            var guids = AssetDatabase.FindAssets("t:ConstellationData",
+                new[] { "Assets/CelestiaVR/Data/Constellations" });
+            var constellationsProp = so.FindProperty("constellations");
+            constellationsProp.arraySize = guids.Length;
+            for (int i = 0; i < guids.Length; i++)
+            {
+                var path = AssetDatabase.GUIDToAssetPath(guids[i]);
+                var data = AssetDatabase.LoadAssetAtPath<ConstellationData>(path);
+                constellationsProp.GetArrayElementAtIndex(i).objectReferenceValue = data;
+            }
+
+            so.ApplyModifiedProperties();
+            EditorUtility.SetDirty(cm);
+            Debug.Log($"[CelestiaVR] ConstellationManager wired with {guids.Length} constellations.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 6. Build InspectionPanel hierarchy
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/6 - Build Inspection Panel")]
+        public static void BuildInspectionPanel()
+        {
+            // Remove old
+            var old = GameObject.Find("InspectionPanel");
+            if (old != null) Object.DestroyImmediate(old);
+
+            // Root
+            var root = new GameObject("InspectionPanel");
+            root.AddComponent<InspectionPanel>();
+            root.AddComponent<InspectionTrigger>();
+
+            // PanelRoot
+            var panelRoot = new GameObject("PanelRoot");
+            panelRoot.transform.SetParent(root.transform, false);
+            var cg = panelRoot.AddComponent<CanvasGroup>();
+
+            // ModelStage (left side)
+            var modelStage = new GameObject("ModelStage");
+            modelStage.transform.SetParent(panelRoot.transform, false);
+            modelStage.transform.localPosition = new Vector3(-0.25f, 0f, 0f);
+
+            // PlanetView
+            var planetViewGO = new GameObject("PlanetView");
+            planetViewGO.transform.SetParent(modelStage.transform, false);
+            var planetView = planetViewGO.AddComponent<PlanetInspectionView>();
+
+            // ConstellationView
+            var constViewGO = new GameObject("ConstellationView");
+            constViewGO.transform.SetParent(modelStage.transform, false);
+            var constView = constViewGO.AddComponent<ConstellationInspectionView>();
+            constViewGO.SetActive(false);
+
+            // InfoCanvas (right side)
+            var infoCanvasGO = new GameObject("InfoCanvas");
+            infoCanvasGO.transform.SetParent(panelRoot.transform, false);
+            infoCanvasGO.transform.localPosition = new Vector3(0.15f, 0f, 0f);
+            var canvas = infoCanvasGO.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.WorldSpace;
+            infoCanvasGO.AddComponent<CanvasScaler>();
+            infoCanvasGO.AddComponent<GraphicRaycaster>();
+            var rt2 = infoCanvasGO.GetComponent<RectTransform>();
+            rt2.sizeDelta = new Vector2(400f, 500f);
+            infoCanvasGO.transform.localScale = Vector3.one * 0.001f;
+
+            // TMP text fields
+            var nameText    = MakeTMPLabel(infoCanvasGO.transform, "NameText",    new Vector2(0, 200), 28, FontStyles.Bold);
+            var typeText    = MakeTMPLabel(infoCanvasGO.transform, "TypeText",    new Vector2(0, 160), 18, FontStyles.Normal);
+            var descText    = MakeTMPLabel(infoCanvasGO.transform, "DescText",    new Vector2(0, 80),  16, FontStyles.Normal);
+            var distText    = MakeTMPLabel(infoCanvasGO.transform, "DistText",    new Vector2(0, -60), 16, FontStyles.Normal);
+            var factText    = MakeTMPLabel(infoCanvasGO.transform, "FactText",    new Vector2(0, -140),15, FontStyles.Italic);
+
+            // Wire InspectionPanel
+            var ip = root.GetComponent<InspectionPanel>();
+            var ipSO = new SerializedObject(ip);
+            ipSO.FindProperty("panelRoot").objectReferenceValue          = panelRoot.transform;
+            ipSO.FindProperty("canvasGroup").objectReferenceValue        = cg;
+            ipSO.FindProperty("modelStage").objectReferenceValue         = modelStage.transform;
+            ipSO.FindProperty("planetView").objectReferenceValue         = planetView;
+            ipSO.FindProperty("constellationView").objectReferenceValue  = constView;
+            ipSO.FindProperty("nameText").objectReferenceValue           = nameText;
+            ipSO.FindProperty("typeText").objectReferenceValue           = typeText;
+            ipSO.FindProperty("descriptionText").objectReferenceValue    = descText;
+            ipSO.FindProperty("distanceText").objectReferenceValue       = distText;
+            ipSO.FindProperty("factText").objectReferenceValue           = factText;
+            ipSO.ApplyModifiedProperties();
+
+            root.SetActive(true);
+            panelRoot.SetActive(false); // hidden until triggered
+
+            EditorUtility.SetDirty(root);
+            Debug.Log("[CelestiaVR] InspectionPanel built.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 7. Build Onboarding Panel
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/7 - Build Onboarding Panel")]
+        public static void BuildOnboardingPanel()
+        {
+            var old = GameObject.Find("OnboardingPanel");
+            if (old != null) Object.DestroyImmediate(old);
+
+            var go = new GameObject("OnboardingPanel");
+            var canvas = go.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.WorldSpace;
+            go.AddComponent<CanvasScaler>();
+            go.AddComponent<GraphicRaycaster>();
+            var cg = go.AddComponent<CanvasGroup>();
+            var op = go.AddComponent<OnboardingPanel>();
+
+            var rt = go.GetComponent<RectTransform>();
+            rt.sizeDelta = new Vector2(800, 500);
+            go.transform.localScale = Vector3.one * 0.001f;
+            go.transform.position = new Vector3(0, 1.6f, 1.5f);
+
+            // Background
+            var bg = new GameObject("Background");
+            bg.transform.SetParent(go.transform, false);
+            var img = bg.AddComponent<Image>();
+            img.color = new Color(0.05f, 0.05f, 0.15f, 0.9f);
+            var bgRT = bg.GetComponent<RectTransform>();
+            bgRT.anchorMin = Vector2.zero; bgRT.anchorMax = Vector2.one;
+            bgRT.offsetMin = bgRT.offsetMax = Vector2.zero;
+
+            // Title
+            MakeTMPLabel(go.transform, "Title", new Vector2(0, 190), 32, FontStyles.Bold, "Welcome to CelestiaVR");
+
+            // Instructions
+            MakeTMPLabel(go.transform, "Instructions", new Vector2(0, 20), 18, FontStyles.Normal,
+                "Left Joystick → Pan telescope\nRight Joystick → Zoom\nX Button → Discovery Mode\nB Button → Settings\nRight Trigger → Inspect object");
+
+            // Skip button
+            var skipGO = new GameObject("SkipButton");
+            skipGO.transform.SetParent(go.transform, false);
+            var btn = skipGO.AddComponent<Button>();
+            var btnImg = skipGO.AddComponent<Image>();
+            btnImg.color = new Color(0.2f, 0.4f, 0.8f, 1f);
+            var btnRT = skipGO.GetComponent<RectTransform>();
+            btnRT.anchoredPosition = new Vector2(0, -190);
+            btnRT.sizeDelta = new Vector2(200, 50);
+            var skipLabel = MakeTMPLabel(skipGO.transform, "SkipLabel", Vector2.zero, 20, FontStyles.Bold, "Skip");
+            btn.onClick.AddListener(op.Skip);
+
+            // Wire canvasGroup
+            var opSO = new SerializedObject(op);
+            opSO.FindProperty("canvasGroup").objectReferenceValue = cg;
+            opSO.ApplyModifiedProperties();
+
+            EditorUtility.SetDirty(go);
+            Debug.Log("[CelestiaVR] OnboardingPanel built.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 8. Build Settings Panel
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/8 - Build Settings Panel")]
+        public static void BuildSettingsPanel()
+        {
+            var old = GameObject.Find("SettingsPanel");
+            if (old != null) Object.DestroyImmediate(old);
+
+            var go = new GameObject("SettingsPanel");
+            var canvas = go.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.WorldSpace;
+            go.AddComponent<CanvasScaler>();
+            go.AddComponent<GraphicRaycaster>();
+            var sp = go.AddComponent<SettingsPanel>();
+            go.transform.localScale = Vector3.one * 0.001f;
+            go.transform.position   = new Vector3(2f, 1.4f, 0f); // on observatory wall
+
+            var rt = go.GetComponent<RectTransform>();
+            rt.sizeDelta = new Vector2(500, 600);
+
+            // Background
+            var bg = new GameObject("Background");
+            bg.transform.SetParent(go.transform, false);
+            var img = bg.AddComponent<Image>();
+            img.color = new Color(0.05f, 0.05f, 0.15f, 0.92f);
+            var bgRT = bg.GetComponent<RectTransform>();
+            bgRT.anchorMin = Vector2.zero; bgRT.anchorMax = Vector2.one;
+            bgRT.offsetMin = bgRT.offsetMax = Vector2.zero;
+
+            MakeTMPLabel(go.transform, "Title", new Vector2(0, 250), 28, FontStyles.Bold, "Settings");
+            MakeTMPLabel(go.transform, "AudioLabel", new Vector2(-120, 150), 20, FontStyles.Normal, "Volume");
+
+            // Audio slider
+            var sliderGO = new GameObject("AudioSlider");
+            sliderGO.transform.SetParent(go.transform, false);
+            var slider = sliderGO.AddComponent<Slider>();
+            sliderGO.GetComponent<RectTransform>().anchoredPosition = new Vector2(60, 150);
+            sliderGO.GetComponent<RectTransform>().sizeDelta = new Vector2(200, 30);
+            slider.minValue = 0f; slider.maxValue = 1f; slider.value = 1f;
+            slider.onValueChanged.AddListener(sp.SetAudioVolume);
+
+            // Constellation toggle
+            MakeTMPLabel(go.transform, "ConstLabel", new Vector2(-130, 60), 20, FontStyles.Normal, "Constellations");
+            var constTogGO = new GameObject("ConstellationToggle");
+            constTogGO.transform.SetParent(go.transform, false);
+            var constTog = constTogGO.AddComponent<Toggle>(); // Toggle adds RectTransform
+            constTogGO.GetComponent<RectTransform>().anchoredPosition = new Vector2(120, 60);
+            constTog.isOn = true;
+            constTog.onValueChanged.AddListener(sp.ToggleConstellations);
+
+            // Exit button
+            var exitGO = new GameObject("ExitButton");
+            exitGO.transform.SetParent(go.transform, false);
+            var exitBtn = exitGO.AddComponent<Button>();
+            var exitImg = exitGO.AddComponent<Image>();
+            exitImg.color = new Color(0.7f, 0.15f, 0.15f, 1f);
+            exitGO.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -220);
+            exitGO.GetComponent<RectTransform>().sizeDelta = new Vector2(200, 55);
+            MakeTMPLabel(exitGO.transform, "ExitLabel", Vector2.zero, 22, FontStyles.Bold, "Exit");
+            exitBtn.onClick.AddListener(sp.ExitExperience);
+
+            go.SetActive(false); // hidden until B button
+
+            // Wire settings panel into TelescopeInputHandler
+            var telescope = GameObject.Find("Telescope");
+            if (telescope != null)
+            {
+                var handler = telescope.GetComponent<TelescopeInputHandler>();
+                if (handler != null)
+                {
+                    var hSO = new SerializedObject(handler);
+                    hSO.FindProperty("settingsPanel").objectReferenceValue = go;
+                    hSO.ApplyModifiedProperties();
+                    EditorUtility.SetDirty(handler);
+                }
+            }
+
+            EditorUtility.SetDirty(go);
+            Debug.Log("[CelestiaVR] SettingsPanel built and wired to telescope.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 9. Setup Ambient Audio
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/9 - Setup Ambient Audio")]
+        public static void SetupAmbientAudio()
+        {
+            var old = GameObject.Find("AmbientAudio");
+            if (old != null) Object.DestroyImmediate(old);
+
+            var root = new GameObject("AmbientAudio");
+            var controller = root.AddComponent<AmbientAudioController>();
+
+            var windSource = new GameObject("WindLoop").AddComponent<AudioSource>();
+            windSource.transform.SetParent(root.transform, false);
+            windSource.loop = true; windSource.spatialBlend = 0f; windSource.playOnAwake = false;
+
+            var citySource = new GameObject("CityHum").AddComponent<AudioSource>();
+            citySource.transform.SetParent(root.transform, false);
+            citySource.loop = true; citySource.spatialBlend = 0f; citySource.playOnAwake = false;
+
+            var oneShotSource = new GameObject("OneShot").AddComponent<AudioSource>();
+            oneShotSource.transform.SetParent(root.transform, false);
+            oneShotSource.spatialBlend = 0f; oneShotSource.playOnAwake = false;
+
+            var so = new SerializedObject(controller);
+            so.FindProperty("windLoopSource").objectReferenceValue  = windSource;
+            so.FindProperty("cityHumSource").objectReferenceValue   = citySource;
+            so.FindProperty("oneShotSource").objectReferenceValue   = oneShotSource;
+            so.ApplyModifiedProperties();
+
+            EditorUtility.SetDirty(root);
+            Debug.Log("[CelestiaVR] AmbientAudio set up. Assign audio clips in Inspector.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 10. Build InfoPanel
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/10 - Build Info Panel")]
+        public static void BuildInfoPanel()
+        {
+            var old = GameObject.Find("InfoPanel");
+            if (old != null) Object.DestroyImmediate(old);
+
+            var go = new GameObject("InfoPanel");
+            var canvas = go.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.WorldSpace;
+            go.AddComponent<CanvasScaler>();
+            go.AddComponent<GraphicRaycaster>();
+            var cg = go.AddComponent<CanvasGroup>();
+            var ip = go.AddComponent<InfoPanel>();
+
+            var rt = go.GetComponent<RectTransform>();
+            rt.sizeDelta = new Vector2(600, 350);
+            go.transform.localScale = Vector3.one * 0.001f;
+            go.transform.position   = new Vector3(0f, 1.6f, 2f);
+
+            // Background
+            var bg = new GameObject("Background");
+            bg.transform.SetParent(go.transform, false);
+            var bgImg = bg.AddComponent<Image>();
+            bgImg.color = new Color(0.04f, 0.04f, 0.12f, 0.88f);
+            var bgRT = bg.GetComponent<RectTransform>();
+            bgRT.anchorMin = Vector2.zero; bgRT.anchorMax = Vector2.one;
+            bgRT.offsetMin = bgRT.offsetMax = Vector2.zero;
+
+            var nameText = MakeTMPLabel(go.transform, "ObjectName",  new Vector2(0,  140), 30, FontStyles.Bold);
+            var typeText = MakeTMPLabel(go.transform, "ObjectType",  new Vector2(0,  100), 18, FontStyles.Normal);
+            var descText = MakeTMPLabel(go.transform, "Description", new Vector2(0,   30), 15, FontStyles.Normal);
+            var distText = MakeTMPLabel(go.transform, "Distance",    new Vector2(0,  -70), 15, FontStyles.Normal);
+            var factText = MakeTMPLabel(go.transform, "Fact",        new Vector2(0, -130), 14, FontStyles.Italic);
+
+            var ipSO = new SerializedObject(ip);
+            ipSO.FindProperty("objectNameText").objectReferenceValue  = nameText;
+            ipSO.FindProperty("objectTypeText").objectReferenceValue  = typeText;
+            ipSO.FindProperty("descriptionText").objectReferenceValue = descText;
+            ipSO.FindProperty("distanceText").objectReferenceValue    = distText;
+            ipSO.FindProperty("factText").objectReferenceValue        = factText;
+            ipSO.FindProperty("canvasGroup").objectReferenceValue     = cg;
+            ipSO.ApplyModifiedProperties();
+
+            go.SetActive(false);
+            EditorUtility.SetDirty(go);
+            Debug.Log("[CelestiaVR] InfoPanel built.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 11. Setup SceneTransitionController (fade quad on XR camera)
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/11 - Setup Scene Transition")]
+        public static void SetupSceneTransition()
+        {
+            // Find main camera (XR Origin > Camera Offset > Main Camera)
+            var mainCamGO = GameObject.FindWithTag("MainCamera");
+            if (mainCamGO == null)
+            {
+                Debug.LogError("[CelestiaVR] Main Camera not found. Ensure a camera is tagged MainCamera.");
+                return;
+            }
+
+            // Remove old
+            var oldCtrl = GameObject.Find("SceneTransitionController");
+            if (oldCtrl != null) Object.DestroyImmediate(oldCtrl);
+
+            // Create controller GO at scene root
+            var ctrlGO = new GameObject("SceneTransitionController");
+            var stc = ctrlGO.AddComponent<SceneTransitionController>();
+
+            // Create full-screen black quad parented to the camera
+            var oldQuad = mainCamGO.transform.Find("FadeOverlayQuad");
+            if (oldQuad != null) Object.DestroyImmediate(oldQuad.gameObject);
+
+            var quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            quad.name = "FadeOverlayQuad";
+            quad.transform.SetParent(mainCamGO.transform, false);
+            quad.transform.localPosition = new Vector3(0f, 0f, 0.31f); // just beyond near clip
+            quad.transform.localRotation = Quaternion.identity;
+            quad.transform.localScale    = new Vector3(0.6f, 0.6f, 1f); // covers FOV
+            Object.DestroyImmediate(quad.GetComponent<MeshCollider>());
+
+            // Black unlit material
+            var mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+            mat.color = Color.black;
+            mat.name  = "FadeOverlayMat";
+            // Enable transparency
+            mat.SetFloat("_Surface", 1); // Transparent
+            mat.SetFloat("_Blend", 0);   // Alpha
+            mat.renderQueue = 3000;
+            AssetDatabase.CreateAsset(mat, "Assets/CelestiaVR/Prefabs/FadeOverlayMat.mat");
+            AssetDatabase.SaveAssets();
+            quad.GetComponent<MeshRenderer>().sharedMaterial = mat;
+
+            // Screen Space - Camera canvas renders in stereo on Quest (ScreenSpaceOverlay does not)
+            var overlayCanvasGO = new GameObject("FadeCanvas");
+            overlayCanvasGO.transform.SetParent(mainCamGO.transform, false);
+            var overlayCanvas = overlayCanvasGO.AddComponent<Canvas>();
+            overlayCanvas.renderMode = RenderMode.ScreenSpaceCamera;
+            overlayCanvas.worldCamera = mainCamGO.GetComponent<Camera>();
+            overlayCanvas.planeDistance = 0.32f;  // just beyond near clip
+            overlayCanvas.sortingOrder = 999;
+            overlayCanvasGO.AddComponent<CanvasScaler>();
+
+            var imgGO = new GameObject("FadeImage");
+            imgGO.transform.SetParent(overlayCanvasGO.transform, false);
+            var fadeImg = imgGO.AddComponent<Image>();
+            fadeImg.color = Color.black;
+            var imgRT = imgGO.GetComponent<RectTransform>();
+            imgRT.anchorMin = Vector2.zero; imgRT.anchorMax = Vector2.one;
+            imgRT.offsetMin = imgRT.offsetMax = Vector2.zero;
+
+            // Destroy the quad — canvas image is better for VR fades
+            Object.DestroyImmediate(quad);
+
+            var stcSO = new SerializedObject(stc);
+            stcSO.FindProperty("fadeOverlay").objectReferenceValue = fadeImg;
+            stcSO.ApplyModifiedProperties();
+
+            EditorUtility.SetDirty(ctrlGO);
+            Debug.Log("[CelestiaVR] SceneTransitionController set up with fade canvas.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 12. Setup Telescope Proximity Indicator
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/12 - Setup Proximity Indicator")]
+        public static void SetupProximityIndicator()
+        {
+            var telescope = GameObject.Find("Telescope");
+            if (telescope == null) { Debug.LogError("[CelestiaVR] Telescope not found."); return; }
+
+            // Add component if missing
+            var indicator = telescope.GetComponent<TelescopeProximityIndicator>();
+            if (indicator == null)
+                indicator = telescope.AddComponent<TelescopeProximityIndicator>();
+
+            // Create GlowRing quad as child
+            var oldRing = telescope.transform.Find("GlowRing");
+            if (oldRing != null) Object.DestroyImmediate(oldRing.gameObject);
+
+            var ring = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            ring.name = "GlowRing";
+            ring.transform.SetParent(telescope.transform, false);
+            ring.transform.localPosition = new Vector3(0f, -0.05f, 0f); // just above floor
+            ring.transform.localRotation = Quaternion.Euler(90f, 0f, 0f); // flat on floor
+            ring.transform.localScale    = new Vector3(1.5f, 1.5f, 1f);
+            Object.DestroyImmediate(ring.GetComponent<MeshCollider>());
+
+            // Unlit emissive blue material
+            var mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+            mat.color = new Color(0.3f, 0.6f, 1f, 0.6f);
+            mat.name  = "GlowRingMat";
+            mat.SetFloat("_Surface", 1); // Transparent
+            mat.renderQueue = 3000;
+            AssetDatabase.CreateAsset(mat, "Assets/CelestiaVR/Prefabs/GlowRingMat.mat");
+            AssetDatabase.SaveAssets();
+            ring.GetComponent<MeshRenderer>().sharedMaterial = mat;
+
+            // Wire indicator
+            var so = new SerializedObject(indicator);
+            so.FindProperty("glowRing").objectReferenceValue = ring;
+            so.ApplyModifiedProperties();
+
+            EditorUtility.SetDirty(telescope);
+            Debug.Log("[CelestiaVR] Telescope proximity indicator + glow ring set up.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 13. Assign Audio Clips to AmbientAudioController
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/13 - Assign Audio Clips")]
+        public static void AssignAudioClips()
+        {
+            var audioGO = GameObject.Find("AmbientAudio");
+            if (audioGO == null) { Debug.LogError("[CelestiaVR] AmbientAudio not in scene. Run step 9 first."); return; }
+
+            var controller = audioGO.GetComponent<AmbientAudioController>();
+            if (controller == null) { Debug.LogError("[CelestiaVR] AmbientAudioController component missing."); return; }
+
+            const string audioPath = "Assets/CelestiaVR/Audio/";
+            var so = new SerializedObject(controller);
+
+            TryAssignClip(so, "windLoop",       audioPath + "WindLoop.mp3");
+            TryAssignClip(so, "windGust",       audioPath + "WindGust.mp3");
+            TryAssignClip(so, "cityHum",        audioPath + "CityHum.mp3");
+            TryAssignClip(so, "cricketOneShot", audioPath + "Cricket.mp3");
+            TryAssignClip(so, "coyoteRare",     audioPath + "Coyote.mp3");
+
+            so.ApplyModifiedProperties();
+            EditorUtility.SetDirty(controller);
+            Debug.Log("[CelestiaVR] Audio clips assigned to AmbientAudioController.");
+        }
+
+        private static void TryAssignClip(SerializedObject so, string fieldName, string assetPath)
+        {
+            var clip = AssetDatabase.LoadAssetAtPath<AudioClip>(assetPath);
+            if (clip == null) { Debug.LogWarning($"[CelestiaVR] Clip not found at {assetPath} — re-run after Unity imports audio."); return; }
+            so.FindProperty(fieldName).objectReferenceValue = clip;
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // RUN ALL
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/→ RUN ALL SETUP STEPS")]
+        public static void RunAll()
+        {
+            CreateCelestialLayer();
+            SetupTelescopeEyepiece();
+            WireTelescopeController();
+            AssignCelestialLayer();
+            WireConstellationManager();
+            BuildInspectionPanel();
+            BuildOnboardingPanel();
+            BuildSettingsPanel();
+            SetupAmbientAudio();
+            BuildInfoPanel();
+            SetupSceneTransition();
+            SetupProximityIndicator();
+            AssignAudioClips();
+
+            UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty();
+            Debug.Log("[CelestiaVR] ✓ All setup steps complete. Save the scene (Ctrl+S).");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // Helpers
+        // ─────────────────────────────────────────────────────────────────────
+        private static Transform FindInChildren(Transform parent, string name)
+        {
+            foreach (Transform child in parent.GetComponentsInChildren<Transform>())
+                if (child.name == name) return child;
+            return null;
+        }
+
+        private static TextMeshProUGUI MakeTMPLabel(Transform parent, string goName,
+            Vector2 anchoredPos, float fontSize, FontStyles style, string text = "")
+        {
+            var go = new GameObject(goName);
+            go.transform.SetParent(parent, false);
+            var tmp = go.AddComponent<TextMeshProUGUI>();
+            tmp.text      = text;
+            tmp.fontSize  = fontSize;
+            tmp.fontStyle = style;
+            tmp.color     = Color.white;
+            tmp.alignment = TextAlignmentOptions.Center;
+            tmp.textWrappingMode = TextWrappingModes.Normal;
+            var rt = go.GetComponent<RectTransform>();
+            rt.anchoredPosition = anchoredPos;
+            rt.sizeDelta = new Vector2(380, 80);
+            return tmp;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4023991b8e2344f8a85e3682d1d19dc2, type: 3}
+  m_Name: Taurus
+  m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.ConstellationData
+  constellationName: Taurus
+  mythology: "The bull, one of the oldest constellations \u2014 visible from Griffith
+    in December. Contains the Pleiades star cluster and the Hyades V-shape."
+  stars:
+  - starName: Aldebaran
+    raHours: 4.598677
+    decDegrees: 16.5093
+  - starName: Elnath
+    raHours: 5.438198
+    decDegrees: 28.60745
+  - starName: Zeta Tau
+    raHours: 5.627413
+    decDegrees: 21.14255
+  - starName: Theta1 Tau
+    raHours: 4.476248
+    decDegrees: 15.962181
+  - starName: Gamma Tau
+    raHours: 4.32989
+    decDegrees: 15.6276
+  - starName: Delta1 Tau
+    raHours: 4.38225
+    decDegrees: 17.5425
+  - starName: Ain
+    raHours: 4.476943
+    decDegrees: 19.180431
+  - starName: Lambda Tau
+    raHours: 4.011338
+    decDegrees: 12.490347
+  - starName: Xi Tau
+    raHours: 3.45282
+    decDegrees: 9.73268
+  - starName: Omicron Tau
+    raHours: 3.413554
+    decDegrees: 9.02887
+  - starName: Nu Tau
+    raHours: 4.05261
+    decDegrees: 5.9892
+  connectionIndices: 020000000000000000000000030000000300000004000000040000000500000005000000060000000600000001000000040000000700000007000000080000000800000009000000090000000a000000
+  lineColor: {r: 0.55, g: 0.75, b: 1, a: 0.55}
+  highlightColor: {r: 0.7, g: 0.9, b: 1, a: 1}
+  lineWidth: 0.12
+  highlightWidth: 0.22
+  linkedObjects:
+  - {fileID: 11400000, guid: 9930be962335843828cb8f2c47755a07, type: 2}

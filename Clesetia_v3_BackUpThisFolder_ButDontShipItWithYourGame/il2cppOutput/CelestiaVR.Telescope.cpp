@@ -1,0 +1,2626 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Action_1_tB8CA4FD5AE31D22DB74D262F9D03ACFA1C0B2CA8;
+struct Action_1_tCB862C932EAF49C2968D3AD96CEDF6D2DFED41F0;
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
+struct BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C;
+struct Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E;
+struct Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC;
+struct Dictionary_2_t1A8FC8C012681D4B964E7A8A383FD3E718078AE9;
+struct Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC;
+struct Dictionary_2_tF1266609C0E9EDEC0BE227973F4B2C73474967DD;
+struct ExposedRegistrationList_1_t5A8F910702E4299554291FBA6E5E87D64C1EAE66;
+struct ExposedRegistrationList_1_t813417BD96B66B051D5AE2B9485DDCEFD7D93505;
+struct ExposedRegistrationList_1_t049303BDFCFEC5779F414D57C6B8C379C73E1D0F;
+struct Func_3_t3C59F9322C032EF2EC419F9538F86DFC0F4B1421;
+struct HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF;
+struct HashSetList_1_tCE34B4C28F58D67E795B058A35AD8A457BFB1175;
+struct HashSetList_1_t85FA4F6EDCA9A84D235398F53ED390EE2CE4DC98;
+struct HashSetList_1_tC0FA4922B36F37C46BA57A5B55C8B0A1FF78D9A2;
+struct HashSet_1_t109CCE87260348881F7ED50EEE3FFD003542DC8B;
+struct HashSet_1_t91EA27B234497F73858A13093DC591352DFD339A;
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+struct LinkedPool_1_t6A6017AF114EF397084F1333559D0DB9CCE28598;
+struct LinkedPool_1_t903D30868AECB20DD006FC2E04DDC68D822C3450;
+struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
+struct List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252;
+struct List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26;
+struct List_1_tB0C796BACCE72002824004B31D3AFE084C3BFC75;
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3;
+struct List_1_tCFCD970A7548BC894D178194E5028E3E294AF3B9;
+struct SmallRegistrationList_1_t9EDBEA3777BFA67BCBEF81995A46114F66307023;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A;
+struct UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B;
+struct UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E;
+struct UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA;
+struct UnityAction_2_t057608D0B30EEF269D35AD36FA4C7E7E19556B5E;
+struct UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0;
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+struct UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8;
+struct UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B;
+struct UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308;
+struct UnityEvent_2_tE96C8120FC5D3F6C5FF16D401433B6390C0C9789;
+struct UnityObjectReferenceCache_2_tE99191D5351A0E7FAC9799B6A790D4532F56BDC1;
+struct Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct ActivateEvent_tA1D392B588AC99958CB847AE6911DC5131BCFB43;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136;
+struct CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41;
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431;
+struct ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771;
+struct DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B;
+struct DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280;
+struct FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90;
+struct FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB;
+struct HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832;
+struct IXRAimAssist_t6F48E543FC58FB68B147F70D086492B00FDA315D;
+struct IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609;
+struct IXRInteractionGroup_tE179A88275A6C646BAC9BF131BDE92552FC664C0;
+struct IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97;
+struct IXRSelectInteractor_tF89F25345282BDE348CC5A11BBACE44810BD29CC;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D;
+struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09;
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
+struct InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0;
+struct SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938;
+struct SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6;
+struct SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct TeleportationMonitor_tC9AB34520A1A0D6D2F18DD2067601DE1405C72C6;
+struct TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33;
+struct TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B;
+struct TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE9E598A1459A3B03E2DD267ECD3CA382FEE0D5A4;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4;
+struct XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B;
+struct XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5____0520685CEDC1376A7FA2EAB39FFE63307D3F8EDE0F7EF180B028442EBF3BFAB0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5____AE94F000A64AB115331945CDCF8955D8ED3ACB92897661BBAD5C5202518A1F3F_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral5B636BC5F87567B51D362053EA25BAB48F9DE485;
+IL2CPP_EXTERN_C String_t* _stringLiteralA3A0DD9ABDF8D11DA034BEDF80C4663B172E54E0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC54AE58D8ACA28086505C71376816D9AEAB0B8A9;
+IL2CPP_EXTERN_C String_t* _stringLiteralDB0A028F7F9424C500390877F18985CA8DD65A00;
+IL2CPP_EXTERN_C String_t* _stringLiteralE1A8B7ACF9F6A6C8DA34C480CF0726A9E97A6044;
+IL2CPP_EXTERN_C String_t* _stringLiteralE865882DEA62A6878BD30E757A62390FE652F59F;
+IL2CPP_EXTERN_C String_t* _stringLiteralE8B77FFA6B004EBE6AD02387BCBFBFA47562B049;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mFEA4CA1F2CBCF6BD7C30FD0CB84A52F37FE2CF9C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisTelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33_m97DE944D3C0819DB559A4E422BE92A703C84F46D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_2_AddListener_mA6CDB39EC08718869984F4C622DD113E4F482822_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_2_RemoveListener_mACDEAA3D2202C96D128FF6F273AED2D73B5C041D_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t97FB9790A2A8607FDC33561ECAE7FB38618983AA 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5  : public RuntimeObject
+{
+};
+struct BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E  : public RuntimeObject
+{
+	RuntimeObject* ___U3CinteractorObjectU3Ek__BackingField;
+	RuntimeObject* ___U3CinteractableObjectU3Ek__BackingField;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE9E598A1459A3B03E2DD267ECD3CA382FEE0D5A4  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B 
+{
+	int32_t ___length;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___firstValue;
+	Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76* ___additionalValues;
+};
+struct UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D 
+{
+	int32_t ___Item1;
+	int32_t ___Item2;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___m_Data;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[4];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 
+{
+	uint32_t ___m_Bits;
+	int32_t ___m_Mask;
+};
+struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB 
+{
+	int32_t ___m_Mask;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+};
+struct SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A  : public BaseInteractionEventArgs_t8B38B6C63C6C9EA4BD179EF5FD40106872B82D7E
+{
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___U3CmanagerU3Ek__BackingField;
+	bool ___U3CisCanceledU3Ek__BackingField;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D112_t7EF03FFE8F02BFE6E6DA9D6BE484A070F87295A3 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D112_t7EF03FFE8F02BFE6E6DA9D6BE484A070F87295A3__padding[112];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D208_tE300E5A5CFB987E0E0AE8938D3F25C14DB9C617B 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D208_tE300E5A5CFB987E0E0AE8938D3F25C14DB9C617B__padding[208];
+	};
+};
+#pragma pack(pop, tp)
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State;
+	int32_t ___m_ActionIndex;
+};
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8_marshaled_pinvoke
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State;
+	int32_t ___m_ActionIndex;
+};
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8_marshaled_com
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State;
+	int32_t ___m_ActionIndex;
+};
+struct MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 
+{
+	bool ___m_CannotMutateCallbacksArray;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_Callbacks;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToAdd;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToRemove;
+};
+struct CelestialObjectType_t81985885E7DEBB24DBF1C50E91A5E6F9FA55E46F 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct InputActionType_t7E3615BDDF3C84F39712E5889559D3AD8E773108 
+{
+	int32_t ___value__;
+};
+struct InteractableFarAttachMode_tBEAC1C5CACAB52E0187607733222A3BB64094BF9 
+{
+	int32_t ___value__;
+};
+struct InteractableFocusMode_tD8F528B65B8FA0E9C71F8A7BCABD7F99BA5982CB 
+{
+	int32_t ___value__;
+};
+struct InteractableSelectMode_tEEBF3D8EB75149E3417BDA4C0BC6A1C27BB25AC7 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_Collider;
+};
+struct RigidbodyInterpolation_tE2BE80352B0D72DB26B81EFD5A0845DEFEE994F8 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0  : public UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8
+{
+};
+struct SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6  : public UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B
+{
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct ActionFlags_t639BD2944E073F8DD263CE2CA581FC62C401AB1E 
+{
+	int32_t ___value__;
+};
+struct Flags_t2ED4EFE461994B03533B3B524C8C2EA71315AAE6 
+{
+	int32_t ___value__;
+};
+struct DistanceCalculationMode_tE85298033372A2D44BB92F8728EA55B845089383 
+{
+	int32_t ___value__;
+};
+struct MovementType_t697AC887A071F65C3F1D4575879BE6A7E419CCCF 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 
+{
+	String_t* ___m_Name;
+	String_t* ___m_Id;
+	String_t* ___m_Path;
+	String_t* ___m_Interactions;
+	String_t* ___m_Processors;
+	String_t* ___m_Groups;
+	String_t* ___m_Action;
+	int32_t ___m_Flags;
+	String_t* ___m_OverridePath;
+	String_t* ___m_OverrideInteractions;
+	String_t* ___m_OverrideProcessors;
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_pinvoke
+{
+	char* ___m_Name;
+	char* ___m_Id;
+	char* ___m_Path;
+	char* ___m_Interactions;
+	char* ___m_Processors;
+	char* ___m_Groups;
+	char* ___m_Action;
+	int32_t ___m_Flags;
+	char* ___m_OverridePath;
+	char* ___m_OverrideInteractions;
+	char* ___m_OverrideProcessors;
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_com
+{
+	Il2CppChar* ___m_Name;
+	Il2CppChar* ___m_Id;
+	Il2CppChar* ___m_Path;
+	Il2CppChar* ___m_Interactions;
+	Il2CppChar* ___m_Processors;
+	Il2CppChar* ___m_Groups;
+	Il2CppChar* ___m_Action;
+	int32_t ___m_Flags;
+	Il2CppChar* ___m_OverridePath;
+	Il2CppChar* ___m_OverrideInteractions;
+	Il2CppChar* ___m_OverrideProcessors;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E  : public MulticastDelegate_t
+{
+};
+struct Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 
+{
+	bool ___hasValue;
+	InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___value;
+};
+struct UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E  : public MulticastDelegate_t
+{
+};
+struct UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	String_t* ___objectName;
+	int32_t ___objectType;
+	float ___rightAscensionHours;
+	float ___declinationDegrees;
+	String_t* ___description;
+	String_t* ___distanceFromEarth;
+	String_t* ___objectFact;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___constellationDiagram;
+	float ___visualScale;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___objectMaterial;
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_Asset;
+	String_t* ___m_ActionId;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Action;
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeObject
+{
+	String_t* ___m_Name;
+	int32_t ___m_Type;
+	String_t* ___m_ExpectedControlType;
+	String_t* ___m_Id;
+	String_t* ___m_Processors;
+	String_t* ___m_Interactions;
+	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___m_SingletonActionBindings;
+	int32_t ___m_Flags;
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask;
+	int32_t ___m_BindingsStartIndex;
+	int32_t ___m_BindingsCount;
+	int32_t ___m_ControlStartIndex;
+	int32_t ___m_ControlCount;
+	int32_t ___m_ActionIndexInState;
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnStarted;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnCanceled;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnPerformed;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___U3CDataU3Ek__BackingField;
+};
+struct ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___skyDome;
+	float ___skyDomeRadius;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___constellationLineMaterial;
+	ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* ___constellations;
+	List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* ____renderers;
+	Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* ____objectMap;
+	bool ____linesVisible;
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* ____currentHighlight;
+};
+struct DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* ___OnObjectDiscovered;
+	UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* ___OnDwellProgress;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnGazeLost;
+	CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* ____currentTarget;
+	DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* ____currentDwell;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ____discoveredObjects;
+};
+struct TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___eyepieceCamera;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___eyepieceRenderTexture;
+	float ___panSpeed;
+	float ___elevationMin;
+	float ___elevationMax;
+	float ___fovMin;
+	float ___fovMax;
+	float ___zoomSpeed;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___leftJoystick;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___rightJoystick;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___barrelPivot;
+	XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ____grab;
+	bool ____isGrabbed;
+	float ____currentFov;
+	float ____azimuth;
+	float ____elevation;
+};
+struct TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___raycastDistance;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___celestialObjectLayer;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___dwellCursorFill;
+	TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* ____telescope;
+	CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* ____lastHit;
+};
+struct TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___discoveryModeIndicator;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___settingsPanel;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ____xButton;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ____bButton;
+	bool ____discoveryModeOn;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Action_1_tB8CA4FD5AE31D22DB74D262F9D03ACFA1C0B2CA8* ___registered;
+	Action_1_tCB862C932EAF49C2968D3AD96CEDF6D2DFED41F0* ___unregistered;
+	Func_3_t3C59F9322C032EF2EC419F9538F86DFC0F4B1421* ___U3CgetDistanceOverrideU3Ek__BackingField;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_InteractionManager;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___m_Colliders;
+	InteractionLayerMask_t3B3480A4A5E1E0C43314C0D2CEB3BB39175E1FD4 ___m_InteractionLayers;
+	int32_t ___m_DistanceCalculationMode;
+	int32_t ___m_SelectMode;
+	int32_t ___m_FocusMode;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CustomReticle;
+	bool ___m_AllowGazeInteraction;
+	bool ___m_AllowGazeSelect;
+	bool ___m_OverrideGazeTimeToSelect;
+	float ___m_GazeTimeToSelect;
+	bool ___m_OverrideTimeToAutoDeselectGaze;
+	float ___m_TimeToAutoDeselectGaze;
+	bool ___m_AllowGazeAssistance;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_FirstHoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_LastHoverExited;
+	HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* ___m_HoverEntered;
+	HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* ___m_HoverExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_FirstSelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_LastSelectExited;
+	SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* ___m_SelectEntered;
+	SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* ___m_SelectExited;
+	FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90* ___m_FirstFocusEntered;
+	FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE* ___m_LastFocusExited;
+	FocusEnterEvent_tF5369B418FFFBE1C6FDE6EBDDD8B9E412A32CD90* ___m_FocusEntered;
+	FocusExitEvent_tFAE8003B7B5A47FB4D9C5BB14D7A3273AF8931AE* ___m_FocusExited;
+	ActivateEvent_tA1D392B588AC99958CB847AE6911DC5131BCFB43* ___m_Activated;
+	DeactivateEvent_tFE44262C3D8377F947FD46D4561BB9DAC7E0785D* ___m_Deactivated;
+	HashSetList_1_tCF3541C1916DB23E3E8D3E2D2C675B59FE3ACBAF* ___m_InteractorsHovering;
+	bool ___U3CisHoveredU3Ek__BackingField;
+	HashSetList_1_t85FA4F6EDCA9A84D235398F53ED390EE2CE4DC98* ___m_InteractorsSelecting;
+	RuntimeObject* ___U3CfirstInteractorSelectingU3Ek__BackingField;
+	bool ___U3CisSelectedU3Ek__BackingField;
+	HashSetList_1_tCE34B4C28F58D67E795B058A35AD8A457BFB1175* ___m_InteractionGroupsFocusing;
+	RuntimeObject* ___U3CfirstInteractionGroupFocusingU3Ek__BackingField;
+	bool ___U3CisFocusedU3Ek__BackingField;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingHoverFilters;
+	ExposedRegistrationList_1_t5A8F910702E4299554291FBA6E5E87D64C1EAE66* ___m_HoverFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingSelectFilters;
+	ExposedRegistrationList_1_t049303BDFCFEC5779F414D57C6B8C379C73E1D0F* ___m_SelectFilters;
+	List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3* ___m_StartingInteractionStrengthFilters;
+	ExposedRegistrationList_1_t813417BD96B66B051D5AE2B9485DDCEFD7D93505* ___m_InteractionStrengthFilters;
+	bool ___m_AutoFindParentInteractableInHierarchy;
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_ParentInteractableObject;
+	UnityObjectReferenceCache_2_tE99191D5351A0E7FAC9799B6A790D4532F56BDC1* ___m_ParentInteractableObjectReference;
+	BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* ___m_LargestInteractionStrength;
+	bool ___m_ClearedLargestInteractionStrength;
+	Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC* ___m_AttachPoseOnSelect;
+	Dictionary_2_t9B20C3EBA931E014FB6496226DAB71B59F7CC4EC* ___m_LocalAttachPoseOnSelect;
+	Dictionary_2_t2FB52A1C9A5EF3BE7F06D41CF41259B9A0296ABC* ___m_ReticleCache;
+	HashSetList_1_tC0FA4922B36F37C46BA57A5B55C8B0A1FF78D9A2* ___m_VariableSelectInteractors;
+	Dictionary_2_t1A8FC8C012681D4B964E7A8A383FD3E718078AE9* ___m_InteractionStrengths;
+	XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD* ___m_RegisteredInteractionManager;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B  : public XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_AttachTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_SecondaryAttachTransform;
+	bool ___m_UseDynamicAttach;
+	bool ___m_MatchAttachPosition;
+	bool ___m_MatchAttachRotation;
+	bool ___m_SnapToColliderVolume;
+	bool ___m_ReinitializeDynamicAttachEverySingleGrab;
+	float ___m_AttachEaseInTime;
+	int32_t ___m_MovementType;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_PredictedVisualsTransform;
+	float ___m_VelocityDamping;
+	float ___m_VelocityScale;
+	float ___m_AngularVelocityDamping;
+	float ___m_AngularVelocityScale;
+	bool ___m_TrackPosition;
+	bool ___m_SmoothPosition;
+	float ___m_SmoothPositionAmount;
+	float ___m_TightenPosition;
+	bool ___m_TrackRotation;
+	bool ___m_SmoothRotation;
+	float ___m_SmoothRotationAmount;
+	float ___m_TightenRotation;
+	bool ___m_TrackScale;
+	bool ___m_SmoothScale;
+	float ___m_SmoothScaleAmount;
+	float ___m_TightenScale;
+	bool ___m_ThrowOnDetach;
+	float ___m_ThrowSmoothingDuration;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___m_ThrowSmoothingCurve;
+	float ___m_ThrowVelocityScale;
+	float ___m_ThrowAngularVelocityScale;
+	bool ___m_ForceGravityOnDetach;
+	bool ___m_RetainTransformParent;
+	List_1_tCFCD970A7548BC894D178194E5028E3E294AF3B9* ___m_StartingSingleGrabTransformers;
+	List_1_tCFCD970A7548BC894D178194E5028E3E294AF3B9* ___m_StartingMultipleGrabTransformers;
+	bool ___m_AddDefaultGrabTransformers;
+	int32_t ___m_FarAttachMode;
+	bool ___m_LimitLinearVelocity;
+	bool ___m_LimitAngularVelocity;
+	float ___m_MaxLinearVelocityDelta;
+	float ___m_MaxAngularVelocityDelta;
+	bool ___U3CallowVisualAttachTransformU3Ek__BackingField;
+	SmallRegistrationList_1_t9EDBEA3777BFA67BCBEF81995A46114F66307023* ___m_SingleGrabTransformers;
+	SmallRegistrationList_1_t9EDBEA3777BFA67BCBEF81995A46114F66307023* ___m_MultipleGrabTransformers;
+	List_1_tB0C796BACCE72002824004B31D3AFE084C3BFC75* ___m_GrabTransformersAddedWhenGrabbed;
+	bool ___m_GrabCountChanged;
+	ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___m_GrabCountBeforeAndAfterChange;
+	bool ___m_IsProcessingGrabTransformers;
+	int32_t ___m_DropTransformersCount;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_TargetPose;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_TargetLocalScale;
+	bool ___m_IsTargetPoseDirty;
+	bool ___m_IsTargetLocalScaleDirty;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Transform;
+	float ___m_CurrentAttachEaseTime;
+	int32_t ___m_CurrentMovementType;
+	bool ___m_DetachInLateUpdate;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_DetachLinearVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_DetachAngularVelocity;
+	int32_t ___m_ThrowSmoothingCurrentFrame;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_ThrowSmoothingFrameTimes;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_ThrowSmoothingLinearVelocityFrames;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_ThrowSmoothingAngularVelocityFrames;
+	bool ___m_ThrowSmoothingFirstUpdate;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_LastThrowReferencePose;
+	RuntimeObject* ___m_ThrowAssist;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___m_Rigidbody;
+	bool ___m_RigidbodyColliding;
+	bool ___m_RigidbodySetupActive;
+	bool ___m_WasKinematic;
+	bool ___m_UsedGravity;
+	int32_t ___m_InterpolationOnGrab;
+	float ___m_LinearDampingOnGrab;
+	float ___m_AngularDampingOnGrab;
+	int32_t ___m_LastFixedFrame;
+	float ___m_LastFixedDynamicTime;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_InitialVisualsTransformLocalPose;
+	bool ___m_InitialVisualsTransformLocalPoseIsIdentity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_InitialVisualsTransformLocalScale;
+	bool ___m_IgnoringCharacterCollision;
+	bool ___m_StopIgnoringCollisionInLateUpdate;
+	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___m_SelectingCharacterController;
+	HashSet_1_t91EA27B234497F73858A13093DC591352DFD339A* ___m_SelectingCharacterInteractors;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___m_RigidbodyColliders;
+	HashSet_1_t109CCE87260348881F7ED50EEE3FFD003542DC8B* ___m_CollidersThatAllowedCharacterCollision;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_OriginalSceneParent;
+	TeleportationMonitor_tC9AB34520A1A0D6D2F18DD2067601DE1405C72C6* ___m_TeleportationMonitor;
+	Dictionary_2_tF1266609C0E9EDEC0BE227973F4B2C73474967DD* ___m_DynamicAttachTransforms;
+	Dictionary_2_tF1266609C0E9EDEC0BE227973F4B2C73474967DD* ___m_VisualAttachTransforms;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___m_SecondaryTextures;
+};
+struct U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D112_t7EF03FFE8F02BFE6E6DA9D6BE484A070F87295A3 ___0520685CEDC1376A7FA2EAB39FFE63307D3F8EDE0F7EF180B028442EBF3BFAB0;
+	__StaticArrayInitTypeSizeU3D208_tE300E5A5CFB987E0E0AE8938D3F25C14DB9C617B ___AE94F000A64AB115331945CDCF8955D8ED3ACB92897661BBAD5C5202518A1F3F;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InputActionEnableProfilerMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InputActionDisableProfilerMarker;
+};
+struct ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields
+{
+	ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ___U3CInstanceU3Ek__BackingField;
+};
+struct DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields
+{
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* ___U3CInstanceU3Ek__BackingField;
+};
+struct XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessInteractionStrengthMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessInteractionStrengthEventMarker;
+};
+struct XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_StaticFields
+{
+	LinkedPool_1_t6A6017AF114EF397084F1333559D0DB9CCE28598* ___s_DropEventArgs;
+	LinkedPool_1_t903D30868AECB20DD006FC2E04DDC68D822C3450* ___s_DynamicAttachTransformPool;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProcessGrabTransformersMarker;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___s_TempNewSecondaryTextures;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_gshared (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_mA2653DA8A8BC307E7EB0B40F4E17AAA40DFE3618_gshared (UnityAction_2_t057608D0B30EEF269D35AD36FA4C7E7E19556B5E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mFF2391BCD4D7217D9E460EBE10FDF68B6D3F2055_gshared (UnityEvent_2_tE96C8120FC5D3F6C5FF16D401433B6390C0C9789* __this, UnityAction_2_t057608D0B30EEF269D35AD36FA4C7E7E19556B5E* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m389545648FCCEF2B261F211D91D216F08A1EDA2D_gshared (UnityEvent_2_tE96C8120FC5D3F6C5FF16D401433B6390C0C9789* __this, UnityAction_2_t057608D0B30EEF269D35AD36FA4C7E7E19556B5E* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57_gshared (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24 (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2 (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8* __this, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8*, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40 (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602 (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B* __this, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B*, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_targetTexture_mE6C740F21A72DA47FB5B1D31D208710738A836C4 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager_SetGazeTarget_m52340D858E7DCFA88F0F150E0B57B4A4D0207C74 (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* ___0_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_HandlePan_m4827F1D434D9D31A0652B0B6B0D77D7B71B59484 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_HandleZoom_mEF48EAB657DA222A638007BA8AA0A3383BD8AD8F (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_UpdateEyepieceCameraFov_m4158919F38AE61BE94664CEE8DD94E53658ACC61 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* __this, const RuntimeMethod* method) ;
+inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method)
+{
+	return ((  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*) (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*, const RuntimeMethod*))InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_fieldOfView_m5AA9EED4D1603A1DEDBF883D9C42814B2BDEB777 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___0_value, const RuntimeMethod* method) ;
+inline void UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8* __this, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t8C99CC340A51BB1718EAC4102D4F90EE78F667F8*, UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B* __this, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6653C165067CA012C0771D17D5AF3506C58F446B*, UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+inline TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* Component_GetComponent_TisTelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33_m97DE944D3C0819DB559A4E422BE92A703C84F46D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline void UnityAction_2__ctor_m72E1EC0A2C71FBACE899F2D69C534900D0F2D164 (UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_mA2653DA8A8BC307E7EB0B40F4E17AAA40DFE3618_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_2_AddListener_mA6CDB39EC08718869984F4C622DD113E4F482822 (UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* __this, UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308*, UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA*, const RuntimeMethod*))UnityEvent_2_AddListener_mFF2391BCD4D7217D9E460EBE10FDF68B6D3F2055_gshared)(__this, ___0_call, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TelescopeController_get_IsGrabbed_m71B5C898919EE86DFBEB7CCAA67FECEF084468F1_inline (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* TelescopeController_get_EyepieceCamera_mCE9149A6D52BD32695DBD65106977515AB4ACFE3_inline (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 Camera_ViewportPointToRay_m54F3994B010EFAC642F3C0E367370483B9DBF0F4 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D (LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_mask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_m34AC1210E893A9EF969BD2C7104B10BE5B580025 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___1_hitInfo, float ___2_maxDistance, int32_t ___3_layerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+inline CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* Component_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mFEA4CA1F2CBCF6BD7C30FD0CB84A52F37FE2CF9C (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController_SetCursorProgress_m3DABAF86EB6220E37AA276B52CB03229E59C3A15 (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, float ___0_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7 (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, float ___0_value, const RuntimeMethod* method) ;
+inline void UnityEvent_2_RemoveListener_mACDEAA3D2202C96D128FF6F273AED2D73B5C041D (UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* __this, UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308*, UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m389545648FCCEF2B261F211D91D216F08A1EDA2D_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction__ctor_mD042AD3CC86AEDEB5FB1F8CD9E834FE35F9060B9 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, String_t* ___0_name, int32_t ___1_type, String_t* ___2_binding, String_t* ___3_interactions, String_t* ___4_processors, String_t* ___5_expectedControlType, const RuntimeMethod* method) ;
+inline void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57 (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_ToggleLines_m84E539753E2B187C435F9BBEDB669DAD6DC57E63 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_euler, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mD69D21E7E2364B505057BE72CA1A0C40AE48A7FA (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5____0520685CEDC1376A7FA2EAB39FFE63307D3F8EDE0F7EF180B028442EBF3BFAB0_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5____AE94F000A64AB115331945CDCF8955D8ED3ACB92897661BBAD5C5202518A1F3F_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)208));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5____AE94F000A64AB115331945CDCF8955D8ED3ACB92897661BBAD5C5202518A1F3F_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)112));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t1938DF56AE26E3F726B3B941805B63D48F9D9DA5____0520685CEDC1376A7FA2EAB39FFE63307D3F8EDE0F7EF180B028442EBF3BFAB0_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 3;
+		(&V_0)->___TotalTypes = 3;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 85373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m680936CB88226B080EFC7C30B9786B235F8A47F3 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE9E598A1459A3B03E2DD267ECD3CA382FEE0D5A4* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshal_pinvoke(const MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119& unmarshaled, MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshal_pinvoke_back(const MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_pinvoke& marshaled, MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshal_pinvoke_cleanup(MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshal_com(const MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119& unmarshaled, MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshal_com_back(const MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_com& marshaled, MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshal_com_cleanup(MonoScriptData_tA0988AC933A76C95025B6CA3627359C67148B119_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelescopeController_get_IsGrabbed_m71B5C898919EE86DFBEB7CCAA67FECEF084468F1 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:55>
+		bool L_0 = __this->____isGrabbed;
+		return L_0;
+	}
+}
+// Method Definition Index: 85375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* TelescopeController_get_EyepieceCamera_mCE9149A6D52BD32695DBD65106977515AB4ACFE3 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:56>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___eyepieceCamera;
+		return L_0;
+	}
+}
+// Method Definition Index: 85376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_Awake_m0B2050BF98D7F7ECD7C143E4B40F328E9A3AE1D3 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:60>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_0;
+		L_0 = Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14(__this, Component_GetComponent_TisXRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B_m49377F1D0DBAB9BDC59DFC6851E9A5D687717C14_RuntimeMethod_var);
+		__this->____grab = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____grab), (void*)L_0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:61>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_1 = __this->____grab;
+		NullCheck(L_1);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_2;
+		L_2 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(L_1, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_3 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_3, __this, (intptr_t)((void*)TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_2, L_3, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:62>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_4 = __this->____grab;
+		NullCheck(L_4);
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_5;
+		L_5 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(L_4, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_6 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_6, __this, (intptr_t)((void*)TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4_RuntimeMethod_var), NULL);
+		NullCheck(L_5);
+		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_5, L_6, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:64>
+		float L_7 = __this->___fovMax;
+		__this->____currentFov = L_7;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:66>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = __this->___eyepieceCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:68>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_10 = __this->___eyepieceCamera;
+		NullCheck(L_10);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_10, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:69>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = __this->___eyepieceRenderTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:70>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = __this->___eyepieceCamera;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_14 = __this->___eyepieceRenderTexture;
+		NullCheck(L_13);
+		Camera_set_targetTexture_mE6C740F21A72DA47FB5B1D31D208710738A836C4(L_13, L_14, NULL);
+	}
+
+IL_0089:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:72>
+		return;
+	}
+}
+// Method Definition Index: 85377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:76>
+		__this->____isGrabbed = (bool)1;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:77>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___eyepieceCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:78>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___eyepieceCamera;
+		NullCheck(L_2);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:79>
+		return;
+	}
+}
+// Method Definition Index: 85378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* G_B4_0 = NULL;
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* G_B3_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:83>
+		__this->____isGrabbed = (bool)0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:84>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___eyepieceCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:85>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___eyepieceCamera;
+		NullCheck(L_2);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)0, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:88>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_3;
+		L_3 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_4 = L_3;
+		if (L_4)
+		{
+			G_B4_0 = L_4;
+			goto IL_002b;
+		}
+		G_B3_0 = L_4;
+	}
+	{
+		return;
+	}
+
+IL_002b:
+	{
+		NullCheck(G_B4_0);
+		DiscoveryManager_SetGazeTarget_m52340D858E7DCFA88F0F150E0B57B4A4D0207C74(G_B4_0, (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41*)NULL, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 85379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_Update_m4581E689279AB26D7CD9539CDBB0423E4B0461A7 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:93>
+		bool L_0 = __this->____isGrabbed;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:93>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:95>
+		TelescopeController_HandlePan_m4827F1D434D9D31A0652B0B6B0D77D7B71B59484(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:96>
+		TelescopeController_HandleZoom_mEF48EAB657DA222A638007BA8AA0A3383BD8AD8F(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:97>
+		TelescopeController_UpdateEyepieceCameraFov_m4158919F38AE61BE94664CEE8DD94E53658ACC61(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:98>
+		return;
+	}
+}
+// Method Definition Index: 85380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_HandlePan_m4827F1D434D9D31A0652B0B6B0D77D7B71B59484 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:102>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___leftJoystick;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:102>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:103>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = __this->___leftJoystick;
+		NullCheck(L_2);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
+		L_3 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_2, NULL);
+		NullCheck(L_3);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_3, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		V_0 = L_4;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:104>
+		float L_5;
+		L_5 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		if ((!(((float)L_5) < ((float)(0.00999999978f)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:104>
+		return;
+	}
+
+IL_002f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:106>
+		float L_6 = __this->____azimuth;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
+		float L_8 = L_7.___x;
+		float L_9 = __this->___panSpeed;
+		float L_10;
+		L_10 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->____azimuth = ((float)il2cpp_codegen_add(L_6, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_8, L_9)), L_10))));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:107>
+		float L_11 = __this->____elevation;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = V_0;
+		float L_13 = L_12.___y;
+		float L_14 = __this->___panSpeed;
+		float L_15;
+		L_15 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->____elevation = ((float)il2cpp_codegen_subtract(L_11, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_13, L_14)), L_15))));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:108>
+		float L_16 = __this->____elevation;
+		float L_17 = __this->___elevationMin;
+		float L_18 = __this->___elevationMax;
+		float L_19;
+		L_19 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_16, L_17, L_18, NULL);
+		__this->____elevation = L_19;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:110>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___barrelPivot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_21;
+		L_21 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_20, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_21)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:111>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = __this->___barrelPivot;
+		float L_23 = __this->____elevation;
+		float L_24 = __this->____azimuth;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25;
+		L_25 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_23, L_24, (0.0f), NULL);
+		NullCheck(L_22);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_22, L_25, NULL);
+	}
+
+IL_00bb:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:112>
+		return;
+	}
+}
+// Method Definition Index: 85381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_HandleZoom_mEF48EAB657DA222A638007BA8AA0A3383BD8AD8F (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:116>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___rightJoystick;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:116>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:117>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = __this->___rightJoystick;
+		NullCheck(L_2);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
+		L_3 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_2, NULL);
+		NullCheck(L_3);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_3, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		float L_5 = L_4.___y;
+		V_0 = L_5;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:118>
+		float L_6 = V_0;
+		float L_7;
+		L_7 = fabsf(L_6);
+		if ((!(((float)L_7) < ((float)(0.00999999978f)))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:118>
+		return;
+	}
+
+IL_0033:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:120>
+		float L_8 = __this->____currentFov;
+		float L_9 = V_0;
+		float L_10 = __this->___zoomSpeed;
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->____currentFov = ((float)il2cpp_codegen_add(L_8, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_9, L_10)), L_11))));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:121>
+		float L_12 = __this->____currentFov;
+		float L_13 = __this->___fovMin;
+		float L_14 = __this->___fovMax;
+		float L_15;
+		L_15 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_12, L_13, L_14, NULL);
+		__this->____currentFov = L_15;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:122>
+		return;
+	}
+}
+// Method Definition Index: 85382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_UpdateEyepieceCameraFov_m4158919F38AE61BE94664CEE8DD94E53658ACC61 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:126>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___eyepieceCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:127>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___eyepieceCamera;
+		float L_3 = __this->____currentFov;
+		NullCheck(L_2);
+		Camera_set_fieldOfView_m5AA9EED4D1603A1DEDBF883D9C42814B2BDEB777(L_2, L_3, NULL);
+	}
+
+IL_001f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:128>
+		return;
+	}
+}
+// Method Definition Index: 85383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController_OnDestroy_mF8CCA4D4DD5DA29B97D86AFFAD457BB21D8515B3 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:132>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_0 = __this->____grab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:134>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_2 = __this->____grab;
+		NullCheck(L_2);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_3;
+		L_3 = XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline(L_2, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_4 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_4, __this, (intptr_t)((void*)TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_3, L_4, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:135>
+		XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* L_5 = __this->____grab;
+		NullCheck(L_5);
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_6;
+		L_6 = XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline(L_5, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_7 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_7, __this, (intptr_t)((void*)TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_6, L_7, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+	}
+
+IL_0046:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 85384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeController__ctor_m15488303665EA77814B2359896B36832F999CF80 (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:31>
+		__this->___panSpeed = (30.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:32>
+		__this->___elevationMin = (-30.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:33>
+		__this->___elevationMax = (85.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:36>
+		__this->___fovMin = (2.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:37>
+		__this->___fovMax = (60.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:38>
+		__this->___zoomSpeed = (20.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController_Awake_mD404CE8CE5E4882F9028696D950EAD0C2B2E429B (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisTelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33_m97DE944D3C0819DB559A4E422BE92A703C84F46D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_2_AddListener_mA6CDB39EC08718869984F4C622DD113E4F482822_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:26>
+		TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* L_0;
+		L_0 = Component_GetComponent_TisTelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33_m97DE944D3C0819DB559A4E422BE92A703C84F46D(__this, Component_GetComponent_TisTelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33_m97DE944D3C0819DB559A4E422BE92A703C84F46D_RuntimeMethod_var);
+		__this->____telescope = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____telescope), (void*)L_0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:28>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_1;
+		L_1 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:29>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_3;
+		L_3 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		NullCheck(L_3);
+		UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* L_4 = L_3->___OnDwellProgress;
+		UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA* L_5 = (UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA*)il2cpp_codegen_object_new(UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m72E1EC0A2C71FBACE899F2D69C534900D0F2D164(L_5, __this, (intptr_t)((void*)TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_2_AddListener_mA6CDB39EC08718869984F4C622DD113E4F482822(L_4, L_5, UnityEvent_2_AddListener_mA6CDB39EC08718869984F4C622DD113E4F482822_RuntimeMethod_var);
+	}
+
+IL_0034:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 85386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController_Update_mD3D2D0E0916F4A1585C26CE496282225A1713BC0 (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mFEA4CA1F2CBCF6BD7C30FD0CB84A52F37FE2CF9C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
+	CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* V_1 = NULL;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* G_B4_0 = NULL;
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* G_B3_0 = NULL;
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* G_B15_0 = NULL;
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* G_B14_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:34>
+		TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* L_0 = __this->____telescope;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = TelescopeController_get_IsGrabbed_m71B5C898919EE86DFBEB7CCAA67FECEF084468F1_inline(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:36>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_2 = __this->____lastHit;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:38>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_4;
+		L_4 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_5 = L_4;
+		if (L_5)
+		{
+			G_B4_0 = L_5;
+			goto IL_0026;
+		}
+		G_B3_0 = L_5;
+	}
+	{
+		goto IL_002c;
+	}
+
+IL_0026:
+	{
+		NullCheck(G_B4_0);
+		DiscoveryManager_SetGazeTarget_m52340D858E7DCFA88F0F150E0B57B4A4D0207C74(G_B4_0, (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41*)NULL, NULL);
+	}
+
+IL_002c:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:39>
+		__this->____lastHit = (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastHit), (void*)(CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41*)NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:41>
+		return;
+	}
+
+IL_0034:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:44>
+		TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* L_6 = __this->____telescope;
+		NullCheck(L_6);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7;
+		L_7 = TelescopeController_get_EyepieceCamera_mCE9149A6D52BD32695DBD65106977515AB4ACFE3_inline(L_6, NULL);
+		V_0 = L_7;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:45>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_9)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_10 = V_0;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_10, NULL);
+		if (L_11)
+		{
+			goto IL_0052;
+		}
+	}
+
+IL_0051:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:45>
+		return;
+	}
+
+IL_0052:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:47>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_13), (0.5f), (0.5f), (0.0f), NULL);
+		NullCheck(L_12);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_14;
+		L_14 = Camera_ViewportPointToRay_m54F3994B010EFAC642F3C0E367370483B9DBF0F4(L_12, L_13, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:48>
+		V_1 = (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41*)NULL;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:50>
+		float L_15 = __this->___raycastDistance;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_16 = __this->___celestialObjectLayer;
+		int32_t L_17;
+		L_17 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_16, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Physics_Raycast_m34AC1210E893A9EF969BD2C7104B10BE5B580025(L_14, (&V_2), L_15, L_17, NULL);
+		if (!L_18)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:51>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_19;
+		L_19 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_2), NULL);
+		NullCheck(L_19);
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_20;
+		L_20 = Component_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mFEA4CA1F2CBCF6BD7C30FD0CB84A52F37FE2CF9C(L_19, Component_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mFEA4CA1F2CBCF6BD7C30FD0CB84A52F37FE2CF9C_RuntimeMethod_var);
+		V_1 = L_20;
+	}
+
+IL_0095:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:53>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_21 = V_1;
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_22 = __this->____lastHit;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_21, L_22, NULL);
+		if (!L_23)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:55>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_24 = V_1;
+		__this->____lastHit = L_24;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastHit), (void*)L_24);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:56>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_25;
+		L_25 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_26 = L_25;
+		if (L_26)
+		{
+			G_B15_0 = L_26;
+			goto IL_00b5;
+		}
+		G_B14_0 = L_26;
+	}
+	{
+		goto IL_00bb;
+	}
+
+IL_00b5:
+	{
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_27 = V_1;
+		NullCheck(G_B15_0);
+		DiscoveryManager_SetGazeTarget_m52340D858E7DCFA88F0F150E0B57B4A4D0207C74(G_B15_0, L_27, NULL);
+	}
+
+IL_00bb:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:57>
+		TelescopeDwellController_SetCursorProgress_m3DABAF86EB6220E37AA276B52CB03229E59C3A15(__this, (0.0f), NULL);
+	}
+
+IL_00c6:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 85387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566 (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_data, float ___1_progress, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:63>
+		float L_0 = ___1_progress;
+		TelescopeDwellController_SetCursorProgress_m3DABAF86EB6220E37AA276B52CB03229E59C3A15(__this, L_0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 85388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController_SetCursorProgress_m3DABAF86EB6220E37AA276B52CB03229E59C3A15 (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, float ___0_t, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:68>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___dwellCursorFill;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:69>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___dwellCursorFill;
+		float L_3 = ___0_t;
+		NullCheck(L_2);
+		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_2, L_3, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 85389
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController_OnDestroy_m7ECBD93E0DA5AEA2BF6D739E54761F0CD7635718 (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_2_RemoveListener_mACDEAA3D2202C96D128FF6F273AED2D73B5C041D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:74>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0;
+		L_0 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:75>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_2;
+		L_2 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		NullCheck(L_2);
+		UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* L_3 = L_2->___OnDwellProgress;
+		UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA* L_4 = (UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA*)il2cpp_codegen_object_new(UnityAction_2_t81627DC358F99C79E01F13932B9A5CB9A31D7AEA_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m72E1EC0A2C71FBACE899F2D69C534900D0F2D164(L_4, __this, (intptr_t)((void*)TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		UnityEvent_2_RemoveListener_mACDEAA3D2202C96D128FF6F273AED2D73B5C041D(L_3, L_4, UnityEvent_2_RemoveListener_mACDEAA3D2202C96D128FF6F273AED2D73B5C041D_RuntimeMethod_var);
+	}
+
+IL_0028:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 85390
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeDwellController__ctor_m3126689EA31D3B797C395EDDCA49F9606EA014A8 (TelescopeDwellController_tC7E70499B757129574CBE5DEE0066D1F2174E70B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeDwellController.cs:14>
+		__this->___raycastDistance = (2000.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85391
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeInputHandler_Awake_m261C64844DEF70224514DF622CBB7A79C645E22D (TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B636BC5F87567B51D362053EA25BAB48F9DE485);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3A0DD9ABDF8D11DA034BEDF80C4663B172E54E0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC54AE58D8ACA28086505C71376816D9AEAB0B8A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE865882DEA62A6878BD30E757A62390FE652F59F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:26>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)il2cpp_codegen_object_new(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var);
+		InputAction__ctor_mD042AD3CC86AEDEB5FB1F8CD9E834FE35F9060B9(L_0, _stringLiteral5B636BC5F87567B51D362053EA25BAB48F9DE485, 0, _stringLiteralC54AE58D8ACA28086505C71376816D9AEAB0B8A9, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, NULL);
+		__this->____xButton = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____xButton), (void*)L_0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:28>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)il2cpp_codegen_object_new(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_il2cpp_TypeInfo_var);
+		InputAction__ctor_mD042AD3CC86AEDEB5FB1F8CD9E834FE35F9060B9(L_1, _stringLiteralA3A0DD9ABDF8D11DA034BEDF80C4663B172E54E0, 0, _stringLiteralE865882DEA62A6878BD30E757A62390FE652F59F, (String_t*)NULL, (String_t*)NULL, (String_t*)NULL, NULL);
+		__this->____bButton = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____bButton), (void*)L_1);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 85392
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeInputHandler_OnEnable_m64D0D23F7E19232B4E98766E5D7ABCD2D81634A6 (TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:33>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->____xButton;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_1 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_1, __this, (intptr_t)((void*)TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_0, L_1, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:34>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->____bButton;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_3 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_3, __this, (intptr_t)((void*)TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_2, L_3, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:35>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = __this->____xButton;
+		NullCheck(L_4);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_4, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:36>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5 = __this->____bButton;
+		NullCheck(L_5);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_5, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 85393
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeInputHandler_OnDisable_m4801B95E31E7AED11781B1AE95FFFAB2B890AE3C (TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:41>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->____xButton;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_1 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_1, __this, (intptr_t)((void*)TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_0, L_1, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:42>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->____bButton;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_3 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_3, __this, (intptr_t)((void*)TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_2, L_3, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:43>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = __this->____xButton;
+		NullCheck(L_4);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_4, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:44>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5 = __this->____bButton;
+		NullCheck(L_5);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_5, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 85394
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615 (TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDB0A028F7F9424C500390877F18985CA8DD65A00);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE1A8B7ACF9F6A6C8DA34C480CF0726A9E97A6044);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8B77FFA6B004EBE6AD02387BCBFBFA47562B049);
+		s_Il2CppMethodInitialized = true;
+	}
+	ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* G_B2_0 = NULL;
+	ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* G_B1_0 = NULL;
+	String_t* G_B7_0 = NULL;
+	String_t* G_B6_0 = NULL;
+	String_t* G_B8_0 = NULL;
+	String_t* G_B8_1 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:49>
+		bool L_0 = __this->____discoveryModeOn;
+		__this->____discoveryModeOn = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:50>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_1;
+		L_1 = ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline(NULL);
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_2 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_001a;
+		}
+		G_B1_0 = L_2;
+	}
+	{
+		goto IL_001f;
+	}
+
+IL_001a:
+	{
+		NullCheck(G_B2_0);
+		ConstellationManager_ToggleLines_m84E539753E2B187C435F9BBEDB669DAD6DC57E63(G_B2_0, NULL);
+	}
+
+IL_001f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:52>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___discoveryModeIndicator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:53>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___discoveryModeIndicator;
+		bool L_6 = __this->____discoveryModeOn;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, L_6, NULL);
+	}
+
+IL_003e:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:55>
+		bool L_7 = __this->____discoveryModeOn;
+		if (L_7)
+		{
+			G_B7_0 = _stringLiteralDB0A028F7F9424C500390877F18985CA8DD65A00;
+			goto IL_0052;
+		}
+		G_B6_0 = _stringLiteralDB0A028F7F9424C500390877F18985CA8DD65A00;
+	}
+	{
+		G_B8_0 = _stringLiteralE8B77FFA6B004EBE6AD02387BCBFBFA47562B049;
+		G_B8_1 = G_B6_0;
+		goto IL_0057;
+	}
+
+IL_0052:
+	{
+		G_B8_0 = _stringLiteralE1A8B7ACF9F6A6C8DA34C480CF0726A9E97A6044;
+		G_B8_1 = G_B7_0;
+	}
+
+IL_0057:
+	{
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B8_1, G_B8_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 85395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491 (TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:60>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___settingsPanel;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:61>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___settingsPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___settingsPanel;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_3, NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeInputHandler.cs:62>
+		return;
+	}
+}
+// Method Definition Index: 85396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelescopeInputHandler__ctor_m88239304FF0AD41DB78319C729093A6CD7FE8F63 (TelescopeInputHandler_tA30BD2BDC26C186155CE78640DDC01B50EAF3204* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 26362
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractable_get_selectEntered_m07EED7E3339456AF56A5C5BF7F5F96A3FDB107C0_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Interaction/Interactables/XRBaseInteractable.cs:415>
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_0 = __this->___m_SelectEntered;
+		return L_0;
+	}
+}
+// Method Definition Index: 26364
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractable_get_selectExited_m0296CEBB4427F63D460984FC32FA0C9C7ACED5A7_inline (XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Interaction/Interactables/XRBaseInteractable.cs:425>
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_0 = __this->___m_SelectExited;
+		return L_0;
+	}
+}
+// Method Definition Index: 84827
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:23>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0 = ((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 43320
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))));
+	}
+}
+// Method Definition Index: 43281
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 43226
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		float L_0 = ___0_x;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_0, (0.0174532924f)));
+		float L_1 = ___1_y;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_1, (0.0174532924f)));
+		float L_2 = ___2_z;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_2, (0.0174532924f)));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
+		L_3 = Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49((&V_0), NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 85374
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TelescopeController_get_IsGrabbed_m71B5C898919EE86DFBEB7CCAA67FECEF084468F1_inline (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:55>
+		bool L_0 = __this->____isGrabbed;
+		return L_0;
+	}
+}
+// Method Definition Index: 85375
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* TelescopeController_get_EyepieceCamera_mCE9149A6D52BD32695DBD65106977515AB4ACFE3_inline (TelescopeController_tFDEF5697C1533B4D206FBA59DDDDF24B528D4E33* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Telescope/TelescopeController.cs:56>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___eyepieceCamera;
+		return L_0;
+	}
+}
+// Method Definition Index: 43145
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 84802
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:14>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_0 = ((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}

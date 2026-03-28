@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5510efa2f2e460fafb2bb1e8586489, type: 3}
+  m_Name: Sirius
+  m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
+  objectName: Sirius
+  objectType: 1
+  rightAscensionHours: 6.7525
+  declinationDegrees: -16.7161
+  description: "Alpha Canis Majoris \u2014 the brightest star in the night sky, part
+    of the constellation Canis Major."
+  distanceFromEarth: 8.6 light-years
+  objectFact: Sirius is actually a binary system. Its companion, Sirius B, is a white
+    dwarf about the size of Earth.
+  constellationDiagram: {fileID: 0}
+  visualScale: 1.2
+  objectMaterial: {fileID: 0}

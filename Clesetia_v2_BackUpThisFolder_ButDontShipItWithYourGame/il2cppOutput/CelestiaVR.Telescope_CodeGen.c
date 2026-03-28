@@ -1,0 +1,111 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mD69D21E7E2364B505057BE72CA1A0C40AE48A7FA (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m680936CB88226B080EFC7C30B9786B235F8A47F3 (void);
+extern void TelescopeController_get_IsGrabbed_m71B5C898919EE86DFBEB7CCAA67FECEF084468F1 (void);
+extern void TelescopeController_get_EyepieceCamera_mCE9149A6D52BD32695DBD65106977515AB4ACFE3 (void);
+extern void TelescopeController_Awake_m0B2050BF98D7F7ECD7C143E4B40F328E9A3AE1D3 (void);
+extern void TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919 (void);
+extern void TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4 (void);
+extern void TelescopeController_Update_m4581E689279AB26D7CD9539CDBB0423E4B0461A7 (void);
+extern void TelescopeController_HandlePan_m4827F1D434D9D31A0652B0B6B0D77D7B71B59484 (void);
+extern void TelescopeController_HandleZoom_mEF48EAB657DA222A638007BA8AA0A3383BD8AD8F (void);
+extern void TelescopeController_UpdateEyepieceCameraFov_m4158919F38AE61BE94664CEE8DD94E53658ACC61 (void);
+extern void TelescopeController_OnDestroy_mF8CCA4D4DD5DA29B97D86AFFAD457BB21D8515B3 (void);
+extern void TelescopeController__ctor_m15488303665EA77814B2359896B36832F999CF80 (void);
+extern void TelescopeDwellController_Awake_mD404CE8CE5E4882F9028696D950EAD0C2B2E429B (void);
+extern void TelescopeDwellController_Update_mD3D2D0E0916F4A1585C26CE496282225A1713BC0 (void);
+extern void TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566 (void);
+extern void TelescopeDwellController_SetCursorProgress_m3DABAF86EB6220E37AA276B52CB03229E59C3A15 (void);
+extern void TelescopeDwellController_OnDestroy_m7ECBD93E0DA5AEA2BF6D739E54761F0CD7635718 (void);
+extern void TelescopeDwellController__ctor_m3126689EA31D3B797C395EDDCA49F9606EA014A8 (void);
+extern void TelescopeInputHandler_Awake_m261C64844DEF70224514DF622CBB7A79C645E22D (void);
+extern void TelescopeInputHandler_OnEnable_m64D0D23F7E19232B4E98766E5D7ABCD2D81634A6 (void);
+extern void TelescopeInputHandler_OnDisable_m4801B95E31E7AED11781B1AE95FFFAB2B890AE3C (void);
+extern void TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615 (void);
+extern void TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491 (void);
+extern void TelescopeInputHandler__ctor_m88239304FF0AD41DB78319C729093A6CD7FE8F63 (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mD69D21E7E2364B505057BE72CA1A0C40AE48A7FA,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m680936CB88226B080EFC7C30B9786B235F8A47F3,
+	TelescopeController_get_IsGrabbed_m71B5C898919EE86DFBEB7CCAA67FECEF084468F1,
+	TelescopeController_get_EyepieceCamera_mCE9149A6D52BD32695DBD65106977515AB4ACFE3,
+	TelescopeController_Awake_m0B2050BF98D7F7ECD7C143E4B40F328E9A3AE1D3,
+	TelescopeController_OnGrabbed_m5538698D077D6DEF2A276A60EF171B2CC1E28919,
+	TelescopeController_OnReleased_mB80AF3732509C5DEB098935D9EF13BB614C7B0F4,
+	TelescopeController_Update_m4581E689279AB26D7CD9539CDBB0423E4B0461A7,
+	TelescopeController_HandlePan_m4827F1D434D9D31A0652B0B6B0D77D7B71B59484,
+	TelescopeController_HandleZoom_mEF48EAB657DA222A638007BA8AA0A3383BD8AD8F,
+	TelescopeController_UpdateEyepieceCameraFov_m4158919F38AE61BE94664CEE8DD94E53658ACC61,
+	TelescopeController_OnDestroy_mF8CCA4D4DD5DA29B97D86AFFAD457BB21D8515B3,
+	TelescopeController__ctor_m15488303665EA77814B2359896B36832F999CF80,
+	TelescopeDwellController_Awake_mD404CE8CE5E4882F9028696D950EAD0C2B2E429B,
+	TelescopeDwellController_Update_mD3D2D0E0916F4A1585C26CE496282225A1713BC0,
+	TelescopeDwellController_OnDwellProgress_m57B654EBF61A6E2A0E0518C0FF2D6ACCE61D7566,
+	TelescopeDwellController_SetCursorProgress_m3DABAF86EB6220E37AA276B52CB03229E59C3A15,
+	TelescopeDwellController_OnDestroy_m7ECBD93E0DA5AEA2BF6D739E54761F0CD7635718,
+	TelescopeDwellController__ctor_m3126689EA31D3B797C395EDDCA49F9606EA014A8,
+	TelescopeInputHandler_Awake_m261C64844DEF70224514DF622CBB7A79C645E22D,
+	TelescopeInputHandler_OnEnable_m64D0D23F7E19232B4E98766E5D7ABCD2D81634A6,
+	TelescopeInputHandler_OnDisable_m4801B95E31E7AED11781B1AE95FFFAB2B890AE3C,
+	TelescopeInputHandler_OnDiscoveryToggle_mF47379FCD6B9549FF9587BFDA6F0D0568EAE9615,
+	TelescopeInputHandler_OnSettingsToggle_mE669BBBAAAFEEEE13B05F78546CE312B9C28D491,
+	TelescopeInputHandler__ctor_m88239304FF0AD41DB78319C729093A6CD7FE8F63,
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	28926,
+	16683,
+	16259,
+	16467,
+	16683,
+	12633,
+	12633,
+	16683,
+	16683,
+	16683,
+	16683,
+	16683,
+	16683,
+	16683,
+	16683,
+	6387,
+	12730,
+	16683,
+	16683,
+	16683,
+	16683,
+	16683,
+	13031,
+	13031,
+	16683,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_CelestiaVR_Telescope_CodeGenModule;
+const Il2CppCodeGenModule g_CelestiaVR_Telescope_CodeGenModule = 
+{
+	"CelestiaVR.Telescope.dll",
+	25,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

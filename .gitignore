@@ -1,0 +1,57 @@
+# Unity generated
+Library/
+.utmp/
+
+# Claude Code local settings
+.claude/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+RecordedPlaySessions/
+
+# Unity 3D project settings
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files are stored in Assets folder, so skip Library
+.vs/
+
+# Visual Studio / Rider
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Large binary files — download separately
+# Assets/Samples/       # keeping Samples (12MB, manageable)
+
+# Android build output
+*.apk
+*.aab
+
+# Crashes
+crash.log

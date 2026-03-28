@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4023991b8e2344f8a85e3682d1d19dc2, type: 3}
+  m_Name: Aquarius
+  m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.ConstellationData
+  constellationName: Aquarius
+  mythology: The water-bearer, one of the oldest constellations. Saturn currently
+    resides in Aquarius, visible from Griffith in December.
+  stars:
+  - starName: Sadalsuud
+    raHours: 21.525982
+    decDegrees: -5.571172
+  - starName: Sadalmelik
+    raHours: 22.0964
+    decDegrees: -0.319851
+  - starName: Sadachbia
+    raHours: 22.360937
+    decDegrees: -1.387331
+  - starName: Albali
+    raHours: 20.794598
+    decDegrees: -9.495776
+  - starName: Ancha
+    raHours: 22.280565
+    decDegrees: -7.78329
+  - starName: Skat
+    raHours: 22.910837
+    decDegrees: -15.82082
+  - starName: Zeta1 Aqr
+    raHours: 22.480532
+    decDegrees: -0.019972
+  - starName: Eta Aqr
+    raHours: 22.58927
+    decDegrees: -0.1175
+  - starName: Pi Aqr
+    raHours: 22.42128
+    decDegrees: 1.3774
+  - starName: Iota Aqr
+    raHours: 22.10729
+    decDegrees: -13.8697
+  - starName: Lambda Aqr
+    raHours: 22.87691
+    decDegrees: -7.5796
+  - starName: Tau Aqr
+    raHours: 22.82653
+    decDegrees: -13.5925
+  connectionIndices: 03000000000000000000000001000000010000000200000002000000060000000600000007000000060000000800000001000000090000000100000004000000040000000a0000000a00000005000000050000000b0000000b0000000a000000
+  lineColor: {r: 0.55, g: 0.75, b: 1, a: 0.55}
+  highlightColor: {r: 0.7, g: 0.9, b: 1, a: 1}
+  lineWidth: 0.12
+  highlightWidth: 0.22
+  linkedObjects:
+  - {fileID: 11400000, guid: 0c90e853ee58a4c48addc61309bf3dfa, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5510efa2f2e460fafb2bb1e8586489, type: 3}
+  m_Name: Andromeda Galaxy
+  m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
+  objectName: Andromeda Galaxy
+  objectType: 3
+  rightAscensionHours: 0.7122
+  declinationDegrees: 41.2689
+  description: "Messier 31 \u2014 our nearest large galactic neighbor. Visible to
+    the naked eye as a faint smudge."
+  distanceFromEarth: 2.537 million light-years
+  objectFact: "Andromeda is on a collision course with the Milky Way \u2014 they
+    will merge in about 4.5 billion years."
+  constellationDiagram: {fileID: 0}
+  visualScale: 8
+  objectMaterial: {fileID: 0}

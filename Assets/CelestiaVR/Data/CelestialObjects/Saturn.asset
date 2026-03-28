@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5510efa2f2e460fafb2bb1e8586489, type: 3}
+  m_Name: Saturn
+  m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
+  objectName: Saturn
+  objectType: 0
+  rightAscensionHours: 22.85
+  declinationDegrees: -13.5
+  description: The ringed jewel of the solar system. Saturn's rings are made of ice
+    and rock fragments.
+  distanceFromEarth: ~1.4 billion km from Earth
+  objectFact: Saturn's rings extend up to 282,000 km from the planet but are less
+    than 1 km thick.
+  constellationDiagram: {fileID: 0}
+  visualScale: 3.5
+  objectMaterial: {fileID: 0}

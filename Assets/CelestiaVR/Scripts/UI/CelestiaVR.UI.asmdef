@@ -1,0 +1,18 @@
+{
+    "name": "CelestiaVR.UI",
+    "rootNamespace": "CelestiaVR",
+    "references": [
+        "CelestiaVR.Sky",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

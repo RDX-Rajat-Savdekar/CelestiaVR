@@ -1,0 +1,5515 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
+struct Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E;
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE;
+struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+struct IEqualityComparer_1_t7C8BE51A3B55BA8DEA2EF81479D016D4472D24FE;
+struct IEqualityComparer_1_t2CA7720C7ADCCDECD3B02E45878B4478619D5347;
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
+struct KeyCollection_tE6070DB6E1669D51C293D65D8C8A9709F971D7C7;
+struct KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454;
+struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
+struct List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26;
+struct List_1_tB146506342F2078C471B991848FF8C491A99E887;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C;
+struct UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0;
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+struct UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308;
+struct UnityEvent_2_tE96C8120FC5D3F6C5FF16D401433B6390C0C9789;
+struct ValueCollection_tBD74239F736A7F96E1A241A1A85AA321BB6B895E;
+struct ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1;
+struct EntryU5BU5D_t6C51A531ED316EAA96633A402437737654807E94;
+struct EntryU5BU5D_tBC8769FFC7ECC10C2740A220C39736B63B151E29;
+struct SlotU5BU5D_tF596AD324082C553DB364C768406A40BB3C85343;
+struct SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E;
+struct ConstellationRendererU5BU5D_tD1468790F831520FC4D081A882211D1D0501F8A2;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct CelestialEntryU5BU5D_tE9170AB55F835E50D3D1E9EF7F33252B07FD8BD5;
+struct ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136;
+struct CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86;
+struct CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A;
+struct ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9;
+struct ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431;
+struct ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B;
+struct DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+struct SkyDomeController_t6B3DA6C92619C68C6C46E92625CB75C7E418C840;
+struct SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t33EB4C8DB81993295CBFAD27CC57DA02B6B1F614;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547;
+struct U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB146506342F2078C471B991848FF8C491A99E887_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E____2CA4808E623D27A23375F2D07E78ED09CF655272624D0D122A1802D510169627_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E____55B1B053F89C4271F5DBD6B13092FE983E07F67EACC5D5AD9C97EC7FC0DC25DB_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral2EF2881902FFC8C1FF38921948340F0B6E305D2E;
+IL2CPP_EXTERN_C String_t* _stringLiteral5D54E959817188DBAD9E65FA3DB55F06B70F5E3C;
+IL2CPP_EXTERN_C String_t* _stringLiteral70D173F26AF2C98C6479281C28617B86021CF899;
+IL2CPP_EXTERN_C String_t* _stringLiteralAB94F79AF99EB1F84056002952B39BFDEA97D447;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDB0A71B90BCE2832ADA1918D925BB80206CA82AB;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_mDC829E38BCDD6F138A0655B5B7DE7AD8237BE431_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_mECCCCB69FC187FCAE2BC9C0C65DD9038B3C639A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mA29FFD384313CEBC7532B18CBA839CCC11DF6C00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m9F8FA443B1674C1F6AAFC9DA2F0518568B0E10E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m98671DD82BBC8907403E20257FD8886B32D15EAB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiscoveryManager_HandleDwellComplete_mE982C26E7B875330D6BE8A43EC72ACE6C4F54D9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiscoveryManager_HandleDwellProgress_mDEF18CADA322D40CD0E140C9D2B89518CC1759BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mB9FD00AED72B1847CFC4ED13DC57C639818EEF04_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mFC9496568A7845A0565D6C64AA744E0AA9118A23_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m179086ADC0689CA87C3EB3F4FEF1DCF94B205DCD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m811EA77A0EDEDB7E43879F0E3013681D248B5A3E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m1BB74D45CD8AD06DD7DF7CC16E94BF840550D08C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mB1B9337B6B39F9E4B0CEBBDC1FC6EFC4166E85D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mC8F0CB1C99404AACFA8B78863F5BDD71FE238F06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_m535268F4E73DF981C5AD204562E28BA530413206_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771_mE36F5C00AF293DBC3517488C72C04045E310B1EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_m89A82EC54DCED2A7B8FBB9D57EC096AD05AA9292_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mF8C0D953BCBFDD5A01A09ADB67EB04F0D677A056_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisSphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_m3D05F19667844A2949840753F7A3287115BE029E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_mCEB1DBA2CA3D840367BAC4D8B11329FAFDABD971_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m00AEA903DE8DEC35B61502F098729637D21B6FDB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_m51B1D8A7D888040F09B343739DF41565D4D53000_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mE636492D145A8E88DD0695D9CF80325753160AFA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF11FCF0338C9FBEA8F63CAF004BF69A64472307E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m9D6E573A50C1A68916C7EE672E675AFCCCB4AC3C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m30D15262C0326A008F0928BA55BBCA57C770A18C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mED0C7744DDA74F6C18CE8F77D5C06F06346978AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m0B6C52C094A8B05228CF9E3EF66032BFD5B741F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m249A1A2D2A159BEAF867227EB951415CE040600B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mB125E221D1514EF7FF840A09E4988EFF197B3F3C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateHighlightU3Ed__13_System_Collections_IEnumerator_Reset_mDD4A58CBCB8065E2648D377CC454CBB711C8A992_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m4B4A5AA23B01B2DF4D5B4B9AC7752B810C0512D2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_2_Invoke_m9AC44D37A19445F4E950CF13676BB0BC6191379C_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34;
+struct ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t7E4DD4C7340EAA8A79A16CF1AC0F56D777E102D3 
+{
+};
+struct Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_t6C51A531ED316EAA96633A402437737654807E94* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tE6070DB6E1669D51C293D65D8C8A9709F971D7C7* ____keys;
+	ValueCollection_tBD74239F736A7F96E1A241A1A85AA321BB6B895E* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tBC8769FFC7ECC10C2740A220C39736B63B151E29* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454* ____keys;
+	ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	SlotU5BU5D_tF596AD324082C553DB364C768406A40BB3C85343* ____slots;
+	int32_t ____count;
+	int32_t ____lastIndex;
+	int32_t ____freeList;
+	RuntimeObject* ____comparer;
+	int32_t ____version;
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo;
+};
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01* ____slots;
+	int32_t ____count;
+	int32_t ____lastIndex;
+	int32_t ____freeList;
+	RuntimeObject* ____comparer;
+	int32_t ____version;
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo;
+};
+struct List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26  : public RuntimeObject
+{
+	ConstellationRendererU5BU5D_tD1468790F831520FC4D081A882211D1D0501F8A2* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tB146506342F2078C471B991848FF8C491A99E887  : public RuntimeObject
+{
+	LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C  : public RuntimeObject
+{
+	CelestialEntryU5BU5D_tE9170AB55F835E50D3D1E9EF7F33252B07FD8BD5* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t33EB4C8DB81993295CBFAD27CC57DA02B6B1F614  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547  : public RuntimeObject
+{
+	CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___data;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefabOverride;
+};
+struct Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54 
+{
+	List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* ____current;
+};
+struct Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D 
+{
+	List_1_tB146506342F2078C471B991848FF8C491A99E887* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A 
+{
+	List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* ____current;
+};
+struct UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D446_t70F1C620FF3054F0707765F67C06BE61BD7DCE14 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D446_t70F1C620FF3054F0707765F67C06BE61BD7DCE14__padding[446];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D603_tD4590E8F4BA7E677B663F439B0ED9075D54037C2 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D603_tD4590E8F4BA7E677B663F439B0ED9075D54037C2__padding[603];
+	};
+};
+#pragma pack(pop, tp)
+struct ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1 
+{
+	String_t* ___starName;
+	float ___raHours;
+	float ___decDegrees;
+};
+struct ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_pinvoke
+{
+	char* ___starName;
+	float ___raHours;
+	float ___decDegrees;
+};
+struct ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_com
+{
+	Il2CppChar* ___starName;
+	float ___raHours;
+	float ___decDegrees;
+};
+struct MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct CelestialObjectType_t81985885E7DEBB24DBF1C50E91A5E6F9FA55E46F 
+{
+	int32_t ___value__;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct ShadowCastingMode_tF30806698B37CF120A1A506BD7549EAF308E7C6D 
+{
+	int32_t ___value__;
+};
+struct Space_tF043E93E06B702DD05199C28C6F779049B38A969 
+{
+	int32_t ___value__;
+};
+struct U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	bool ___toHighlight;
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* ___U3CU3E4__this;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___U3CfromColorU3E5__2;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___U3CtoColorU3E5__3;
+	float ___U3CfromWidthU3E5__4;
+	float ___U3CtoWidthU3E5__5;
+	float ___U3CtU3E5__6;
+	float ___U3CdurationU3E5__7;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A  : public MulticastDelegate_t
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	String_t* ___objectName;
+	int32_t ___objectType;
+	float ___rightAscensionHours;
+	float ___declinationDegrees;
+	String_t* ___description;
+	String_t* ___distanceFromEarth;
+	String_t* ___objectFact;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___constellationDiagram;
+	float ___visualScale;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___objectMaterial;
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	String_t* ___constellationName;
+	String_t* ___mythology;
+	ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* ___stars;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___connectionIndices;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___lineColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___highlightColor;
+	float ___lineWidth;
+	float ___highlightWidth;
+	CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34* ___linkedObjects;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
+{
+};
+struct CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___skyDome;
+	float ___skyDomeRadius;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___defaultObjectPrefab;
+	List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C* ___celestialObjects;
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ____instances;
+};
+struct CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___U3CDataU3Ek__BackingField;
+};
+struct ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	List_1_tB146506342F2078C471B991848FF8C491A99E887* ____lines;
+};
+struct ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___skyDome;
+	float ___skyDomeRadius;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___constellationLineMaterial;
+	ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* ___constellations;
+	List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* ____renderers;
+	Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* ____objectMap;
+	bool ____linesVisible;
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* ____currentHighlight;
+};
+struct ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* ___data;
+	float ___skyDomeRadius;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___lineMaterial;
+	ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* ____pool;
+	bool ____isHighlighted;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ____highlightCoroutine;
+};
+struct DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* ___OnObjectDiscovered;
+	UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* ___OnDwellProgress;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnGazeLost;
+	CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* ____currentTarget;
+	DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* ____currentDwell;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ____discoveredObjects;
+};
+struct DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___dwellDuration;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDwellCompleted;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___OnDwellProgress;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDwellCancelled;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onDwellCompleted;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onDwellCancelled;
+	float ____timer;
+	bool ____isGazing;
+	bool ____hasCompleted;
+};
+struct SkyDomeController_t6B3DA6C92619C68C6C46E92625CB75C7E418C840  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___observerLatitudeDegrees;
+	float ___siderealRateDegPerSec;
+	bool ___enableRotation;
+	bool ___drawPoleAxis;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____poleAxis;
+};
+struct List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26_StaticFields
+{
+	ConstellationRendererU5BU5D_tD1468790F831520FC4D081A882211D1D0501F8A2* ___s_emptyArray;
+};
+struct List_1_tB146506342F2078C471B991848FF8C491A99E887_StaticFields
+{
+	LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C_StaticFields
+{
+	CelestialEntryU5BU5D_tE9170AB55F835E50D3D1E9EF7F33252B07FD8BD5* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D446_t70F1C620FF3054F0707765F67C06BE61BD7DCE14 ___2CA4808E623D27A23375F2D07E78ED09CF655272624D0D122A1802D510169627;
+	__StaticArrayInitTypeSizeU3D603_tD4590E8F4BA7E677B663F439B0ED9075D54037C2 ___55B1B053F89C4271F5DBD6B13092FE983E07F67EACC5D5AD9C97EC7FC0DC25DB;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields
+{
+	ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ___U3CInstanceU3Ek__BackingField;
+};
+struct DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields
+{
+	DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* ___U3CInstanceU3Ek__BackingField;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* m_Items[1];
+
+	inline ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34  : public RuntimeArray
+{
+	ALIGN_FIELD (8) CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* m_Items[1];
+
+	inline CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1 m_Items[1];
+
+	inline ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___starName), (void*)NULL);
+	}
+	inline ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___starName), (void*)NULL);
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_mE2D513B2A046E33896CB9C87F914C497FD81B72C_gshared (UnityEvent_2_tE96C8120FC5D3F6C5FF16D401433B6390C0C9789* __this, RuntimeObject* ___0_arg0, float ___1_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectPlacer_PlaceAll_m6360ECB5D1975F534F41E8661BD4AA57895F71D2 (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, const RuntimeMethod* method) ;
+inline Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A List_1_GetEnumerator_m30D15262C0326A008F0928BA55BBCA57C770A18C (List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A (*) (List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mB9FD00AED72B1847CFC4ED13DC57C639818EEF04 (Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* Enumerator_get_Current_mB1B9337B6B39F9E4B0CEBBDC1FC6EFC4166E85D0_inline (Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A* __this, const RuntimeMethod* method)
+{
+	return ((  CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* (*) (Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectPlacer_PlaceObject_m434357467DDCF7271DD1674F74B60334A58F2828 (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* ___0_entry, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m811EA77A0EDEDB7E43879F0E3013681D248B5A3E (Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CelestialObjectPlacer_RaDecToLocalPosition_mE6CC9610491329CF4754A2D9C58F652D0089CF93 (float ___0_raHours, float ___1_decDegrees, float ___2_radius, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared)(___0_original, ___1_parent, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_mBD38EDB5E915C5DA6C5A79D191DEE2C826A9FC2C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_worldUp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, float ___0_xAngle, float ___1_yAngle, float ___2_zAngle, const RuntimeMethod* method) ;
+inline Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* GameObject_GetComponentInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m00AEA903DE8DEC35B61502F098729637D21B6FDB (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
+inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* GameObject_GetComponentInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_mCEB1DBA2CA3D840367BAC4D8B11329FAFDABD971 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared)(__this, method);
+}
+inline SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* GameObject_AddComponent_TisSphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_m3D05F19667844A2949840753F7A3287115BE029E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SphereCollider_set_radius_m6119FE18C6739B077AB17334B1B53984911017FF (SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* __this, float ___0_value, const RuntimeMethod* method) ;
+inline void Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* GameObject_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_m51B1D8A7D888040F09B343739DF41565D4D53000 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* GameObject_AddComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mC8F0CB1C99404AACFA8B78863F5BDD71FE238F06 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CelestialObjectTag_set_Data_m907AB0B2253B02D6673B016A709F203371424C65_inline (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+inline bool Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void List_1__ctor_m0B6C52C094A8B05228CF9E3EF66032BFD5B741F8 (List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, bool ___1_worldPositionStays, const RuntimeMethod* method) ;
+inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* GameObject_AddComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mF8C0D953BCBFDD5A01A09ADB67EB04F0D677A056 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_shadowCastingMode_mB0CD3D153E43044388AEFF7AEFDA93E80EB36D11 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_receiveShadows_mABEB4C72E96E65117B7FFFD4180247565D0C1A09 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, bool ___0_value, const RuntimeMethod* method) ;
+inline void List_1_Add_mF11FCF0338C9FBEA8F63CAF004BF69A64472307E_inline (List_1_tB146506342F2078C471B991848FF8C491A99E887* __this, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB146506342F2078C471B991848FF8C491A99E887*, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0 (List_1_tB146506342F2078C471B991848FF8C491A99E887* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D (*) (List_1_tB146506342F2078C471B991848FF8C491A99E887*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F (Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_inline (Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D* __this, const RuntimeMethod* method)
+{
+	return ((  LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* (*) (Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5 (Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline void List_1_Clear_m9D6E573A50C1A68916C7EE672E675AFCCCB4AC3C_inline (List_1_tB146506342F2078C471B991848FF8C491A99E887* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB146506342F2078C471B991848FF8C491A99E887*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_startColor_mF72FAB20C09372FC8F2CBFCBD837FA02A87FBA91 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_endColor_m6AF26E0174434828BC6EF1BAC1FE188084819D9D (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, float ___0_value, const RuntimeMethod* method) ;
+inline void List_1__ctor_m249A1A2D2A159BEAF867227EB951415CE040600B (List_1_tB146506342F2078C471B991848FF8C491A99E887* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB146506342F2078C471B991848FF8C491A99E887*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConstellationManager_set_Instance_m1716E69C60566180D1CD58102BCF67FBC9E46156_inline (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_BuildConstellations_m57D8CAE3726B2400C7F00D913CC43E0AC2A340D9 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) ;
+inline ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* GameObject_AddComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_m535268F4E73DF981C5AD204562E28BA530413206 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+inline ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* GameObject_AddComponent_TisConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771_mE36F5C00AF293DBC3517488C72C04045E310B1EB (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+inline void List_1_Add_mE636492D145A8E88DD0695D9CF80325753160AFA_inline (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* __this, ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26*, ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void Dictionary_2_set_Item_m98671DD82BBC8907403E20257FD8886B32D15EAB (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_key, ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E*, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136*, ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54 List_1_GetEnumerator_mED0C7744DDA74F6C18CE8F77D5C06F06346978AF (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54 (*) (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mFC9496568A7845A0565D6C64AA744E0AA9118A23 (Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* Enumerator_get_Current_m1BB74D45CD8AD06DD7DF7CC16E94BF840550D08C_inline (Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54* __this, const RuntimeMethod* method)
+{
+	return ((  ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* (*) (Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_SetVisibility_mF6A1C1223102F879AF3DCC51B2D70988695DE7A2 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, bool ___0_visible, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m179086ADC0689CA87C3EB3F4FEF1DCF94B205DCD (Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_Highlight_mF5D2642CD60C2D1E5B85A8F2065E93872B021DEC (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, bool ___0_highlight, const RuntimeMethod* method) ;
+inline bool Dictionary_2_TryGetValue_mA29FFD384313CEBC7532B18CBA839CCC11DF6C00 (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_key, ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E*, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136*, ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void List_1__ctor_mB125E221D1514EF7FF840A09E4988EFF197B3F3C (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void Dictionary_2__ctor_m9F8FA443B1674C1F6AAFC9DA2F0518568B0E10E2 (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+inline ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* Component_GetComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_mDC829E38BCDD6F138A0655B5B7DE7AD8237BE431 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_BuildLines_m53DFD0D969C1238D3CA0D5B60154D62BC4FAE4ED (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_Clear_mFF597C65B41B4E80CBFDE312B862C30CC5D05282 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ConstellationRenderer_RaDecToLocal_m40CA654DB5E8AE0043659A6102AE89F1C3C975D9 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, float ___0_raHours, float ___1_decDeg, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ConstellationLinePool_Get_mD0394999B9AD5AB861CD4C48FCEFFEB17651E19B (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_mat, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_m84C4AD9ADC6AC62B33DB4D7E4C9F066DFF8440C1 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, int32_t ___0_index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_useWorldSpace_m0204DB2541CC37DC4DC15DA15FD5A66EDC507CE8 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_SetAllActive_m84C3B2A41856993C22195920F82586D5825C9B87 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, bool ___0_active, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConstellationRenderer_AnimateHighlight_m4AE5220E5EA2855973E9131F94C92C4706A24B06 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, bool ___0_toHighlight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateHighlightU3Ed__13__ctor_mF194403AF604ABE24D8EB967E84028414F85C17D (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_SetAllColor_m5758DC197202088BCF08FE67D23704E0A2D42BEB (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_SetAllWidth_m178D1B7C1189175EB79C1EAB3C6A5FFF28A889A8 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, float ___0_w, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DiscoveryManager_set_Instance_m5679B39F388186C938C1D549F04FC186B81E3085_inline (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_NotifyGaze_m1BB038945F67A7D8011744CF3FA1DEC4FDF1DBC2 (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, bool ___0_gazing, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_remove_OnDwellCompleted_mA16782EDC38B3FDD220BD18C2675CC4802F7247B (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
+inline void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_remove_OnDwellProgress_mD0B7A23576400B3332603E6A1DC0579EF3B50ACE (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+inline DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* Component_GetComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_mECCCCB69FC187FCAE2BC9C0C65DD9038B3C639A9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* GameObject_AddComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_m89A82EC54DCED2A7B8FBB9D57EC096AD05AA9292 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_add_OnDwellCompleted_m011A51FD50AA9350FC4C0C445279F0B0126CB43C (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_add_OnDwellProgress_m6292CA06DAC557C0EC632E0A5334FE117A8BEC6B (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* CelestialObjectTag_get_Data_m9245437F43F9DA82091290BF5E6DB5525081B0C4_inline (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, const RuntimeMethod* method) ;
+inline void UnityEvent_2_Invoke_m9AC44D37A19445F4E950CF13676BB0BC6191379C (UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_arg0, float ___1_arg1, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308*, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136*, float, const RuntimeMethod*))UnityEvent_2_Invoke_mE2D513B2A046E33896CB9C87F914C497FD81B72C_gshared)(__this, ___0_arg0, ___1_arg1, method);
+}
+inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_HighlightForObject_mB24F231EA3A65572D8C0E2E2244BC8C1B7B597CD (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_discoveredObject, const RuntimeMethod* method) ;
+inline void UnityEvent_1_Invoke_m4B4A5AA23B01B2DF4D5B4B9AC7752B810C0512D2 (UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_arg0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0*, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+inline bool HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared)(__this, ___0_item, method);
+}
+inline int32_t HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_inline (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline)(__this, method);
+}
+inline void HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
+{
+	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+inline void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___0_obj, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, float, const RuntimeMethod*))Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline)(__this, ___0_obj, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DwellDetector_get_Progress_m19599621B1418DBA3B787A9E6BB9EEC66805C7FC (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SkyDomeController_ComputePoleAxis_mF65F0646EF73A9D9A480CEA1E9F0F70FFB1619A7 (float ___0_latitudeDeg, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_axis, float ___1_angle, int32_t ___2_relativeTo, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline (float ___0_angle, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_AngleAxis_m1A896524F98EF69748915ED902CC9DCEF16245D4 (float ___0_angle, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_axis, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84782
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mCD82FD80C0DC44C7EA340481A08E95EA6E6F45FD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E____2CA4808E623D27A23375F2D07E78ED09CF655272624D0D122A1802D510169627_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E____55B1B053F89C4271F5DBD6B13092FE983E07F67EACC5D5AD9C97EC7FC0DC25DB_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)603));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E____55B1B053F89C4271F5DBD6B13092FE983E07F67EACC5D5AD9C97EC7FC0DC25DB_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)446));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3E566760B8BB9E7D21204DF8F57927533C3D792E____2CA4808E623D27A23375F2D07E78ED09CF655272624D0D122A1802D510169627_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)10);
+		(&V_0)->___TotalTypes = ((int32_t)12);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 84783
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC3156D52E17399BE4298234B404BD9F6CA656332 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t33EB4C8DB81993295CBFAD27CC57DA02B6B1F614* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshal_pinvoke(const MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21& unmarshaled, MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshal_pinvoke_back(const MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_pinvoke& marshaled, MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshal_pinvoke_cleanup(MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshal_com(const MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21& unmarshaled, MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshal_com_back(const MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_com& marshaled, MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshal_com_cleanup(MonoScriptData_t65DC81712E268C49206C77E27B347F9747195A21_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84784
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectData__ctor_m5467819306551AEC511850AEA9D4F2EF6442E8EB (CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D54E959817188DBAD9E65FA3DB55F06B70F5E3C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectData.cs:14>
+		__this->___objectName = _stringLiteral5D54E959817188DBAD9E65FA3DB55F06B70F5E3C;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectName), (void*)_stringLiteral5D54E959817188DBAD9E65FA3DB55F06B70F5E3C);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectData.cs:25>
+		__this->___description = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___description), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectData.cs:26>
+		__this->___distanceFromEarth = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___distanceFromEarth), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectData.cs:27>
+		__this->___objectFact = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectFact), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectData.cs:32>
+		__this->___visualScale = (1.0f);
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84785
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectPlacer_Start_m8D240FAE81F569D43AB98002ACD9C9F9210005CB (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:54>
+		CelestialObjectPlacer_PlaceAll_m6360ECB5D1975F534F41E8661BD4AA57895F71D2(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 84786
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectPlacer_PlaceAll_m6360ECB5D1975F534F41E8661BD4AA57895F71D2 (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB9FD00AED72B1847CFC4ED13DC57C639818EEF04_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m811EA77A0EDEDB7E43879F0E3013681D248B5A3E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mB1B9337B6B39F9E4B0CEBBDC1FC6EFC4166E85D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m30D15262C0326A008F0928BA55BBCA57C770A18C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* V_1 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:59>
+		List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C* L_0 = __this->___celestialObjects;
+		NullCheck(L_0);
+		Enumerator_tD3231961339DA0989AEFB59077AB3A489962AE4A L_1;
+		L_1 = List_1_GetEnumerator_m30D15262C0326A008F0928BA55BBCA57C770A18C(L_0, List_1_GetEnumerator_m30D15262C0326A008F0928BA55BBCA57C770A18C_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0036:
+			{
+				Enumerator_Dispose_mB9FD00AED72B1847CFC4ED13DC57C639818EEF04((&V_0), Enumerator_Dispose_mB9FD00AED72B1847CFC4ED13DC57C639818EEF04_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_002b_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:59>
+				CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* L_2;
+				L_2 = Enumerator_get_Current_mB1B9337B6B39F9E4B0CEBBDC1FC6EFC4166E85D0_inline((&V_0), Enumerator_get_Current_mB1B9337B6B39F9E4B0CEBBDC1FC6EFC4166E85D0_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:61>
+				CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* L_3 = V_1;
+				NullCheck(L_3);
+				CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_4 = L_3->___data;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_5;
+				L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (L_5)
+				{
+					goto IL_002b_1;
+				}
+			}
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:62>
+				CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* L_6 = V_1;
+				CelestialObjectPlacer_PlaceObject_m434357467DDCF7271DD1674F74B60334A58F2828(__this, L_6, NULL);
+			}
+
+IL_002b_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:59>
+				bool L_7;
+				L_7 = Enumerator_MoveNext_m811EA77A0EDEDB7E43879F0E3013681D248B5A3E((&V_0), Enumerator_MoveNext_m811EA77A0EDEDB7E43879F0E3013681D248B5A3E_RuntimeMethod_var);
+				if (L_7)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0044;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0044:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 84787
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectPlacer_PlaceObject_m434357467DDCF7271DD1674F74B60334A58F2828 (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* ___0_entry, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mC8F0CB1C99404AACFA8B78863F5BDD71FE238F06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisSphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_m3D05F19667844A2949840753F7A3287115BE029E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_mCEB1DBA2CA3D840367BAC4D8B11329FAFDABD971_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m00AEA903DE8DEC35B61502F098729637D21B6FDB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_m51B1D8A7D888040F09B343739DF41565D4D53000_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EF2881902FFC8C1FF38921948340F0B6E305D2E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDB0A71B90BCE2832ADA1918D925BB80206CA82AB);
+		s_Il2CppMethodInitialized = true;
+	}
+	CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* V_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
+	CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* V_4 = NULL;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_5 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B3_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:68>
+		CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* L_0 = ___0_entry;
+		NullCheck(L_0);
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_1 = L_0->___data;
+		V_0 = L_1;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:69>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_2 = V_0;
+		NullCheck(L_2);
+		float L_3 = L_2->___rightAscensionHours;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_4 = V_0;
+		NullCheck(L_4);
+		float L_5 = L_4->___declinationDegrees;
+		float L_6 = __this->___skyDomeRadius;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = CelestialObjectPlacer_RaDecToLocalPosition_mE6CC9610491329CF4754A2D9C58F652D0089CF93(L_3, L_5, L_6, NULL);
+		V_1 = L_7;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:71>
+		CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* L_8 = ___0_entry;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___prefabOverride;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_10)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___defaultObjectPrefab;
+		G_B3_0 = L_11;
+		goto IL_003b;
+	}
+
+IL_0035:
+	{
+		CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* L_12 = ___0_entry;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___prefabOverride;
+		G_B3_0 = L_13;
+	}
+
+IL_003b:
+	{
+		V_2 = G_B3_0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:74>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_16 = V_0;
+		NullCheck(L_16);
+		String_t* L_17 = L_16->___objectName;
+		String_t* L_18;
+		L_18 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralDB0A71B90BCE2832ADA1918D925BB80206CA82AB, L_17, _stringLiteral2EF2881902FFC8C1FF38921948340F0B6E305D2E, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_18, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:75>
+		return;
+	}
+
+IL_0060:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:79>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
+		L_21 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_19, L_20, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		V_3 = L_21;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:80>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_3;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_23 = V_0;
+		NullCheck(L_23);
+		String_t* L_24 = L_23->___objectName;
+		NullCheck(L_22);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_22, L_24, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:81>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_3;
+		NullCheck(L_25);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_1;
+		NullCheck(L_26);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_26, L_27, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:82>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_3;
+		NullCheck(L_28);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
+		L_29 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_28, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_31 = V_0;
+		NullCheck(L_31);
+		float L_32 = L_31->___visualScale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_30, L_32, NULL);
+		NullCheck(L_29);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_29, L_33, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:85>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_3;
+		NullCheck(L_34);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
+		L_35 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_34, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->___skyDome;
+		NullCheck(L_36);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_36, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		NullCheck(L_35);
+		Transform_LookAt_mBD38EDB5E915C5DA6C5A79D191DEE2C826A9FC2C(L_35, L_37, L_38, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:86>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = V_3;
+		NullCheck(L_39);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
+		L_40 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_39, NULL);
+		NullCheck(L_40);
+		Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2(L_40, (0.0f), (180.0f), (0.0f), NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:89>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_41 = V_0;
+		NullCheck(L_41);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = L_41->___objectMaterial;
+		bool L_43;
+		L_43 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_42, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_43)
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:91>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = V_3;
+		NullCheck(L_44);
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_45;
+		L_45 = GameObject_GetComponentInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m00AEA903DE8DEC35B61502F098729637D21B6FDB(L_44, GameObject_GetComponentInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m00AEA903DE8DEC35B61502F098729637D21B6FDB_RuntimeMethod_var);
+		V_5 = L_45;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:92>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_46 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_47;
+		L_47 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_46, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_47)
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:92>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_48 = V_5;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_49 = V_0;
+		NullCheck(L_49);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_50 = L_49->___objectMaterial;
+		NullCheck(L_48);
+		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_48, L_50, NULL);
+	}
+
+IL_0102:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:96>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = V_3;
+		NullCheck(L_51);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_52;
+		L_52 = GameObject_GetComponentInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_mCEB1DBA2CA3D840367BAC4D8B11329FAFDABD971(L_51, GameObject_GetComponentInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_mCEB1DBA2CA3D840367BAC4D8B11329FAFDABD971_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_53;
+		L_53 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_52, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_53)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:98>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = V_3;
+		NullCheck(L_54);
+		SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* L_55;
+		L_55 = GameObject_AddComponent_TisSphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_m3D05F19667844A2949840753F7A3287115BE029E(L_54, GameObject_AddComponent_TisSphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_m3D05F19667844A2949840753F7A3287115BE029E_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:99>
+		NullCheck(L_55);
+		SphereCollider_set_radius_m6119FE18C6739B077AB17334B1B53984911017FF(L_55, (0.5f), NULL);
+	}
+
+IL_0120:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:103>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_56 = __this->____instances;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_57 = V_0;
+		NullCheck(L_57);
+		String_t* L_58 = L_57->___objectName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = V_3;
+		NullCheck(L_56);
+		Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562(L_56, L_58, L_59, Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:104>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = V_3;
+		NullCheck(L_60);
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_61;
+		L_61 = GameObject_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_m51B1D8A7D888040F09B343739DF41565D4D53000(L_60, GameObject_GetComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_m51B1D8A7D888040F09B343739DF41565D4D53000_RuntimeMethod_var);
+		V_4 = L_61;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:105>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_62 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_63;
+		L_63 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_62, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_63)
+		{
+			goto IL_014c;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:105>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_64 = V_3;
+		NullCheck(L_64);
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_65;
+		L_65 = GameObject_AddComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mC8F0CB1C99404AACFA8B78863F5BDD71FE238F06(L_64, GameObject_AddComponent_TisCelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41_mC8F0CB1C99404AACFA8B78863F5BDD71FE238F06_RuntimeMethod_var);
+		V_4 = L_65;
+	}
+
+IL_014c:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:106>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_66 = V_4;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_67 = V_0;
+		NullCheck(L_66);
+		CelestialObjectTag_set_Data_m907AB0B2253B02D6673B016A709F203371424C65_inline(L_66, L_67, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:107>
+		return;
+	}
+}
+// Method Definition Index: 84788
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CelestialObjectPlacer_RaDecToLocalPosition_mE6CC9610491329CF4754A2D9C58F652D0089CF93 (float ___0_raHours, float ___1_decDegrees, float ___2_radius, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:115>
+		float L_0 = ___0_raHours;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, (15.0f))), (0.0174532924f)));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:116>
+		float L_1 = ___1_decDegrees;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:119>
+		float L_2 = ((float)il2cpp_codegen_multiply(L_1, (0.0174532924f)));
+		float L_3;
+		L_3 = cosf(L_2);
+		float L_4 = V_0;
+		float L_5;
+		L_5 = sinf(L_4);
+		V_1 = ((float)il2cpp_codegen_multiply(L_3, L_5));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:120>
+		float L_6 = L_2;
+		float L_7;
+		L_7 = sinf(L_6);
+		V_2 = L_7;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:121>
+		float L_8;
+		L_8 = cosf(L_6);
+		float L_9 = V_0;
+		float L_10;
+		L_10 = cosf(L_9);
+		V_3 = ((float)il2cpp_codegen_multiply(L_8, L_10));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:123>
+		float L_11 = V_1;
+		float L_12 = V_2;
+		float L_13 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), L_11, L_12, L_13, NULL);
+		float L_15 = ___2_radius;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_15, NULL);
+		return L_16;
+	}
+}
+// Method Definition Index: 84789
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CelestialObjectPlacer_GetInstance_mE1B296CDC3DF356BBC69835F31A46E2B76615F4E (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, String_t* ___0_objectName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:132>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_0 = __this->____instances;
+		String_t* L_1 = ___0_objectName;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:133>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_0;
+		return L_3;
+	}
+}
+// Method Definition Index: 84790
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectPlacer__ctor_m5F2CDA95FEC7B577881B5C47F9D07D07693AD7E0 (CelestialObjectPlacer_tEBCBF3098FCEA05EFE6C2F5EBF43019713469A86* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m0B6C52C094A8B05228CF9E3EF66032BFD5B741F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:40>
+		__this->___skyDomeRadius = (500.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:47>
+		List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C* L_0 = (List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C*)il2cpp_codegen_object_new(List_1_t8CF4B0E17AE10DA9D0ABAE7A8958BF795D08652C_il2cpp_TypeInfo_var);
+		List_1__ctor_m0B6C52C094A8B05228CF9E3EF66032BFD5B741F8(L_0, List_1__ctor_m0B6C52C094A8B05228CF9E3EF66032BFD5B741F8_RuntimeMethod_var);
+		__this->___celestialObjects = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___celestialObjects), (void*)L_0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectPlacer.cs:50>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_1 = (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*)il2cpp_codegen_object_new(Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B(L_1, Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		__this->____instances = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____instances), (void*)L_1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84791
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialEntry__ctor_m0AEF3FEF2730C797CA37ECC24C0D1BDE34514E75 (CelestialEntry_t80583A13F3686CE47ABFC09F506BCCD12D2AA547* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84792
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* CelestialObjectTag_get_Data_m9245437F43F9DA82091290BF5E6DB5525081B0C4 (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectTag.cs:12>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_0 = __this->___U3CDataU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84793
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectTag_set_Data_m907AB0B2253B02D6673B016A709F203371424C65 (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectTag.cs:12>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_0 = ___0_value;
+		__this->___U3CDataU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDataU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 84794
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CelestialObjectTag__ctor_mA54A92E04095AE6BB190055AF37CF97F7AB0D777 (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84795
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationData__ctor_m406C8D52CE2804AA7227F5F51187D0E280DBD688 (ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationData.cs:31>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.400000006f), (0.600000024f), (1.0f), (0.400000006f), NULL);
+		__this->___lineColor = L_0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationData.cs:32>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_1), (0.600000024f), (0.850000024f), (1.0f), (1.0f), NULL);
+		__this->___highlightColor = L_1;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationData.cs:33>
+		__this->___lineWidth = (0.300000012f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationData.cs:34>
+		__this->___highlightWidth = (0.5f);
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshal_pinvoke(const ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1& unmarshaled, ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_pinvoke& marshaled)
+{
+	marshaled.___starName = il2cpp_codegen_marshal_string(unmarshaled.___starName);
+	marshaled.___raHours = unmarshaled.___raHours;
+	marshaled.___decDegrees = unmarshaled.___decDegrees;
+}
+IL2CPP_EXTERN_C void ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshal_pinvoke_back(const ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_pinvoke& marshaled, ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1& unmarshaled)
+{
+	unmarshaled.___starName = il2cpp_codegen_marshal_string_result(marshaled.___starName);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___starName), (void*)il2cpp_codegen_marshal_string_result(marshaled.___starName));
+	float unmarshaledraHours_temp_1 = 0.0f;
+	unmarshaledraHours_temp_1 = marshaled.___raHours;
+	unmarshaled.___raHours = unmarshaledraHours_temp_1;
+	float unmarshaleddecDegrees_temp_2 = 0.0f;
+	unmarshaleddecDegrees_temp_2 = marshaled.___decDegrees;
+	unmarshaled.___decDegrees = unmarshaleddecDegrees_temp_2;
+}
+IL2CPP_EXTERN_C void ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshal_pinvoke_cleanup(ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___starName);
+	marshaled.___starName = NULL;
+}
+IL2CPP_EXTERN_C void ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshal_com(const ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1& unmarshaled, ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_com& marshaled)
+{
+	marshaled.___starName = il2cpp_codegen_marshal_bstring(unmarshaled.___starName);
+	marshaled.___raHours = unmarshaled.___raHours;
+	marshaled.___decDegrees = unmarshaled.___decDegrees;
+}
+IL2CPP_EXTERN_C void ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshal_com_back(const ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_com& marshaled, ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1& unmarshaled)
+{
+	unmarshaled.___starName = il2cpp_codegen_marshal_bstring_result(marshaled.___starName);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___starName), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___starName));
+	float unmarshaledraHours_temp_1 = 0.0f;
+	unmarshaledraHours_temp_1 = marshaled.___raHours;
+	unmarshaled.___raHours = unmarshaledraHours_temp_1;
+	float unmarshaleddecDegrees_temp_2 = 0.0f;
+	unmarshaleddecDegrees_temp_2 = marshaled.___decDegrees;
+	unmarshaled.___decDegrees = unmarshaleddecDegrees_temp_2;
+}
+IL2CPP_EXTERN_C void ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshal_com_cleanup(ConstellationStar_t9A12DC479FDDD786C80FB7989645798BD22FF5C1_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___starName);
+	marshaled.___starName = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84796
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ConstellationLinePool_Get_mD0394999B9AD5AB861CD4C48FCEFFEB17651E19B (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_mat, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mF8C0D953BCBFDD5A01A09ADB67EB04F0D677A056_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF11FCF0338C9FBEA8F63CAF004BF69A64472307E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB94F79AF99EB1F84056002952B39BFDEA97D447);
+		s_Il2CppMethodInitialized = true;
+	}
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* V_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:16>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_0, _stringLiteralAB94F79AF99EB1F84056002952B39BFDEA97D447, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:17>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = L_0;
+		NullCheck(L_1);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_2, L_3, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:18>
+		NullCheck(L_1);
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_4;
+		L_4 = GameObject_AddComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mF8C0D953BCBFDD5A01A09ADB67EB04F0D677A056(L_1, GameObject_AddComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mF8C0D953BCBFDD5A01A09ADB67EB04F0D677A056_RuntimeMethod_var);
+		V_0 = L_4;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:19>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_5 = V_0;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_mat;
+		NullCheck(L_5);
+		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_5, L_6, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:20>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_7 = V_0;
+		NullCheck(L_7);
+		Renderer_set_shadowCastingMode_mB0CD3D153E43044388AEFF7AEFDA93E80EB36D11(L_7, 0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:21>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_8 = V_0;
+		NullCheck(L_8);
+		Renderer_set_receiveShadows_mABEB4C72E96E65117B7FFFD4180247565D0C1A09(L_8, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:22>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_9 = __this->____lines;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_10 = V_0;
+		NullCheck(L_9);
+		List_1_Add_mF11FCF0338C9FBEA8F63CAF004BF69A64472307E_inline(L_9, L_10, List_1_Add_mF11FCF0338C9FBEA8F63CAF004BF69A64472307E_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:23>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_11 = V_0;
+		return L_11;
+	}
+}
+// Method Definition Index: 84797
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_Clear_mFF597C65B41B4E80CBFDE312B862C30CC5D05282 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m9D6E573A50C1A68916C7EE672E675AFCCCB4AC3C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* V_1 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:28>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_0 = __this->____lines;
+		NullCheck(L_0);
+		Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D L_1;
+		L_1 = List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0(L_0, List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0035:
+			{
+				Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F((&V_0), Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_002a_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:28>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2;
+				L_2 = Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_inline((&V_0), Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:29>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = V_1;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_4;
+				L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_4)
+				{
+					goto IL_002a_1;
+				}
+			}
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:29>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_5 = V_1;
+				NullCheck(L_5);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+				L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_6, NULL);
+			}
+
+IL_002a_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:28>
+				bool L_7;
+				L_7 = Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5((&V_0), Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+				if (L_7)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0043;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0043:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:30>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_8 = __this->____lines;
+		NullCheck(L_8);
+		List_1_Clear_m9D6E573A50C1A68916C7EE672E675AFCCCB4AC3C_inline(L_8, List_1_Clear_m9D6E573A50C1A68916C7EE672E675AFCCCB4AC3C_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 84798
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_SetAllActive_m84C3B2A41856993C22195920F82586D5825C9B87 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, bool ___0_active, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* V_1 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:35>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_0 = __this->____lines;
+		NullCheck(L_0);
+		Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D L_1;
+		L_1 = List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0(L_0, List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0036:
+			{
+				Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F((&V_0), Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_002b_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:35>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2;
+				L_2 = Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_inline((&V_0), Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:36>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = V_1;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_4;
+				L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_4)
+				{
+					goto IL_002b_1;
+				}
+			}
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:36>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_5 = V_1;
+				NullCheck(L_5);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+				L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+				bool L_7 = ___0_active;
+				NullCheck(L_6);
+				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, L_7, NULL);
+			}
+
+IL_002b_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:35>
+				bool L_8;
+				L_8 = Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5((&V_0), Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+				if (L_8)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0044;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0044:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 84799
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_SetAllColor_m5758DC197202088BCF08FE67D23704E0A2D42BEB (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* V_1 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:41>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_0 = __this->____lines;
+		NullCheck(L_0);
+		Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D L_1;
+		L_1 = List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0(L_0, List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0038:
+			{
+				Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F((&V_0), Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_002d_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:41>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2;
+				L_2 = Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_inline((&V_0), Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:43>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = V_1;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_4;
+				L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (L_4)
+				{
+					goto IL_002d_1;
+				}
+			}
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:44>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_5 = V_1;
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_c;
+				NullCheck(L_5);
+				LineRenderer_set_startColor_mF72FAB20C09372FC8F2CBFCBD837FA02A87FBA91(L_5, L_6, NULL);
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:45>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_7 = V_1;
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ___0_c;
+				NullCheck(L_7);
+				LineRenderer_set_endColor_m6AF26E0174434828BC6EF1BAC1FE188084819D9D(L_7, L_8, NULL);
+			}
+
+IL_002d_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:41>
+				bool L_9;
+				L_9 = Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5((&V_0), Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+				if (L_9)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0046;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0046:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 84800
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool_SetAllWidth_m178D1B7C1189175EB79C1EAB3C6A5FFF28A889A8 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, float ___0_w, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* V_1 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:51>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_0 = __this->____lines;
+		NullCheck(L_0);
+		Enumerator_t0967B7F11C2FFDD325AF4EBCA84BEAAD0E32C40D L_1;
+		L_1 = List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0(L_0, List_1_GetEnumerator_mA7959013099C600F23CD99EC7FBF0D2323D5B7C0_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0038:
+			{
+				Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F((&V_0), Enumerator_Dispose_m1A662B7E3938963CBC57B38009AECD82E3A2F90F_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_002d_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:51>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2;
+				L_2 = Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_inline((&V_0), Enumerator_get_Current_m357FC9FB1C0659DE3A404A9253FB4344E19795A6_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:53>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = V_1;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_4;
+				L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (L_4)
+				{
+					goto IL_002d_1;
+				}
+			}
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:54>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_5 = V_1;
+				float L_6 = ___0_w;
+				NullCheck(L_5);
+				LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A(L_5, L_6, NULL);
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:55>
+				LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_7 = V_1;
+				float L_8 = ___0_w;
+				NullCheck(L_7);
+				LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D(L_7, L_8, NULL);
+			}
+
+IL_002d_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:51>
+				bool L_9;
+				L_9 = Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5((&V_0), Enumerator_MoveNext_mA0B3F6FC9439803582ED1E176D5877674DC74CD5_RuntimeMethod_var);
+				if (L_9)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0046;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0046:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 84801
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationLinePool__ctor_m1B16A8C4CB3A23D34A9AB9173BAF1C9126EDA300 (ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m249A1A2D2A159BEAF867227EB951415CE040600B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB146506342F2078C471B991848FF8C491A99E887_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationLinePool.cs:12>
+		List_1_tB146506342F2078C471B991848FF8C491A99E887* L_0 = (List_1_tB146506342F2078C471B991848FF8C491A99E887*)il2cpp_codegen_object_new(List_1_tB146506342F2078C471B991848FF8C491A99E887_il2cpp_TypeInfo_var);
+		List_1__ctor_m249A1A2D2A159BEAF867227EB951415CE040600B(L_0, List_1__ctor_m249A1A2D2A159BEAF867227EB951415CE040600B_RuntimeMethod_var);
+		__this->____lines = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____lines), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84802
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:14>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_0 = ((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84803
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_set_Instance_m1716E69C60566180D1CD58102BCF67FBC9E46156 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:14>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_0 = ___0_value;
+		((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 84804
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_Awake_mDC4EB35FAF2B3AC77023B8AF7FC17B75C807E1B6 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:28>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_0;
+		L_0 = ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_2;
+		L_2 = ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, __this, NULL);
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:28>
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:29>
+		ConstellationManager_set_Instance_m1716E69C60566180D1CD58102BCF67FBC9E46156_inline(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 84805
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_Start_m223D3480C67900009BAB00F78FB395F6A7DC0F50 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:34>
+		ConstellationManager_BuildConstellations_m57D8CAE3726B2400C7F00D913CC43E0AC2A340D9(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 84806
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_BuildConstellations_m57D8CAE3726B2400C7F00D913CC43E0AC2A340D9 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m98671DD82BBC8907403E20257FD8886B32D15EAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_m535268F4E73DF981C5AD204562E28BA530413206_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771_mE36F5C00AF293DBC3517488C72C04045E310B1EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mE636492D145A8E88DD0695D9CF80325753160AFA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* V_0 = NULL;
+	int32_t V_1 = 0;
+	ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* V_2 = NULL;
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* V_3 = NULL;
+	CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34* V_4 = NULL;
+	int32_t V_5 = 0;
+	CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* V_6 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:39>
+		ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* L_0 = __this->___constellations;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:39>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:41>
+		ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* L_1 = __this->___constellations;
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_00c2;
+	}
+
+IL_0017:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:41>
+		ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:43>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_6 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_7)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:45>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_8 = V_2;
+		NullCheck(L_8);
+		String_t* L_9 = L_8->___constellationName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_10, L_9, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:46>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10;
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___skyDome;
+		NullCheck(L_12);
+		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_12, L_13, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:48>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = L_11;
+		NullCheck(L_14);
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_15;
+		L_15 = GameObject_AddComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_m535268F4E73DF981C5AD204562E28BA530413206(L_14, GameObject_AddComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_m535268F4E73DF981C5AD204562E28BA530413206_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:49>
+		NullCheck(L_14);
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_16;
+		L_16 = GameObject_AddComponent_TisConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771_mE36F5C00AF293DBC3517488C72C04045E310B1EB(L_14, GameObject_AddComponent_TisConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771_mE36F5C00AF293DBC3517488C72C04045E310B1EB_RuntimeMethod_var);
+		V_3 = L_16;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:50>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_17 = V_3;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_18 = V_2;
+		NullCheck(L_17);
+		L_17->___data = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&L_17->___data), (void*)L_18);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:51>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_19 = V_3;
+		float L_20 = __this->___skyDomeRadius;
+		NullCheck(L_19);
+		L_19->___skyDomeRadius = L_20;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:52>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_21 = V_3;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_22 = __this->___constellationLineMaterial;
+		NullCheck(L_21);
+		L_21->___lineMaterial = L_22;
+		Il2CppCodeGenWriteBarrier((void**)(&L_21->___lineMaterial), (void*)L_22);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:54>
+		List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* L_23 = __this->____renderers;
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_24 = V_3;
+		NullCheck(L_23);
+		List_1_Add_mE636492D145A8E88DD0695D9CF80325753160AFA_inline(L_23, L_24, List_1_Add_mE636492D145A8E88DD0695D9CF80325753160AFA_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:57>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_25 = V_2;
+		NullCheck(L_25);
+		CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34* L_26 = L_25->___linkedObjects;
+		if (!L_26)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:58>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_27 = V_2;
+		NullCheck(L_27);
+		CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34* L_28 = L_27->___linkedObjects;
+		V_4 = L_28;
+		V_5 = 0;
+		goto IL_00b6;
+	}
+
+IL_0091:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:58>
+		CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34* L_29 = V_4;
+		int32_t L_30 = V_5;
+		NullCheck(L_29);
+		int32_t L_31 = L_30;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_32 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		V_6 = L_32;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:59>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_33 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_34;
+		L_34 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_33, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_34)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:59>
+		Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* L_35 = __this->____objectMap;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_36 = V_6;
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_37 = V_3;
+		NullCheck(L_35);
+		Dictionary_2_set_Item_m98671DD82BBC8907403E20257FD8886B32D15EAB(L_35, L_36, L_37, Dictionary_2_set_Item_m98671DD82BBC8907403E20257FD8886B32D15EAB_RuntimeMethod_var);
+	}
+
+IL_00b0:
+	{
+		int32_t L_38 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_38, 1));
+	}
+
+IL_00b6:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:58>
+		int32_t L_39 = V_5;
+		CelestialObjectDataU5BU5D_tBC304259447079236E7D8328AF03509021D0CB34* L_40 = V_4;
+		NullCheck(L_40);
+		if ((((int32_t)L_39) < ((int32_t)((int32_t)(((RuntimeArray*)L_40)->max_length)))))
+		{
+			goto IL_0091;
+		}
+	}
+
+IL_00be:
+	{
+		int32_t L_41 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_41, 1));
+	}
+
+IL_00c2:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:41>
+		int32_t L_42 = V_1;
+		ConstellationDataU5BU5D_t5CA0512CD5BFF7F9C8777ED0ABCD5B868162C51E* L_43 = V_0;
+		NullCheck(L_43);
+		if ((((int32_t)L_42) < ((int32_t)((int32_t)(((RuntimeArray*)L_43)->max_length)))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 84807
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_ToggleLines_m84E539753E2B187C435F9BBEDB669DAD6DC57E63 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mFC9496568A7845A0565D6C64AA744E0AA9118A23_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m179086ADC0689CA87C3EB3F4FEF1DCF94B205DCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m1BB74D45CD8AD06DD7DF7CC16E94BF840550D08C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mED0C7744DDA74F6C18CE8F77D5C06F06346978AF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:68>
+		bool L_0 = __this->____linesVisible;
+		__this->____linesVisible = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:69>
+		List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* L_1 = __this->____renderers;
+		NullCheck(L_1);
+		Enumerator_tEF56B68BD124A5673C57E14F4239EF71AFCF7C54 L_2;
+		L_2 = List_1_GetEnumerator_mED0C7744DDA74F6C18CE8F77D5C06F06346978AF(L_1, List_1_GetEnumerator_mED0C7744DDA74F6C18CE8F77D5C06F06346978AF_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_003a:
+			{
+				Enumerator_Dispose_mFC9496568A7845A0565D6C64AA744E0AA9118A23((&V_0), Enumerator_Dispose_mFC9496568A7845A0565D6C64AA744E0AA9118A23_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_002f_1;
+			}
+
+IL_001d_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:69>
+				ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_3;
+				L_3 = Enumerator_get_Current_m1BB74D45CD8AD06DD7DF7CC16E94BF840550D08C_inline((&V_0), Enumerator_get_Current_m1BB74D45CD8AD06DD7DF7CC16E94BF840550D08C_RuntimeMethod_var);
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:70>
+				bool L_4 = __this->____linesVisible;
+				NullCheck(L_3);
+				ConstellationRenderer_SetVisibility_mF6A1C1223102F879AF3DCC51B2D70988695DE7A2(L_3, L_4, NULL);
+			}
+
+IL_002f_1:
+			{
+				//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:69>
+				bool L_5;
+				L_5 = Enumerator_MoveNext_m179086ADC0689CA87C3EB3F4FEF1DCF94B205DCD((&V_0), Enumerator_MoveNext_m179086ADC0689CA87C3EB3F4FEF1DCF94B205DCD_RuntimeMethod_var);
+				if (L_5)
+				{
+					goto IL_001d_1;
+				}
+			}
+			{
+				goto IL_0048;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0048:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 84808
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConstellationManager_get_AreLinesVisible_m7A9FF4CDA5534B7B0A953B7332D856C19AB253CA (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:73>
+		bool L_0 = __this->____linesVisible;
+		return L_0;
+	}
+}
+// Method Definition Index: 84809
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_HighlightForObject_mB24F231EA3A65572D8C0E2E2244BC8C1B7B597CD (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_discoveredObject, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mA29FFD384313CEBC7532B18CBA839CCC11DF6C00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* V_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:81>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_0 = __this->____currentHighlight;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:82>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_2 = __this->____currentHighlight;
+		NullCheck(L_2);
+		ConstellationRenderer_Highlight_mF5D2642CD60C2D1E5B85A8F2065E93872B021DEC(L_2, (bool)0, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:84>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_3 = ___0_discoveredObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:84>
+		return;
+	}
+
+IL_0024:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:86>
+		Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* L_5 = __this->____objectMap;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_6 = ___0_discoveredObject;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = Dictionary_2_TryGetValue_mA29FFD384313CEBC7532B18CBA839CCC11DF6C00(L_5, L_6, (&V_0), Dictionary_2_TryGetValue_mA29FFD384313CEBC7532B18CBA839CCC11DF6C00_RuntimeMethod_var);
+		if (!L_7)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:88>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_8 = V_0;
+		__this->____currentHighlight = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentHighlight), (void*)L_8);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:89>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_9 = V_0;
+		NullCheck(L_9);
+		ConstellationRenderer_Highlight_mF5D2642CD60C2D1E5B85A8F2065E93872B021DEC(L_9, (bool)1, NULL);
+	}
+
+IL_0042:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:91>
+		return;
+	}
+}
+// Method Definition Index: 84810
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager_ClearHighlight_mAC08B8EF046A88A32BCFF05ECEA2EA51C7C9C8B9 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:95>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_0 = __this->____currentHighlight;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:97>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_2 = __this->____currentHighlight;
+		NullCheck(L_2);
+		ConstellationRenderer_Highlight_mF5D2642CD60C2D1E5B85A8F2065E93872B021DEC(L_2, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:98>
+		__this->____currentHighlight = (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentHighlight), (void*)(ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771*)NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 84811
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationManager__ctor_m2726D8592500205C4ACB56AAC331816430C71430 (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m9F8FA443B1674C1F6AAFC9DA2F0518568B0E10E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mB125E221D1514EF7FF840A09E4988EFF197B3F3C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:17>
+		__this->___skyDomeRadius = (50.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:21>
+		List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26* L_0 = (List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26*)il2cpp_codegen_object_new(List_1_t169670B80EE3B671988F5E4C8D363D4C13901A26_il2cpp_TypeInfo_var);
+		List_1__ctor_mB125E221D1514EF7FF840A09E4988EFF197B3F3C(L_0, List_1__ctor_mB125E221D1514EF7FF840A09E4988EFF197B3F3C_RuntimeMethod_var);
+		__this->____renderers = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderers), (void*)L_0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:22>
+		Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E* L_1 = (Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E*)il2cpp_codegen_object_new(Dictionary_2_tD992112410B2A9B96D6B948E4CEFEF98FF88473E_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m9F8FA443B1674C1F6AAFC9DA2F0518568B0E10E2(L_1, Dictionary_2__ctor_m9F8FA443B1674C1F6AAFC9DA2F0518568B0E10E2_RuntimeMethod_var);
+		__this->____objectMap = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____objectMap), (void*)L_1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84812
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* ConstellationRenderer_get_Data_mA0E55D008C78689E3DA26203195F38A7077DD289 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:21>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_0 = __this->___data;
+		return L_0;
+	}
+}
+// Method Definition Index: 84813
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_Awake_m517D06FD75DB0D71E368AC9ED3B4FD849C410011 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_mDC829E38BCDD6F138A0655B5B7DE7AD8237BE431_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:25>
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_0;
+		L_0 = Component_GetComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_mDC829E38BCDD6F138A0655B5B7DE7AD8237BE431(__this, Component_GetComponent_TisConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9_mDC829E38BCDD6F138A0655B5B7DE7AD8237BE431_RuntimeMethod_var);
+		__this->____pool = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____pool), (void*)L_0);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 84814
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_Start_mDF9D6AE830A8E5867071128B45810BCB7D4CC0EF (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:30>
+		ConstellationRenderer_BuildLines_m53DFD0D969C1238D3CA0D5B60154D62BC4FAE4ED(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:31>
+		ConstellationRenderer_SetVisibility_mF6A1C1223102F879AF3DCC51B2D70988695DE7A2(__this, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 84815
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_BuildLines_m53DFD0D969C1238D3CA0D5B60154D62BC4FAE4ED (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:36>
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_0 = __this->____pool;
+		NullCheck(L_0);
+		ConstellationLinePool_Clear_mFF597C65B41B4E80CBFDE312B862C30CC5D05282(L_0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:38>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_1 = __this->___data;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_3 = __this->___data;
+		NullCheck(L_3);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_4 = L_3->___stars;
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_5 = __this->___data;
+		NullCheck(L_5);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = L_5->___connectionIndices;
+		if (L_6)
+		{
+			goto IL_0034;
+		}
+	}
+
+IL_0033:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:38>
+		return;
+	}
+
+IL_0034:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:39>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_7 = __this->___data;
+		NullCheck(L_7);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = L_7->___connectionIndices;
+		NullCheck(L_8);
+		if (!((int32_t)(((int32_t)(((RuntimeArray*)L_8)->max_length))%2)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:39>
+		return;
+	}
+
+IL_0046:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:41>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_9 = __this->___data;
+		NullCheck(L_9);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = L_9->___connectionIndices;
+		NullCheck(L_10);
+		V_0 = ((int32_t)(((int32_t)(((RuntimeArray*)L_10)->max_length))/2));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:42>
+		V_1 = 0;
+		goto IL_0185;
+	}
+
+IL_005d:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:44>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_11 = __this->___data;
+		NullCheck(L_11);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = L_11->___connectionIndices;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		int32_t L_14 = ((int32_t)il2cpp_codegen_multiply(L_13, 2));
+		int32_t L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_2 = L_15;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:45>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_16 = __this->___data;
+		NullCheck(L_16);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = L_16->___connectionIndices;
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		int32_t L_19 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_18, 2)), 1));
+		int32_t L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		V_3 = L_20;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:46>
+		int32_t L_21 = V_2;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_22 = __this->___data;
+		NullCheck(L_22);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_23 = L_22->___stars;
+		NullCheck(L_23);
+		if ((((int32_t)L_21) >= ((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length)))))
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		int32_t L_24 = V_3;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_25 = __this->___data;
+		NullCheck(L_25);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_26 = L_25->___stars;
+		NullCheck(L_26);
+		if ((((int32_t)L_24) >= ((int32_t)((int32_t)(((RuntimeArray*)L_26)->max_length)))))
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:48>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_27 = __this->___data;
+		NullCheck(L_27);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_28 = L_27->___stars;
+		int32_t L_29 = V_2;
+		NullCheck(L_28);
+		float L_30 = ((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_29)))->___raHours;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_31 = __this->___data;
+		NullCheck(L_31);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_32 = L_31->___stars;
+		int32_t L_33 = V_2;
+		NullCheck(L_32);
+		float L_34 = ((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->___decDegrees;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = ConstellationRenderer_RaDecToLocal_m40CA654DB5E8AE0043659A6102AE89F1C3C975D9(__this, L_30, L_34, NULL);
+		V_4 = L_35;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:49>
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_36 = __this->___data;
+		NullCheck(L_36);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_37 = L_36->___stars;
+		int32_t L_38 = V_3;
+		NullCheck(L_37);
+		float L_39 = ((L_37)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38)))->___raHours;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_40 = __this->___data;
+		NullCheck(L_40);
+		ConstellationStarU5BU5D_t256926EE1E13CBD9078429AC9542970EDE9F98BC* L_41 = L_40->___stars;
+		int32_t L_42 = V_3;
+		NullCheck(L_41);
+		float L_43 = ((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42)))->___decDegrees;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = ConstellationRenderer_RaDecToLocal_m40CA654DB5E8AE0043659A6102AE89F1C3C975D9(__this, L_39, L_43, NULL);
+		V_5 = L_44;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:51>
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_45 = __this->____pool;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_46 = __this->___lineMaterial;
+		NullCheck(L_45);
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_47;
+		L_47 = ConstellationLinePool_Get_mD0394999B9AD5AB861CD4C48FCEFFEB17651E19B(L_45, L_46, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:52>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_48 = L_47;
+		NullCheck(L_48);
+		LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205(L_48, 2, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:53>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_49 = L_48;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_4;
+		NullCheck(L_49);
+		LineRenderer_SetPosition_m84C4AD9ADC6AC62B33DB4D7E4C9F066DFF8440C1(L_49, 0, L_50, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:54>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_51 = L_49;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_5;
+		NullCheck(L_51);
+		LineRenderer_SetPosition_m84C4AD9ADC6AC62B33DB4D7E4C9F066DFF8440C1(L_51, 1, L_52, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:55>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_53 = L_51;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_54 = __this->___data;
+		NullCheck(L_54);
+		float L_55 = L_54->___lineWidth;
+		NullCheck(L_53);
+		LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A(L_53, L_55, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:56>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_56 = L_53;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_57 = __this->___data;
+		NullCheck(L_57);
+		float L_58 = L_57->___lineWidth;
+		NullCheck(L_56);
+		LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D(L_56, L_58, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:57>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_59 = L_56;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_60 = __this->___data;
+		NullCheck(L_60);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_61 = L_60->___lineColor;
+		NullCheck(L_59);
+		LineRenderer_set_startColor_mF72FAB20C09372FC8F2CBFCBD837FA02A87FBA91(L_59, L_61, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:58>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_62 = L_59;
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_63 = __this->___data;
+		NullCheck(L_63);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_64 = L_63->___lineColor;
+		NullCheck(L_62);
+		LineRenderer_set_endColor_m6AF26E0174434828BC6EF1BAC1FE188084819D9D(L_62, L_64, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:59>
+		NullCheck(L_62);
+		LineRenderer_set_useWorldSpace_m0204DB2541CC37DC4DC15DA15FD5A66EDC507CE8(L_62, (bool)0, NULL);
+	}
+
+IL_0181:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:42>
+		int32_t L_65 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_65, 1));
+	}
+
+IL_0185:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:42>
+		int32_t L_66 = V_1;
+		int32_t L_67 = V_0;
+		if ((((int32_t)L_66) < ((int32_t)L_67)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 84816
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_SetVisibility_mF6A1C1223102F879AF3DCC51B2D70988695DE7A2 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, bool ___0_visible, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:65>
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_0 = __this->____pool;
+		bool L_1 = ___0_visible;
+		NullCheck(L_0);
+		ConstellationLinePool_SetAllActive_m84C3B2A41856993C22195920F82586D5825C9B87(L_0, L_1, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:66>
+		return;
+	}
+}
+// Method Definition Index: 84817
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer_Highlight_mF5D2642CD60C2D1E5B85A8F2065E93872B021DEC (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, bool ___0_highlight, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:73>
+		bool L_0 = __this->____isHighlighted;
+		bool L_1 = ___0_highlight;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:73>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:74>
+		bool L_2 = ___0_highlight;
+		__this->____isHighlighted = L_2;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:76>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->____highlightCoroutine;
+		if (!L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:76>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4 = __this->____highlightCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_4, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:77>
+		bool L_5 = ___0_highlight;
+		RuntimeObject* L_6;
+		L_6 = ConstellationRenderer_AnimateHighlight_m4AE5220E5EA2855973E9131F94C92C4706A24B06(__this, L_5, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
+		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
+		__this->____highlightCoroutine = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____highlightCoroutine), (void*)L_7);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:78>
+		return;
+	}
+}
+// Method Definition Index: 84818
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConstellationRenderer_AnimateHighlight_m4AE5220E5EA2855973E9131F94C92C4706A24B06 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, bool ___0_toHighlight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* L_0 = (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84*)il2cpp_codegen_object_new(U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84_il2cpp_TypeInfo_var);
+		U3CAnimateHighlightU3Ed__13__ctor_mF194403AF604ABE24D8EB967E84028414F85C17D(L_0, 0, NULL);
+		U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* L_2 = L_1;
+		bool L_3 = ___0_toHighlight;
+		NullCheck(L_2);
+		L_2->___toHighlight = L_3;
+		return L_2;
+	}
+}
+// Method Definition Index: 84819
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ConstellationRenderer_RaDecToLocal_m40CA654DB5E8AE0043659A6102AE89F1C3C975D9 (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, float ___0_raHours, float ___1_decDeg, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:108>
+		float L_0 = ___0_raHours;
+		float L_1 = ___1_decDeg;
+		float L_2 = __this->___skyDomeRadius;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = CelestialObjectPlacer_RaDecToLocalPosition_mE6CC9610491329CF4754A2D9C58F652D0089CF93(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 84820
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstellationRenderer__ctor_m8AAFED073A3A5003C1D0761D545291B0BE0FB5DA (ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:14>
+		__this->___skyDomeRadius = (50.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84821
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateHighlightU3Ed__13__ctor_mF194403AF604ABE24D8EB967E84028414F85C17D (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 84822
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateHighlightU3Ed__13_System_IDisposable_Dispose_m579335589A4A26DAF2E61928F859F6FA904FC40A (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 84823
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateHighlightU3Ed__13_MoveNext_mF2B92442B399B3048B3823A71DE43B2ECED9E9B9 (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* V_1 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B5_0 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B4_0 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B6_0;
+	memset((&G_B6_0), 0, sizeof(G_B6_0));
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B6_1 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B8_0 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B7_0 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B9_0;
+	memset((&G_B9_0), 0, sizeof(G_B9_0));
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B9_1 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B11_0 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B10_0 = NULL;
+	float G_B12_0 = 0.0f;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B12_1 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B14_0 = NULL;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B13_0 = NULL;
+	float G_B15_0 = 0.0f;
+	U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* G_B15_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:82>
+		bool L_4 = __this->___toHighlight;
+		if (L_4)
+		{
+			G_B5_0 = __this;
+			goto IL_0037;
+		}
+		G_B4_0 = __this;
+	}
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_5 = V_1;
+		NullCheck(L_5);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_6 = L_5->___data;
+		NullCheck(L_6);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = L_6->___highlightColor;
+		G_B6_0 = L_7;
+		G_B6_1 = G_B4_0;
+		goto IL_0042;
+	}
+
+IL_0037:
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_8 = V_1;
+		NullCheck(L_8);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_9 = L_8->___data;
+		NullCheck(L_9);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = L_9->___lineColor;
+		G_B6_0 = L_10;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0042:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->___U3CfromColorU3E5__2 = G_B6_0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:83>
+		bool L_11 = __this->___toHighlight;
+		if (L_11)
+		{
+			G_B8_0 = __this;
+			goto IL_005d;
+		}
+		G_B7_0 = __this;
+	}
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_12 = V_1;
+		NullCheck(L_12);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_13 = L_12->___data;
+		NullCheck(L_13);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = L_13->___lineColor;
+		G_B9_0 = L_14;
+		G_B9_1 = G_B7_0;
+		goto IL_0068;
+	}
+
+IL_005d:
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_15 = V_1;
+		NullCheck(L_15);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_16 = L_15->___data;
+		NullCheck(L_16);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17 = L_16->___highlightColor;
+		G_B9_0 = L_17;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_0068:
+	{
+		NullCheck(G_B9_1);
+		G_B9_1->___U3CtoColorU3E5__3 = G_B9_0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:84>
+		bool L_18 = __this->___toHighlight;
+		if (L_18)
+		{
+			G_B11_0 = __this;
+			goto IL_0083;
+		}
+		G_B10_0 = __this;
+	}
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_19 = V_1;
+		NullCheck(L_19);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_20 = L_19->___data;
+		NullCheck(L_20);
+		float L_21 = L_20->___highlightWidth;
+		G_B12_0 = L_21;
+		G_B12_1 = G_B10_0;
+		goto IL_008e;
+	}
+
+IL_0083:
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_22 = V_1;
+		NullCheck(L_22);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_23 = L_22->___data;
+		NullCheck(L_23);
+		float L_24 = L_23->___lineWidth;
+		G_B12_0 = L_24;
+		G_B12_1 = G_B11_0;
+	}
+
+IL_008e:
+	{
+		NullCheck(G_B12_1);
+		G_B12_1->___U3CfromWidthU3E5__4 = G_B12_0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:85>
+		bool L_25 = __this->___toHighlight;
+		if (L_25)
+		{
+			G_B14_0 = __this;
+			goto IL_00a9;
+		}
+		G_B13_0 = __this;
+	}
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_26 = V_1;
+		NullCheck(L_26);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_27 = L_26->___data;
+		NullCheck(L_27);
+		float L_28 = L_27->___lineWidth;
+		G_B15_0 = L_28;
+		G_B15_1 = G_B13_0;
+		goto IL_00b4;
+	}
+
+IL_00a9:
+	{
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_29 = V_1;
+		NullCheck(L_29);
+		ConstellationData_tB5D98664A178B38B85581EF0D98DA0C3B6ED4D6A* L_30 = L_29->___data;
+		NullCheck(L_30);
+		float L_31 = L_30->___highlightWidth;
+		G_B15_0 = L_31;
+		G_B15_1 = G_B14_0;
+	}
+
+IL_00b4:
+	{
+		NullCheck(G_B15_1);
+		G_B15_1->___U3CtoWidthU3E5__5 = G_B15_0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:87>
+		__this->___U3CtU3E5__6 = (0.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:88>
+		__this->___U3CdurationU3E5__7 = (0.400000006f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:90>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_32 = V_1;
+		NullCheck(L_32);
+		ConstellationRenderer_SetVisibility_mF6A1C1223102F879AF3DCC51B2D70988695DE7A2(L_32, (bool)1, NULL);
+		goto IL_0150;
+	}
+
+IL_00d8:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:94>
+		float L_33 = __this->___U3CtU3E5__6;
+		float L_34;
+		L_34 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_35 = __this->___U3CdurationU3E5__7;
+		__this->___U3CtU3E5__6 = ((float)il2cpp_codegen_add(L_33, ((float)(L_34/L_35))));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:95>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36 = __this->___U3CfromColorU3E5__2;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_37 = __this->___U3CtoColorU3E5__3;
+		float L_38 = __this->___U3CtU3E5__6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_39;
+		L_39 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_36, L_37, L_38, NULL);
+		V_2 = L_39;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:96>
+		float L_40 = __this->___U3CfromWidthU3E5__4;
+		float L_41 = __this->___U3CtoWidthU3E5__5;
+		float L_42 = __this->___U3CtU3E5__6;
+		float L_43;
+		L_43 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_40, L_41, L_42, NULL);
+		V_3 = L_43;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:97>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_44 = V_1;
+		NullCheck(L_44);
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_45 = L_44->____pool;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46 = V_2;
+		NullCheck(L_45);
+		ConstellationLinePool_SetAllColor_m5758DC197202088BCF08FE67D23704E0A2D42BEB(L_45, L_46, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:98>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_47 = V_1;
+		NullCheck(L_47);
+		ConstellationLinePool_tB894F5816DB7FDE9A7447C572132B047BDFDD7B9* L_48 = L_47->____pool;
+		float L_49 = V_3;
+		NullCheck(L_48);
+		ConstellationLinePool_SetAllWidth_m178D1B7C1189175EB79C1EAB3C6A5FFF28A889A8(L_48, L_49, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:99>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0149:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0150:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:92>
+		float L_50 = __this->___U3CtU3E5__6;
+		if ((((float)L_50) < ((float)(1.0f))))
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:102>
+		bool L_51 = __this->___toHighlight;
+		if (L_51)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:103>
+		ConstellationRenderer_t807359D0B03ABB9C94825A5BA022DA669BF15771* L_52 = V_1;
+		NullCheck(L_52);
+		ConstellationRenderer_SetVisibility_mF6A1C1223102F879AF3DCC51B2D70988695DE7A2(L_52, (bool)0, NULL);
+	}
+
+IL_016f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationRenderer.cs:104>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 84824
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateHighlightU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m069F7144EFDE7B3964944A405225F9CCE883972F (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 84825
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateHighlightU3Ed__13_System_Collections_IEnumerator_Reset_mDD4A58CBCB8065E2648D377CC454CBB711C8A992 (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateHighlightU3Ed__13_System_Collections_IEnumerator_Reset_mDD4A58CBCB8065E2648D377CC454CBB711C8A992_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 84826
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateHighlightU3Ed__13_System_Collections_IEnumerator_get_Current_mC685782649EA3740B6BB4FD7E77D4F44FA8853A2 (U3CAnimateHighlightU3Ed__13_t40470AB43C8F13270D501ABB56B07BE44B465B84* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84827
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:23>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0 = ((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84828
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager_set_Instance_m5679B39F388186C938C1D549F04FC186B81E3085 (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:23>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0 = ___0_value;
+		((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 84829
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager_Awake_mC3ECB24C81D49B511A2995830AD0559ACCA48D58 (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:36>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0;
+		L_0 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_2;
+		L_2 = DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, __this, NULL);
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:36>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:36>
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:37>
+		DiscoveryManager_set_Instance_m5679B39F388186C938C1D549F04FC186B81E3085_inline(__this, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 84830
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager_SetGazeTarget_m52340D858E7DCFA88F0F150E0B57B4A4D0207C74 (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* ___0_target, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_mECCCCB69FC187FCAE2BC9C0C65DD9038B3C639A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_HandleDwellComplete_mE982C26E7B875330D6BE8A43EC72ACE6C4F54D9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_HandleDwellProgress_mDEF18CADA322D40CD0E140C9D2B89518CC1759BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_m89A82EC54DCED2A7B8FBB9D57EC096AD05AA9292_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B7_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B6_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:46>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_0 = ___0_target;
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_1 = __this->____currentTarget;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:46>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:49>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_3 = __this->____currentDwell;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:51>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_5 = __this->____currentDwell;
+		NullCheck(L_5);
+		DwellDetector_NotifyGaze_m1BB038945F67A7D8011744CF3FA1DEC4FDF1DBC2(L_5, (bool)0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:52>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_6 = __this->____currentDwell;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)DiscoveryManager_HandleDwellComplete_mE982C26E7B875330D6BE8A43EC72ACE6C4F54D9B_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		DwellDetector_remove_OnDwellCompleted_mA16782EDC38B3FDD220BD18C2675CC4802F7247B(L_6, L_7, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:53>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_8 = __this->____currentDwell;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_9 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_9, __this, (intptr_t)((void*)DiscoveryManager_HandleDwellProgress_mDEF18CADA322D40CD0E140C9D2B89518CC1759BB_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		DwellDetector_remove_OnDwellProgress_mD0B7A23576400B3332603E6A1DC0579EF3B50ACE(L_8, L_9, NULL);
+	}
+
+IL_0057:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:56>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_10 = ___0_target;
+		__this->____currentTarget = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentTarget), (void*)L_10);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:58>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_11 = ___0_target;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:60>
+		__this->____currentDwell = (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentDwell), (void*)(DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280*)NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:61>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = __this->___OnGazeLost;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_14 = L_13;
+		if (L_14)
+		{
+			G_B7_0 = L_14;
+			goto IL_0079;
+		}
+		G_B6_0 = L_14;
+	}
+	{
+		return;
+	}
+
+IL_0079:
+	{
+		NullCheck(G_B7_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B7_0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:62>
+		return;
+	}
+
+IL_007f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:66>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_15 = ___0_target;
+		NullCheck(L_15);
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_16;
+		L_16 = Component_GetComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_mECCCCB69FC187FCAE2BC9C0C65DD9038B3C639A9(L_15, Component_GetComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_mECCCCB69FC187FCAE2BC9C0C65DD9038B3C639A9_RuntimeMethod_var);
+		__this->____currentDwell = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentDwell), (void*)L_16);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:67>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_17 = __this->____currentDwell;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:68>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_19 = ___0_target;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
+		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
+		NullCheck(L_20);
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_21;
+		L_21 = GameObject_AddComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_m89A82EC54DCED2A7B8FBB9D57EC096AD05AA9292(L_20, GameObject_AddComponent_TisDwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280_m89A82EC54DCED2A7B8FBB9D57EC096AD05AA9292_RuntimeMethod_var);
+		__this->____currentDwell = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentDwell), (void*)L_21);
+	}
+
+IL_00aa:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:70>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_22 = __this->____currentDwell;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_23 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_23, __this, (intptr_t)((void*)DiscoveryManager_HandleDwellComplete_mE982C26E7B875330D6BE8A43EC72ACE6C4F54D9B_RuntimeMethod_var), NULL);
+		NullCheck(L_22);
+		DwellDetector_add_OnDwellCompleted_m011A51FD50AA9350FC4C0C445279F0B0126CB43C(L_22, L_23, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:71>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_24 = __this->____currentDwell;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_25 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_25, __this, (intptr_t)((void*)DiscoveryManager_HandleDwellProgress_mDEF18CADA322D40CD0E140C9D2B89518CC1759BB_RuntimeMethod_var), NULL);
+		NullCheck(L_24);
+		DwellDetector_add_OnDwellProgress_m6292CA06DAC557C0EC632E0A5334FE117A8BEC6B(L_24, L_25, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:72>
+		DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* L_26 = __this->____currentDwell;
+		NullCheck(L_26);
+		DwellDetector_NotifyGaze_m1BB038945F67A7D8011744CF3FA1DEC4FDF1DBC2(L_26, (bool)1, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 84831
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager_HandleDwellProgress_mDEF18CADA322D40CD0E140C9D2B89518CC1759BB (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, float ___0_progress, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_2_Invoke_m9AC44D37A19445F4E950CF13676BB0BC6191379C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* G_B3_0 = NULL;
+	UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* G_B2_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:77>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_0 = __this->____currentTarget;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:78>
+		UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* L_2 = __this->___OnDwellProgress;
+		UnityEvent_2_t4E7D4D7E4E8A8FD471BCC0DC2ED2EEB0BCA56308* L_3 = L_2;
+		if (L_3)
+		{
+			G_B3_0 = L_3;
+			goto IL_0019;
+		}
+		G_B2_0 = L_3;
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_4 = __this->____currentTarget;
+		NullCheck(L_4);
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_5;
+		L_5 = CelestialObjectTag_get_Data_m9245437F43F9DA82091290BF5E6DB5525081B0C4_inline(L_4, NULL);
+		float L_6 = ___0_progress;
+		NullCheck(G_B3_0);
+		UnityEvent_2_Invoke_m9AC44D37A19445F4E950CF13676BB0BC6191379C(G_B3_0, L_5, L_6, UnityEvent_2_Invoke_m9AC44D37A19445F4E950CF13676BB0BC6191379C_RuntimeMethod_var);
+	}
+
+IL_002a:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:79>
+		return;
+	}
+}
+// Method Definition Index: 84832
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager_HandleDwellComplete_mE982C26E7B875330D6BE8A43EC72ACE6C4F54D9B (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m4B4A5AA23B01B2DF4D5B4B9AC7752B810C0512D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70D173F26AF2C98C6479281C28617B86021CF899);
+		s_Il2CppMethodInitialized = true;
+	}
+	CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* V_0 = NULL;
+	ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* G_B5_0 = NULL;
+	ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* G_B4_0 = NULL;
+	UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* G_B8_0 = NULL;
+	UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* G_B7_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:83>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_0 = __this->____currentTarget;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_2 = __this->____currentTarget;
+		NullCheck(L_2);
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_3;
+		L_3 = CelestialObjectTag_get_Data_m9245437F43F9DA82091290BF5E6DB5525081B0C4_inline(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0022;
+		}
+	}
+
+IL_0021:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:83>
+		return;
+	}
+
+IL_0022:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:85>
+		CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* L_5 = __this->____currentTarget;
+		NullCheck(L_5);
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_6;
+		L_6 = CelestialObjectTag_get_Data_m9245437F43F9DA82091290BF5E6DB5525081B0C4_inline(L_5, NULL);
+		V_0 = L_6;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:86>
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_7 = __this->____discoveredObjects;
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_8 = V_0;
+		NullCheck(L_8);
+		String_t* L_9 = L_8->___objectName;
+		NullCheck(L_7);
+		bool L_10;
+		L_10 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_7, L_9, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:89>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_11;
+		L_11 = ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline(NULL);
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_12 = L_11;
+		if (L_12)
+		{
+			G_B5_0 = L_12;
+			goto IL_004b;
+		}
+		G_B4_0 = L_12;
+	}
+	{
+		goto IL_0051;
+	}
+
+IL_004b:
+	{
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_13 = V_0;
+		NullCheck(G_B5_0);
+		ConstellationManager_HighlightForObject_mB24F231EA3A65572D8C0E2E2244BC8C1B7B597CD(G_B5_0, L_13, NULL);
+	}
+
+IL_0051:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:92>
+		UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* L_14 = __this->___OnObjectDiscovered;
+		UnityEvent_1_t73E7A8B10786C24E731C4C63DAADFD27F5CE4AB0* L_15 = L_14;
+		if (L_15)
+		{
+			G_B8_0 = L_15;
+			goto IL_005d;
+		}
+		G_B7_0 = L_15;
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_005d:
+	{
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_16 = V_0;
+		NullCheck(G_B8_0);
+		UnityEvent_1_Invoke_m4B4A5AA23B01B2DF4D5B4B9AC7752B810C0512D2(G_B8_0, L_16, UnityEvent_1_Invoke_m4B4A5AA23B01B2DF4D5B4B9AC7752B810C0512D2_RuntimeMethod_var);
+	}
+
+IL_0063:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:94>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_17 = V_0;
+		NullCheck(L_17);
+		String_t* L_18 = L_17->___objectName;
+		String_t* L_19;
+		L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral70D173F26AF2C98C6479281C28617B86021CF899, L_18, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:95>
+		return;
+	}
+}
+// Method Definition Index: 84833
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DiscoveryManager_IsDiscovered_m39A51E2E9390B1922D9843DDBDB902E7830A467D (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, String_t* ___0_objectName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:97>
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = __this->____discoveredObjects;
+		String_t* L_1 = ___0_objectName;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853(L_0, L_1, HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// Method Definition Index: 84834
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DiscoveryManager_get_DiscoveredCount_m21A5FA77C9DDAC9EC7595ADA35034FF4899B15F8 (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:98>
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = __this->____discoveredObjects;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_inline(L_0, HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_RuntimeMethod_var);
+		return L_1;
+	}
+}
+// Method Definition Index: 84835
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiscoveryManager__ctor_m9CD7CAD08AE56C20527DE2299E7C031EE1D87A90 (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:32>
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_0, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		__this->____discoveredObjects = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____discoveredObjects), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84836
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_add_OnDwellCompleted_m011A51FD50AA9350FC4C0C445279F0B0126CB43C (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnDwellCompleted;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnDwellCompleted);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 84837
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_remove_OnDwellCompleted_mA16782EDC38B3FDD220BD18C2675CC4802F7247B (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnDwellCompleted;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnDwellCompleted);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 84838
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_add_OnDwellProgress_m6292CA06DAC557C0EC632E0A5334FE117A8BEC6B (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_1 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_2 = NULL;
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = __this->___OnDwellProgress;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)Castclass((RuntimeObject*)L_4, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var));
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A** L_5 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A**)(&__this->___OnDwellProgress);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = V_2;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_7 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_9 = V_0;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_9) == ((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 84839
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_remove_OnDwellProgress_mD0B7A23576400B3332603E6A1DC0579EF3B50ACE (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_1 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_2 = NULL;
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = __this->___OnDwellProgress;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)Castclass((RuntimeObject*)L_4, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var));
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A** L_5 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A**)(&__this->___OnDwellProgress);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = V_2;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_7 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_9 = V_0;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_9) == ((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 84840
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_add_OnDwellCancelled_m8E42BB48081762D5C4B3D6AFDFBF9F031CE12ECF (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnDwellCancelled;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnDwellCancelled);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 84841
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_remove_OnDwellCancelled_m27DDD5D12273D56B622A0587C8B91867FD029D9C (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___OnDwellCancelled;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07**)(&__this->___OnDwellCancelled);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 84842
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DwellDetector_get_Progress_m19599621B1418DBA3B787A9E6BB9EEC66805C7FC (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:31>
+		float L_0 = __this->____timer;
+		float L_1 = __this->___dwellDuration;
+		float L_2;
+		L_2 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_0/L_1)), NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 84843
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DwellDetector_get_IsGazing_mEAB46468FBE33D72E8C9A625B698BA24B81BC54D (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:32>
+		bool L_0 = __this->____isGazing;
+		return L_0;
+	}
+}
+// Method Definition Index: 84844
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_NotifyGaze_m1BB038945F67A7D8011744CF3FA1DEC4FDF1DBC2 (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, bool ___0_gazing, const RuntimeMethod* method) 
+{
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B9_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B8_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B12_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B11_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B15_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B14_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:39>
+		bool L_0 = __this->____hasCompleted;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:39>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:41>
+		bool L_1 = ___0_gazing;
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		bool L_2 = __this->____isGazing;
+		if (L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:43>
+		__this->____isGazing = (bool)1;
+		return;
+	}
+
+IL_001c:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:45>
+		bool L_3 = ___0_gazing;
+		if (L_3)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		bool L_4 = __this->____isGazing;
+		if (!L_4)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:47>
+		__this->____isGazing = (bool)0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:48>
+		__this->____timer = (0.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:49>
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_5 = __this->___OnDwellProgress;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = L_5;
+		if (L_6)
+		{
+			G_B9_0 = L_6;
+			goto IL_0045;
+		}
+		G_B8_0 = L_6;
+	}
+	{
+		goto IL_004f;
+	}
+
+IL_0045:
+	{
+		NullCheck(G_B9_0);
+		Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline(G_B9_0, (0.0f), NULL);
+	}
+
+IL_004f:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:50>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = __this->___OnDwellCancelled;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = L_7;
+		if (L_8)
+		{
+			G_B12_0 = L_8;
+			goto IL_005b;
+		}
+		G_B11_0 = L_8;
+	}
+	{
+		goto IL_0060;
+	}
+
+IL_005b:
+	{
+		NullCheck(G_B12_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B12_0, NULL);
+	}
+
+IL_0060:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:51>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_9 = __this->___onDwellCancelled;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_10 = L_9;
+		if (L_10)
+		{
+			G_B15_0 = L_10;
+			goto IL_006b;
+		}
+		G_B14_0 = L_10;
+	}
+	{
+		return;
+	}
+
+IL_006b:
+	{
+		NullCheck(G_B15_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B15_0, NULL);
+	}
+
+IL_0070:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 84845
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_Update_m2AA07FC3E5B76B99734723B05B4B5B6D03A5B1AE (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, const RuntimeMethod* method) 
+{
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B5_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B4_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B9_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B8_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B12_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B11_0 = NULL;
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:57>
+		bool L_0 = __this->____isGazing;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->____hasCompleted;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:57>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:59>
+		float L_2 = __this->____timer;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->____timer = ((float)il2cpp_codegen_add(L_2, L_3));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:60>
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_4 = __this->___OnDwellProgress;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_5 = L_4;
+		if (L_5)
+		{
+			G_B5_0 = L_5;
+			goto IL_002f;
+		}
+		G_B4_0 = L_5;
+	}
+	{
+		goto IL_003a;
+	}
+
+IL_002f:
+	{
+		float L_6;
+		L_6 = DwellDetector_get_Progress_m19599621B1418DBA3B787A9E6BB9EEC66805C7FC(__this, NULL);
+		NullCheck(G_B5_0);
+		Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline(G_B5_0, L_6, NULL);
+	}
+
+IL_003a:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:62>
+		float L_7 = __this->____timer;
+		float L_8 = __this->___dwellDuration;
+		if ((!(((float)L_7) >= ((float)L_8))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:64>
+		__this->____hasCompleted = (bool)1;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:65>
+		__this->____isGazing = (bool)0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:66>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = __this->___OnDwellCompleted;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = L_9;
+		if (L_10)
+		{
+			G_B9_0 = L_10;
+			goto IL_0062;
+		}
+		G_B8_0 = L_10;
+	}
+	{
+		goto IL_0067;
+	}
+
+IL_0062:
+	{
+		NullCheck(G_B9_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B9_0, NULL);
+	}
+
+IL_0067:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:67>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_11 = __this->___onDwellCompleted;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_12 = L_11;
+		if (L_12)
+		{
+			G_B12_0 = L_12;
+			goto IL_0072;
+		}
+		G_B11_0 = L_12;
+	}
+	{
+		return;
+	}
+
+IL_0072:
+	{
+		NullCheck(G_B12_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B12_0, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:69>
+		return;
+	}
+}
+// Method Definition Index: 84846
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector_Reset_mFB2B5B49381292A338EE5477559B8376CA60D55B (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:76>
+		__this->____timer = (0.0f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:77>
+		__this->____isGazing = (bool)0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:78>
+		__this->____hasCompleted = (bool)0;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:79>
+		return;
+	}
+}
+// Method Definition Index: 84847
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DwellDetector__ctor_m95D2B2F8B71EAEB5B764F4F522C4C95E50BBDD38 (DwellDetector_tB2156856DE4A20AC61D72BE2F578B764C355C280* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DwellDetector.cs:17>
+		__this->___dwellDuration = (2.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 84848
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkyDomeController_Awake_m628C1A455F13B9A974A60B33482E5722312F60A0 (SkyDomeController_t6B3DA6C92619C68C6C46E92625CB75C7E418C840* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:43>
+		float L_0 = __this->___observerLatitudeDegrees;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = SkyDomeController_ComputePoleAxis_mF65F0646EF73A9D9A480CEA1E9F0F70FFB1619A7(L_0, NULL);
+		__this->____poleAxis = L_1;
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 84849
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkyDomeController_Update_mC3BB7B192E29D2C179E102DE2E8E6E643CA76911 (SkyDomeController_t6B3DA6C92619C68C6C46E92625CB75C7E418C840* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:48>
+		bool L_0 = __this->___enableRotation;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:48>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:49>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->____poleAxis;
+		float L_3 = __this->___siderealRateDegPerSec;
+		float L_4;
+		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_1);
+		Transform_Rotate_m683E67853797040312868B69E963D0E97F433EEB(L_1, L_2, ((float)il2cpp_codegen_multiply(L_3, L_4)), 0, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 84850
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkyDomeController_SetInitialRotation_mEB65D35646AAD137EEB26CD3D61DC10C01AC95B1 (SkyDomeController_t6B3DA6C92619C68C6C46E92625CB75C7E418C840* __this, float ___0_localSiderealAngleDegrees, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:58>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_1 = ___0_localSiderealAngleDegrees;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->____poleAxis;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
+		L_3 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline(L_1, L_2, NULL);
+		NullCheck(L_0);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_0, L_3, NULL);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 84851
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SkyDomeController_ComputePoleAxis_mF65F0646EF73A9D9A480CEA1E9F0F70FFB1619A7 (float ___0_latitudeDeg, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:67>
+		float L_0 = ___0_latitudeDeg;
+		V_0 = ((float)il2cpp_codegen_multiply(L_0, (0.0174532924f)));
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:69>
+		float L_1 = V_0;
+		float L_2;
+		L_2 = sinf(L_1);
+		float L_3 = V_0;
+		float L_4;
+		L_4 = cosf(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_5), (0.0f), L_2, ((-L_4)), NULL);
+		V_1 = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 84852
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkyDomeController__ctor_mE6948DE3BCD767DB8876CC54FABBEE405C03BEDF (SkyDomeController_t6B3DA6C92619C68C6C46E92625CB75C7E418C840* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:27>
+		__this->___observerLatitudeDegrees = (34.1184006f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:31>
+		__this->___siderealRateDegPerSec = (0.00419999985f);
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/SkyDomeController.cs:33>
+		__this->___enableRotation = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 43176
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 43186
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 43179
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 84793
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CelestialObjectTag_set_Data_m907AB0B2253B02D6673B016A709F203371424C65_inline (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectTag.cs:12>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_0 = ___0_value;
+		__this->___U3CDataU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDataU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 43145
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 42989
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
+// Method Definition Index: 84802
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ConstellationManager_get_Instance_m8BC0A9D977924F51EC4D3D4389505B7729E9501F_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:14>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_0 = ((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84803
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConstellationManager_set_Instance_m1716E69C60566180D1CD58102BCF67FBC9E46156_inline (ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/ConstellationManager.cs:14>
+		ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431* L_0 = ___0_value;
+		((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_StaticFields*)il2cpp_codegen_static_fields_for(ConstellationManager_t1F6460558F34966CF454D483AC40022CEE440431_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 43001
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		il2cpp_codegen_initobj((&V_0), sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_a;
+		float L_3 = L_2.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___1_b;
+		float L_5 = L_4.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_a;
+		float L_7 = L_6.___r;
+		float L_8 = ___2_t;
+		(&V_0)->___r = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_a;
+		float L_10 = L_9.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ___1_b;
+		float L_12 = L_11.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = ___0_a;
+		float L_14 = L_13.___g;
+		float L_15 = ___2_t;
+		(&V_0)->___g = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16 = ___0_a;
+		float L_17 = L_16.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = ___1_b;
+		float L_19 = L_18.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = ___0_a;
+		float L_21 = L_20.___b;
+		float L_22 = ___2_t;
+		(&V_0)->___b = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23 = ___0_a;
+		float L_24 = L_23.___a;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25 = ___1_b;
+		float L_26 = L_25.___a;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27 = ___0_a;
+		float L_28 = L_27.___a;
+		float L_29 = ___2_t;
+		(&V_0)->___a = ((float)il2cpp_codegen_add(L_24, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_26, L_28)), L_29))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30 = V_0;
+		V_1 = L_30;
+		goto IL_0089;
+	}
+
+IL_0089:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31 = V_1;
+		return L_31;
+	}
+}
+// Method Definition Index: 43284
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 84827
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* DiscoveryManager_get_Instance_mAC405568C8B9257F60779190329753732F973FDB_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:23>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0 = ((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 84828
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DiscoveryManager_set_Instance_m5679B39F388186C938C1D549F04FC186B81E3085_inline (DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/DiscoveryManager.cs:23>
+		DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B* L_0 = ___0_value;
+		((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_StaticFields*)il2cpp_codegen_static_fields_for(DiscoveryManager_tC26033A4D693E9DFED8F3B5901FC8A84509DE29B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 84792
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* CelestialObjectTag_get_Data_m9245437F43F9DA82091290BF5E6DB5525081B0C4_inline (CelestialObjectTag_t51CFAFDA06026183376EB50CC5901C6291FE4B41* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/rajatsavdekar/Celestia_VR/Assets/CelestiaVR/Scripts/Sky/CelestialObjectTag.cs:12>
+		CelestialObjectData_tC2389F1CBED8F7D064A5DBE1DF060D10F5B65136* L_0 = __this->___U3CDataU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 43283
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 12419
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 43210
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline (float ___0_angle, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_axis, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_angle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_Internal_AngleAxis_m1A896524F98EF69748915ED902CC9DCEF16245D4(L_0, (&___1_axis), NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 43158
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline(__this, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 20951
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 20902
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 20910
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 82751
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____count;
+		return L_0;
+	}
+}
+// Method Definition Index: 12421
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 43156
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		if ((((float)L_2) > ((float)(9.99999975E-06f))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		G_B3_0 = L_3;
+		goto IL_004d;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_1), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___0_value;
+		float L_5 = L_4->___x;
+		float L_6 = V_0;
+		(&V_1)->___x = ((float)(L_5/L_6));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = ___0_value;
+		float L_8 = L_7->___y;
+		float L_9 = V_0;
+		(&V_1)->___y = ((float)(L_8/L_9));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = ___0_value;
+		float L_11 = L_10->___z;
+		float L_12 = V_0;
+		(&V_1)->___z = ((float)(L_11/L_12));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
+		G_B3_0 = L_13;
+	}
+
+IL_004d:
+	{
+		V_2 = G_B3_0;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_2;
+		return L_14;
+	}
+}
+// Method Definition Index: 43168
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		return ((float)L_6);
+	}
+}
