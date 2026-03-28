@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
   objectName: Mars
   objectType: 0
-  rightAscensionHours: 6.9
-  declinationDegrees: 26
+  rightAscensionHours: 6.164
+  declinationDegrees: 23.707
   description: "The Red Planet \u2014 Mars gets its color from iron oxide (rust)
     covering its surface."
   distanceFromEarth: ~100 million km from Earth
@@ -24,3 +24,4 @@ MonoBehaviour:
   constellationDiagram: {fileID: 0}
   visualScale: 1.5
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 7485007097152462643, guid: b57e198a135e1416480ea2ec03be1d40, type: 3}

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
   objectName: Venus
   objectType: 0
-  rightAscensionHours: 20.5
-  declinationDegrees: -24
+  rightAscensionHours: 12.455
+  declinationDegrees: -4.486
   description: The brightest natural object in the night sky after the Moon. A world
     shrouded in toxic clouds.
   distanceFromEarth: ~180 million km from Earth
@@ -24,3 +24,4 @@ MonoBehaviour:
   constellationDiagram: {fileID: 0}
   visualScale: 1.8
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 2732604629288594088, guid: 6e2635c498a4249aeaabd1a9be0e3aac, type: 3}

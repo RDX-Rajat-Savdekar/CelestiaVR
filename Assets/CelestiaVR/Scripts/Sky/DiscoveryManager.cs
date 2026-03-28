@@ -27,6 +27,10 @@ namespace CelestiaVR
         public UnityEvent<CelestialObjectData, float> OnDwellProgress; // data + 0-1 progress
         public UnityEvent OnGazeLost;
 
+        [Header("Audio")]
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip discoveryChime;   // singing bowl on dwell complete
+
         private CelestialObjectTag _currentTarget;
         private DwellDetector _currentDwell;
         private readonly HashSet<string> _discoveredObjects = new();
@@ -85,10 +89,8 @@ namespace CelestiaVR
             var data = _currentTarget.Data;
             _discoveredObjects.Add(data.objectName);
 
-            // Highlight the constellation this object belongs to
+            audioSource?.PlayOneShot(discoveryChime);
             ConstellationManager.Instance?.HighlightForObject(data);
-
-            // Notify the info panel
             OnObjectDiscovered?.Invoke(data);
 
             Debug.Log($"[DiscoveryManager] Discovered: {data.objectName}");

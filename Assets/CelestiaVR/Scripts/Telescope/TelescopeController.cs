@@ -45,6 +45,14 @@ namespace CelestiaVR
         [Tooltip("The transform that rotates when panning. Usually the telescope barrel root.")]
         [SerializeField] private Transform barrelPivot;
 
+        [Header("Audio")]
+        [SerializeField] private AudioSource oneShotSource;    // grab, end-stop, zoom
+        [SerializeField] private AudioSource frictionSource;   // looping friction during pan
+        [SerializeField] private AudioClip grabSound;
+        [SerializeField] private AudioClip frictionSound;
+        [SerializeField] private AudioClip zoomSound;
+        [SerializeField] private AudioClip endStopSound;
+
         // State
         private XRGrabInteractable _grab;
         private bool _isGrabbed;
@@ -76,6 +84,7 @@ namespace CelestiaVR
             _isGrabbed = true;
             if (eyepieceCamera != null)
                 eyepieceCamera.enabled = true;
+            oneShotSource?.PlayOneShot(grabSound);
         }
 
         private void OnReleased(SelectExitEventArgs args)
@@ -83,8 +92,8 @@ namespace CelestiaVR
             _isGrabbed = false;
             if (eyepieceCamera != null)
                 eyepieceCamera.enabled = false;
-
-            // Clear any active dwell when telescope is put down
+            if (frictionSource != null && frictionSource.isPlaying)
+                frictionSource.Stop();
             DiscoveryManager.Instance?.SetGazeTarget(null);
         }
 
@@ -101,15 +110,37 @@ namespace CelestiaVR
         {
             if (leftJoystick == null) return;
             Vector2 input = leftJoystick.action.ReadValue<Vector2>();
+
+            // Friction audio — loop while panning, pitch by speed
+            if (frictionSource != null && frictionSound != null)
+            {
+                if (input.sqrMagnitude >= 0.01f)
+                {
+                    frictionSource.pitch = Mathf.Lerp(0.8f, 1.4f, input.magnitude);
+                    if (!frictionSource.isPlaying)
+                    {
+                        frictionSource.clip = frictionSound;
+                        frictionSource.loop = true;
+                        frictionSource.Play();
+                    }
+                }
+                else if (frictionSource.isPlaying)
+                {
+                    frictionSource.Stop();
+                }
+            }
+
             if (input.sqrMagnitude < 0.01f) return;
 
             _azimuth   += input.x * panSpeed * Time.deltaTime;
-            _elevation -= input.y * panSpeed * Time.deltaTime;  // invert Y for natural feel
+            _elevation -= input.y * panSpeed * Time.deltaTime;
             _elevation  = Mathf.Clamp(_elevation, elevationMin, elevationMax);
 
             if (barrelPivot != null)
                 barrelPivot.localRotation = Quaternion.Euler(_elevation, _azimuth, 0f);
         }
+
+        private bool _wasAtFovLimit = false;
 
         private void HandleZoom()
         {
@@ -117,8 +148,24 @@ namespace CelestiaVR
             float input = rightJoystick.action.ReadValue<Vector2>().y;
             if (Mathf.Abs(input) < 0.01f) return;
 
+            float prevFov = _currentFov;
             _currentFov += input * zoomSpeed * Time.deltaTime;
-            _currentFov  = Mathf.Clamp(_currentFov, fovMin, fovMax);
+            float clampedFov = Mathf.Clamp(_currentFov, fovMin, fovMax);
+
+            // End-stop clunk when hitting FOV limits
+            bool atLimit = Mathf.Approximately(clampedFov, _currentFov == clampedFov ? clampedFov : prevFov)
+                           && (clampedFov <= fovMin || clampedFov >= fovMax);
+            bool hitLimit = clampedFov != _currentFov;
+            _currentFov = clampedFov;
+
+            if (hitLimit && !_wasAtFovLimit)
+                oneShotSource?.PlayOneShot(endStopSound);
+            _wasAtFovLimit = hitLimit || (clampedFov <= fovMin || clampedFov >= fovMax);
+
+            // Zoom movement sound (one-shot, don't spam — only on first input frame)
+            if (Mathf.Abs(prevFov - _currentFov) > 0.05f && oneShotSource != null && zoomSound != null
+                && !oneShotSource.isPlaying)
+                oneShotSource.PlayOneShot(zoomSound, 0.4f);
         }
 
         private void UpdateEyepieceCameraFov()

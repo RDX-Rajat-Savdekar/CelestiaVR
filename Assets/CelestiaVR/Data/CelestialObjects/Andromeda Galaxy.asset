@@ -21,6 +21,7 @@ MonoBehaviour:
   distanceFromEarth: 2.537 million light-years
   objectFact: "Andromeda is on a collision course with the Milky Way \u2014 they
     will merge in about 4.5 billion years."
-  constellationDiagram: {fileID: 0}
+  constellationDiagram: {fileID: 2800000, guid: 4abf72adbaef549b1ac4aebd18cc3fb3, type: 3}
   visualScale: 8
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 0}

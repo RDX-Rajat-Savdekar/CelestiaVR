@@ -648,10 +648,10 @@ namespace CelestiaVR.Editor
         }
 
         // ─────────────────────────────────────────────────────────────────────
-        // 13. Assign Audio Clips to AmbientAudioController
+        // 13. Assign Ambient Audio Clips to AmbientAudioController
         // ─────────────────────────────────────────────────────────────────────
-        [MenuItem("CelestiaVR/Setup/13 - Assign Audio Clips")]
-        public static void AssignAudioClips()
+        [MenuItem("CelestiaVR/Setup/13 - Assign Ambient Audio Clips")]
+        public static void AssignAmbientAudioClips()
         {
             var audioGO = GameObject.Find("AmbientAudio");
             if (audioGO == null) { Debug.LogError("[CelestiaVR] AmbientAudio not in scene. Run step 9 first."); return; }
@@ -659,7 +659,7 @@ namespace CelestiaVR.Editor
             var controller = audioGO.GetComponent<AmbientAudioController>();
             if (controller == null) { Debug.LogError("[CelestiaVR] AmbientAudioController component missing."); return; }
 
-            const string audioPath = "Assets/CelestiaVR/Audio/";
+            const string audioPath = "Assets/CelestiaVR/Audio/Ambient/";
             var so = new SerializedObject(controller);
 
             TryAssignClip(so, "windLoop",       audioPath + "WindLoop.mp3");
@@ -670,7 +670,7 @@ namespace CelestiaVR.Editor
 
             so.ApplyModifiedProperties();
             EditorUtility.SetDirty(controller);
-            Debug.Log("[CelestiaVR] Audio clips assigned to AmbientAudioController.");
+            Debug.Log("[CelestiaVR] Ambient audio clips assigned to AmbientAudioController.");
         }
 
         private static void TryAssignClip(SerializedObject so, string fieldName, string assetPath)
@@ -698,7 +698,9 @@ namespace CelestiaVR.Editor
             BuildInfoPanel();
             SetupSceneTransition();
             SetupProximityIndicator();
+            AssignAmbientAudioClips();
             AssignAudioClips();
+            SetupBalconyPlaceholder();
 
             UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty();
             Debug.Log("[CelestiaVR] ✓ All setup steps complete. Save the scene (Ctrl+S).");
@@ -712,6 +714,251 @@ namespace CelestiaVR.Editor
             foreach (Transform child in parent.GetComponentsInChildren<Transform>())
                 if (child.name == name) return child;
             return null;
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // 14. Balcony Placeholder
+        // ─────────────────────────────────────────────────────────────────────
+        /// <summary>
+        /// Creates a simple stand-in balcony: a large floor plane + three low railing
+        /// cubes on the North/East/West edges.  Stone-grey URP Lit material is applied.
+        /// The player spawn point is centred on the floor at y = 0.
+        ///
+        /// Dimensions (metres):  floor 10 × 8, railing height 1.1 m, width 0.15 m.
+        /// Run again to rebuild (old root is destroyed first).
+        /// </summary>
+        [MenuItem("CelestiaVR/Setup/14 - Setup Balcony Placeholder")]
+        public static void SetupBalconyPlaceholder()
+        {
+            // ── Destroy old ──────────────────────────────────────────────────
+            var old = GameObject.Find("BalconyPlaceholder");
+            if (old != null) Object.DestroyImmediate(old);
+
+            // ── Root ─────────────────────────────────────────────────────────
+            var root = new GameObject("BalconyPlaceholder");
+
+            // ── Stone material (URP Lit, no texture — just a grey colour) ────
+            const string matPath = "Assets/CelestiaVR/Prefabs/BalconyStone.mat";
+            var stoneMat = AssetDatabase.LoadAssetAtPath<Material>(matPath);
+            if (stoneMat == null)
+            {
+                stoneMat = new Material(Shader.Find("Universal Render Pipeline/Lit"));
+                // Warm stone grey — adjust the colour tint to taste
+                stoneMat.color = new Color(0.55f, 0.52f, 0.48f);
+                stoneMat.name  = "BalconyStone";
+                // Slightly rough, non-metallic
+                stoneMat.SetFloat("_Metallic",   0f);
+                stoneMat.SetFloat("_Smoothness", 0.25f);
+                AssetDatabase.CreateAsset(stoneMat, matPath);
+                AssetDatabase.SaveAssets();
+            }
+
+            // ── Floor ────────────────────────────────────────────────────────
+            // Unity's default Plane is 10 × 10 units at scale 1.
+            // We want 10 m (X) × 8 m (Z) → scale (1, 1, 0.8).
+            var floor = GameObject.CreatePrimitive(PrimitiveType.Plane);
+            floor.name = "BalconyFloor";
+            floor.transform.SetParent(root.transform, false);
+            floor.transform.localPosition = Vector3.zero;
+            floor.transform.localScale    = new Vector3(1f, 1f, 0.8f);
+            floor.GetComponent<MeshRenderer>().sharedMaterial = stoneMat;
+            // Keep MeshCollider so the player stands on it.
+
+            // ── Helper: make a railing cube ───────────────────────────────────
+            // pos is centre-world position relative to root
+            void MakeRailing(string railName, Vector3 pos, Vector3 scale)
+            {
+                var r = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                r.name = railName;
+                r.transform.SetParent(root.transform, false);
+                r.transform.localPosition = pos;
+                r.transform.localScale    = scale;
+                r.GetComponent<MeshRenderer>().sharedMaterial = stoneMat;
+            }
+
+            // Railing thickness / height
+            const float railH = 1.1f;   // height above floor (cube half-height = 0.55)
+            const float railT = 0.15f;  // thickness
+            const float railY = railH * 0.5f;  // centre y so bottom sits at y=0
+
+            // Floor extents: X ±5 m, Z ±4 m
+            // North railing (far end, +Z)
+            MakeRailing("Railing_North", new Vector3(0f,        railY,  4f),
+                                         new Vector3(10f + railT, railH, railT));
+
+            // East railing (+X side)
+            MakeRailing("Railing_East",  new Vector3( 5f, railY, 0f),
+                                         new Vector3(railT, railH, 8f));
+
+            // West railing (−X side)
+            MakeRailing("Railing_West",  new Vector3(-5f, railY, 0f),
+                                         new Vector3(railT, railH, 8f));
+
+            // South side left open so the player can "enter" from an interior.
+
+            // ── Telescope table (small cube to rest telescope on) ────────────
+            var table = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            table.name = "TelescopeTable";
+            table.transform.SetParent(root.transform, false);
+            table.transform.localPosition = new Vector3(0f, 0.45f, 1.5f); // centred, ~knee height
+            table.transform.localScale    = new Vector3(0.6f, 0.9f, 0.6f);
+            table.GetComponent<MeshRenderer>().sharedMaterial = stoneMat;
+
+            // ── Teleport area marker (TeleportationArea on the floor) ────────
+            // Requires XR Interaction Toolkit — add the component if available.
+            var areaType = System.Type.GetType(
+                "UnityEngine.XR.Interaction.Toolkit.AR.TeleportationArea, " +
+                "Unity.XR.Interaction.Toolkit");
+            // Try the non-AR namespace first (XRIT 3.x)
+            if (areaType == null)
+                areaType = System.Type.GetType(
+                    "UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationArea, " +
+                    "Unity.XR.Interaction.Toolkit");
+            if (areaType == null)
+                areaType = System.Type.GetType(
+                    "UnityEngine.XR.Interaction.Toolkit.TeleportationArea, " +
+                    "Unity.XR.Interaction.Toolkit");
+
+            if (areaType != null)
+            {
+                floor.AddComponent(areaType);
+                Debug.Log("[CelestiaVR] TeleportationArea added to BalconyFloor.");
+            }
+            else
+            {
+                Debug.LogWarning("[CelestiaVR] TeleportationArea type not found — add it manually to BalconyFloor.");
+            }
+
+            // ── Mark dirty & finish ───────────────────────────────────────────
+            EditorUtility.SetDirty(root);
+            UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty();
+            Debug.Log("[CelestiaVR] Balcony placeholder created. Move XR Origin so Camera Offset is at y = 0.");
+        }
+
+        // ─────────────────────────────────────────────────────────────────────
+        // Audio Clip Auto-Assignment
+        // ─────────────────────────────────────────────────────────────────────
+        [MenuItem("CelestiaVR/Setup/Assign Audio Clips")]
+        public static void AssignAudioClips()
+        {
+            const string teleDir   = "Assets/CelestiaVR/Audio/Telescope";
+            const string discoDir  = "Assets/CelestiaVR/Audio/Discovery";
+
+            AudioClip Load(string folder, string name) =>
+                AssetDatabase.LoadAssetAtPath<AudioClip>($"{folder}/{name}.mp3");
+
+            // ── TelescopeController ──────────────────────────────────────────
+            var tc = Object.FindFirstObjectByType<TelescopeController>();
+            if (tc != null)
+            {
+                var so = new SerializedObject(tc);
+                SetClip(so, "grabSound",     Load(teleDir, "TelescopeGrab"));
+                SetClip(so, "frictionSound", Load(teleDir, "TelescopeFriction"));
+                SetClip(so, "zoomSound",     Load(teleDir, "TelescopeZoom"));
+                SetClip(so, "endStopSound",  Load(teleDir, "TelescopeEndStop"));
+                so.ApplyModifiedProperties();
+                EnsureAudioSources(tc.gameObject, so, "oneShotSource", "frictionSource");
+                EditorUtility.SetDirty(tc);
+                Debug.Log("[CelestiaVR] Audio clips assigned to TelescopeController.");
+            }
+            else Debug.LogWarning("[CelestiaVR] TelescopeController not found in scene.");
+
+            // ── TelescopeDwellController ─────────────────────────────────────
+            var td = Object.FindFirstObjectByType<TelescopeDwellController>();
+            if (td != null)
+            {
+                var so = new SerializedObject(td);
+                SetClip(so, "dwellTone", Load(discoDir, "DwellTone"));
+                so.ApplyModifiedProperties();
+                EnsureAudioSource(td.gameObject, so, "dwellAudio", 0.25f);
+                EditorUtility.SetDirty(td);
+            }
+
+            // ── TelescopeInputHandler ────────────────────────────────────────
+            var th = Object.FindFirstObjectByType<TelescopeInputHandler>();
+            if (th != null)
+            {
+                var so = new SerializedObject(th);
+                SetClip(so, "discoveryWhoosh", Load(discoDir, "DiscoveryWhoosh"));
+                so.ApplyModifiedProperties();
+                EnsureAudioSource(th.gameObject, so, "audioSource", 0.8f);
+                EditorUtility.SetDirty(th);
+            }
+
+            // ── DiscoveryManager ─────────────────────────────────────────────
+            var dm = Object.FindFirstObjectByType<DiscoveryManager>();
+            if (dm != null)
+            {
+                var so = new SerializedObject(dm);
+                SetClip(so, "discoveryChime", Load(discoDir, "SingingBowl"));
+                so.ApplyModifiedProperties();
+                EnsureAudioSource(dm.gameObject, so, "audioSource", 1f);
+                EditorUtility.SetDirty(dm);
+            }
+
+            // ── InspectionPanel ──────────────────────────────────────────────
+            var ip = Object.FindFirstObjectByType<InspectionPanel>();
+            if (ip != null)
+            {
+                var so = new SerializedObject(ip);
+                SetClip(so, "panelAppearSound", Load(discoDir, "InfoPanelAppear"));
+                so.ApplyModifiedProperties();
+                EnsureAudioSource(ip.gameObject, so, "audioSource", 0.6f);
+                EditorUtility.SetDirty(ip);
+            }
+
+            AssetDatabase.SaveAssets();
+            Debug.Log("[CelestiaVR] Audio assignment complete.");
+        }
+
+        private static void SetClip(SerializedObject so, string field, AudioClip clip)
+        {
+            if (clip == null) { Debug.LogWarning($"[CelestiaVR] Clip not found for field: {field}"); return; }
+            var prop = so.FindProperty(field);
+            if (prop != null) prop.objectReferenceValue = clip;
+        }
+
+        private static void EnsureAudioSource(GameObject go, SerializedObject so, string field, float volume)
+        {
+            var prop = so.FindProperty(field);
+            if (prop == null) return;
+            if (prop.objectReferenceValue == null)
+            {
+                var src = go.AddComponent<AudioSource>();
+                src.playOnAwake = false;
+                src.spatialBlend = 0f;
+                src.volume = volume;
+                prop.objectReferenceValue = src;
+                so.ApplyModifiedProperties();
+            }
+        }
+
+        private static void EnsureAudioSources(GameObject go, SerializedObject so,
+            string oneShotField, string loopField)
+        {
+            // oneShot source
+            var p1 = so.FindProperty(oneShotField);
+            if (p1 != null && p1.objectReferenceValue == null)
+            {
+                var src = go.AddComponent<AudioSource>();
+                src.playOnAwake  = false;
+                src.spatialBlend = 0f;
+                src.volume       = 0.8f;
+                p1.objectReferenceValue = src;
+                so.ApplyModifiedProperties();
+            }
+            // loop source (friction)
+            var p2 = so.FindProperty(loopField);
+            if (p2 != null && p2.objectReferenceValue == null)
+            {
+                var src = go.AddComponent<AudioSource>();
+                src.playOnAwake  = false;
+                src.spatialBlend = 0f;
+                src.volume       = 0.5f;
+                src.loop         = true;
+                p2.objectReferenceValue = src;
+                so.ApplyModifiedProperties();
+            }
         }
 
         private static TextMeshProUGUI MakeTMPLabel(Transform parent, string goName,

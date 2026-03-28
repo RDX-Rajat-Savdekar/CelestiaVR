@@ -16,6 +16,7 @@ namespace CelestiaVR
         [SerializeField] private float rotateSpeed = 8f;
 
         private GameObject _mapRoot;
+        private GameObject _imageQuad;
         private bool _active;
 
         public void Show(CelestialObjectData objectData, float stageRadius)
@@ -23,19 +24,33 @@ namespace CelestiaVR
             Clear();
             _active = true;
 
-            // Find the constellation that owns this object
-            ConstellationData constellation = FindConstellation(objectData);
-            if (constellation == null)
+            // Show deep sky object photo as a static backdrop when available
+            if (objectData.constellationDiagram != null)
             {
-                Debug.LogWarning($"[ConstellationInspectionView] No constellation found for {objectData.objectName}");
-                return;
+                _imageQuad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+                Destroy(_imageQuad.GetComponent<Collider>());
+                _imageQuad.transform.SetParent(transform, false);
+                _imageQuad.transform.localPosition = Vector3.zero;
+                _imageQuad.transform.localScale    = Vector3.one * (stageRadius * 2f);
+                _imageQuad.name = objectData.objectName + "_Image";
+                var mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+                mat.mainTexture = objectData.constellationDiagram;
+                _imageQuad.GetComponent<Renderer>().material = mat;
             }
 
-            _mapRoot = new GameObject("ConstellationMap");
-            _mapRoot.transform.SetParent(transform, false);
-            _mapRoot.transform.localPosition = Vector3.zero;
-
-            BuildStarMap(constellation, stageRadius);
+            // Build rotating constellation star map overlay (if constellation is linked)
+            ConstellationData constellation = FindConstellation(objectData);
+            if (constellation != null)
+            {
+                _mapRoot = new GameObject("ConstellationMap");
+                _mapRoot.transform.SetParent(transform, false);
+                _mapRoot.transform.localPosition = Vector3.zero;
+                BuildStarMap(constellation, stageRadius);
+            }
+            else if (objectData.constellationDiagram == null)
+            {
+                Debug.LogWarning($"[ConstellationInspectionView] No constellation or image found for {objectData.objectName}");
+            }
         }
 
         private void BuildStarMap(ConstellationData data, float stageRadius)
@@ -107,11 +122,8 @@ namespace CelestiaVR
         public void Clear()
         {
             _active = false;
-            if (_mapRoot != null)
-            {
-                Destroy(_mapRoot);
-                _mapRoot = null;
-            }
+            if (_mapRoot != null)  { Destroy(_mapRoot);    _mapRoot    = null; }
+            if (_imageQuad != null) { Destroy(_imageQuad); _imageQuad  = null; }
         }
 
         private void Update()

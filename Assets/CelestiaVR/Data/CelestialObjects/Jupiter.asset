@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
   objectName: Jupiter
   objectType: 0
-  rightAscensionHours: 5.3
-  declinationDegrees: 22.5
+  rightAscensionHours: 8.822
+  declinationDegrees: 18.286
   description: The largest planet in our solar system, a gas giant with iconic cloud
     bands and the Great Red Spot.
   distanceFromEarth: ~600 million km from Earth
@@ -24,3 +24,4 @@ MonoBehaviour:
   constellationDiagram: {fileID: 0}
   visualScale: 4
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 2837975905367004962, guid: b60cbfcb0662144c39809922061187ae, type: 3}

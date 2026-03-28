@@ -20,6 +20,7 @@ MonoBehaviour:
     to the naked eye below Orion's belt."
   distanceFromEarth: 1,344 light-years
   objectFact: The Orion Nebula contains over 700 stars in various stages of formation.
-  constellationDiagram: {fileID: 0}
+  constellationDiagram: {fileID: 2800000, guid: 00d88061f99ee46ae88837e6ca35f949, type: 3}
   visualScale: 5
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 0}

@@ -59,3 +59,4 @@ MonoBehaviour:
   highlightWidth: 0.22
   linkedObjects:
   - {fileID: 11400000, guid: 0c90e853ee58a4c48addc61309bf3dfa, type: 2}
+  - {fileID: 11400000, guid: 9ed3753eba7244e668007e3b0dd687af, type: 2}

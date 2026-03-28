@@ -58,6 +58,22 @@ namespace CelestiaVR.Editor
                 fact: "Despite being closest to the Sun, Mercury is not the hottest planet — Venus is, due to its thick atmosphere.",
                 visualScale: 0.8f);
 
+            CreateAsset("Pollux",
+                CelestialObjectType.Star,
+                raHours: 7.7552f, decDegrees: 28.026f,
+                description: "Beta Geminorum — the brightest star in Gemini and one of the nearest giant stars to Earth.",
+                distance: "34 light-years",
+                fact: "Pollux hosts a confirmed exoplanet, Pollux b, and is 8 times larger than the Sun.",
+                visualScale: 1.1f);
+
+            CreateAsset("Sadalsuud",
+                CelestialObjectType.Star,
+                raHours: 21.526f, decDegrees: -5.571f,
+                description: "Beta Aquarii — the brightest star in Aquarius. Its name means 'luckiest of the lucky' in Arabic.",
+                distance: "610 light-years",
+                fact: "Sadalsuud is a yellow supergiant 2,200 times more luminous than the Sun.",
+                visualScale: 1.3f);
+
             CreateAsset("Sirius",
                 CelestialObjectType.Star,
                 raHours: 6.7525f, decDegrees: -16.7161f,
@@ -104,6 +120,160 @@ namespace CelestiaVR.Editor
 
             // Auto-wire after generation
             WirePlacer();
+        }
+
+        /// <summary>
+        /// Updates RA/Dec on the 5 existing planet assets using JPL Horizons data
+        /// for 2026-Aug-15 08:00 UT (midnight LA time). Run this after generating assets.
+        /// </summary>
+        [MenuItem("CelestiaVR/Update Planet Positions (Horizons 2026-Aug-15)")]
+        public static void UpdatePlanetPositions()
+        {
+            // Values from Horizons CSV, 2026-Aug-15 08:00 UT.
+            // RA converted from decimal degrees → decimal hours (÷15).
+            var positions = new System.Collections.Generic.Dictionary<string, (float ra, float dec)>
+            {
+                { "Jupiter", (8.822f,  18.286f) },
+                { "Mars",    (6.164f,  23.707f) },
+                { "Venus",   (12.455f, -4.486f) },
+                { "Mercury", (8.816f,  18.862f) },
+                { "Saturn",  (0.929f,   3.153f) },
+            };
+
+            int updated = 0;
+            foreach (var kvp in positions)
+            {
+                string assetPath = $"{OutputPath}/{kvp.Key}.asset";
+                var data = AssetDatabase.LoadAssetAtPath<CelestialObjectData>(assetPath);
+                if (data == null)
+                {
+                    Debug.LogWarning($"[CelestiaVR] Could not find asset: {assetPath}");
+                    continue;
+                }
+                data.rightAscensionHours = kvp.Value.ra;
+                data.declinationDegrees  = kvp.Value.dec;
+                EditorUtility.SetDirty(data);
+                updated++;
+            }
+
+            AssetDatabase.SaveAssets();
+            Debug.Log($"[CelestiaVR] Updated positions for {updated} planet assets (Horizons 2026-Aug-15 midnight LA).");
+        }
+
+        private const string PlanetTexturesPath  = "Assets/CelestiaVR/Planets/PlanetTextures";
+        private const string DeepSkyImagesPath   = "Assets/CelestiaVR/Planets/DeepSkyImages";
+
+        /// <summary>
+        /// Assigns the imported NASA GLB prefab to each planet's CelestialObjectData.modelPrefab field.
+        /// Requires GLTFast package and GLB assets to be imported first.
+        /// </summary>
+        [MenuItem("CelestiaVR/Assign Planet Prefabs")]
+        public static void AssignPlanetPrefabs()
+        {
+            // GLB filename fragment → planet asset name mapping
+            var prefabMap = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "Jupiter",  "Jupiter"  },
+                { "Mars",     "Mars"     },
+                { "Venus",    "Venus"    },
+                { "Mercury",  "Mercury"  },
+                { "Saturn",   "Saturn"   },
+            };
+
+            // Find all GLB-imported prefabs in the textures folder
+            var guids = AssetDatabase.FindAssets("t:GameObject", new[] { PlanetTexturesPath });
+            if (guids.Length == 0)
+            {
+                Debug.LogError("[CelestiaVR] No imported GLB prefabs found in " + PlanetTexturesPath +
+                               ". Make sure GLTFast is installed and Unity has reimported the .glb files.");
+                return;
+            }
+
+            int assigned = 0;
+            foreach (var guid in guids)
+            {
+                string glbPath = AssetDatabase.GUIDToAssetPath(guid);
+                string fileName = System.IO.Path.GetFileNameWithoutExtension(glbPath);
+
+                // Match by checking if the filename contains the planet name (case-insensitive)
+                foreach (var kvp in prefabMap)
+                {
+                    if (fileName.IndexOf(kvp.Key, System.StringComparison.OrdinalIgnoreCase) < 0) continue;
+
+                    string assetPath = $"{OutputPath}/{kvp.Value}.asset";
+                    var data = AssetDatabase.LoadAssetAtPath<CelestialObjectData>(assetPath);
+                    if (data == null)
+                    {
+                        Debug.LogWarning($"[CelestiaVR] CelestialObjectData not found: {assetPath}");
+                        continue;
+                    }
+
+                    var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(glbPath);
+                    if (prefab == null) continue;
+
+                    data.modelPrefab = prefab;
+                    EditorUtility.SetDirty(data);
+                    Debug.Log($"[CelestiaVR] Assigned {System.IO.Path.GetFileName(glbPath)} → {kvp.Value}.asset");
+                    assigned++;
+                    break;
+                }
+            }
+
+            AssetDatabase.SaveAssets();
+            Debug.Log($"[CelestiaVR] Assigned prefabs to {assigned} planet assets.");
+        }
+
+        /// <summary>
+        /// Assigns deep sky JPEG photos from Planets/DeepSkyImages/ to the matching
+        /// CelestialObjectData.constellationDiagram (Texture2D) field.
+        /// </summary>
+        [MenuItem("CelestiaVR/Assign Deep Sky Images")]
+        public static void AssignDeepSkyImages()
+        {
+            // Direct path mappings — no search needed
+            var mappings = new (string imgFile, string dataName)[]
+            {
+                ("andromeda.jpg",   "Andromeda Galaxy"),
+                ("OrionNebula.jpg", "Orion Nebula"),
+                ("Pleiades.jpg",    "Pleiades"),
+            };
+
+            int assigned = 0;
+            foreach (var (imgFile, dataName) in mappings)
+            {
+                string imgPath  = $"{DeepSkyImagesPath}/{imgFile}";
+                string dataPath = $"{OutputPath}/{dataName}.asset";
+
+                // Ensure texture is imported as Default (Texture2D) — not Sprite
+                var importer = AssetImporter.GetAtPath(imgPath) as TextureImporter;
+                if (importer != null && importer.textureType != TextureImporterType.Default)
+                {
+                    importer.textureType = TextureImporterType.Default;
+                    importer.SaveAndReimport();
+                }
+
+                var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(imgPath);
+                if (tex == null)
+                {
+                    Debug.LogWarning($"[CelestiaVR] Texture2D not found: {imgPath}");
+                    continue;
+                }
+
+                var data = AssetDatabase.LoadAssetAtPath<CelestialObjectData>(dataPath);
+                if (data == null)
+                {
+                    Debug.LogWarning($"[CelestiaVR] CelestialObjectData not found: {dataPath}");
+                    continue;
+                }
+
+                data.constellationDiagram = tex;
+                EditorUtility.SetDirty(data);
+                Debug.Log($"[CelestiaVR] Assigned {imgFile} → {dataName}.asset");
+                assigned++;
+            }
+
+            AssetDatabase.SaveAssets();
+            Debug.Log($"[CelestiaVR] Assigned deep sky images to {assigned} assets.");
         }
 
         [MenuItem("CelestiaVR/Wire Celestial Object Placer")]

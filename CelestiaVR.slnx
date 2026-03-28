@@ -1,0 +1,11 @@
+﻿<Solution>
+  <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="CelestiaVR.Telescope.csproj" />
+  <Project Path="CelestiaVR.UI.csproj" />
+  <Project Path="CelestiaVR.Inspection.csproj" />
+  <Project Path="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
+  <Project Path="CelestiaVR.Editor.csproj" />
+  <Project Path="CelestiaVR.Sky.csproj" />
+  <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
+</Solution>

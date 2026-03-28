@@ -70,8 +70,17 @@ namespace CelestiaVR
 
             if (constellationDiagram)
             {
-                constellationDiagram.sprite = data.constellationDiagram;
-                constellationDiagram.gameObject.SetActive(data.constellationDiagram != null);
+                if (data.constellationDiagram != null)
+                {
+                    var tex = data.constellationDiagram;
+                    constellationDiagram.sprite = Sprite.Create(
+                        tex, new Rect(0, 0, tex.width, tex.height), Vector2.one * 0.5f);
+                    constellationDiagram.gameObject.SetActive(true);
+                }
+                else
+                {
+                    constellationDiagram.gameObject.SetActive(false);
+                }
             }
 
             gameObject.SetActive(true);

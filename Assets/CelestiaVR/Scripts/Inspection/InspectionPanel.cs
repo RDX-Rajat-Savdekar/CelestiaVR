@@ -37,6 +37,10 @@ namespace CelestiaVR
         [Header("Animation")]
         [SerializeField] private float animDuration = 0.5f;
 
+        [Header("Audio")]
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip panelAppearSound;
+
         [Header("Sub-views")]
         [SerializeField] private PlanetInspectionView planetView;
         [SerializeField] private ConstellationInspectionView constellationView;
@@ -121,6 +125,7 @@ namespace CelestiaVR
 
         private IEnumerator AnimateOpen(Transform origin)
         {
+            audioSource?.PlayOneShot(panelAppearSound);
             panelRoot.localScale = Vector3.one * 0.01f;
             if (canvasGroup) canvasGroup.alpha = 0f;
 

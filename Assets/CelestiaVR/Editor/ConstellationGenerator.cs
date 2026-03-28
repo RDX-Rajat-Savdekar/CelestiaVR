@@ -211,7 +211,7 @@ namespace CelestiaVR.Editor
             d.highlightColor = new Color(0.70f, 0.90f, 1.00f, 1.00f);
             d.lineWidth      = 0.12f;
             d.highlightWidth = 0.22f;
-            d.linkedObjects  = LoadObjects("Mars");
+            d.linkedObjects  = LoadObjects("Mars", "Pollux");
             Save(d, "Gemini");
         }
 
@@ -294,7 +294,7 @@ namespace CelestiaVR.Editor
             d.highlightColor = new Color(0.70f, 0.90f, 1.00f, 1.00f);
             d.lineWidth      = 0.12f;
             d.highlightWidth = 0.22f;
-            d.linkedObjects  = LoadObjects("Saturn");
+            d.linkedObjects  = LoadObjects("Saturn", "Sadalsuud");
             Save(d, "Aquarius");
         }
 

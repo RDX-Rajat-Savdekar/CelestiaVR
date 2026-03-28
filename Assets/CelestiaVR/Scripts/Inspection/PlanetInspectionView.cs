@@ -20,23 +20,35 @@ namespace CelestiaVR
             Clear();
             _active = true;
 
-            // Create sphere
-            _modelInstance = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-            Destroy(_modelInstance.GetComponent<Collider>());
-            _modelInstance.transform.SetParent(transform, false);
-            _modelInstance.transform.localPosition = Vector3.zero;
-            _modelInstance.transform.localScale    = Vector3.one * (radius * 1.8f);
-            _modelInstance.name = data.objectName + "_Model";
-
-            // Apply planet material if available
-            if (data.objectMaterial != null)
-                _modelInstance.GetComponent<Renderer>().material = data.objectMaterial;
+            if (data.modelPrefab != null)
+            {
+                // Use NASA GLB model
+                _modelInstance = Instantiate(data.modelPrefab);
+                _modelInstance.transform.SetParent(transform, false);
+                _modelInstance.transform.localPosition = Vector3.zero;
+                _modelInstance.transform.localScale    = Vector3.one * (radius * 1.8f);
+                _modelInstance.name = data.objectName + "_Model";
+                foreach (var col in _modelInstance.GetComponentsInChildren<Collider>())
+                    Destroy(col);
+            }
             else
             {
-                // Tint by object type as fallback
-                var mat = new Material(Shader.Find("Universal Render Pipeline/Lit"));
-                mat.color = ColorForType(data.objectType);
-                _modelInstance.GetComponent<Renderer>().material = mat;
+                // Fallback: primitive sphere + material
+                _modelInstance = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                Destroy(_modelInstance.GetComponent<Collider>());
+                _modelInstance.transform.SetParent(transform, false);
+                _modelInstance.transform.localPosition = Vector3.zero;
+                _modelInstance.transform.localScale    = Vector3.one * (radius * 1.8f);
+                _modelInstance.name = data.objectName + "_Model";
+
+                if (data.objectMaterial != null)
+                    _modelInstance.GetComponent<Renderer>().material = data.objectMaterial;
+                else
+                {
+                    var mat = new Material(Shader.Find("Universal Render Pipeline/Lit"));
+                    mat.color = ColorForType(data.objectType);
+                    _modelInstance.GetComponent<Renderer>().material = mat;
+                }
             }
         }
 

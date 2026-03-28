@@ -21,6 +21,7 @@ MonoBehaviour:
   distanceFromEarth: 444 light-years
   objectFact: "The Pleiades appear in the mythologies of cultures worldwide \u2014
     from Greek legend to Aboriginal Australian stories."
-  constellationDiagram: {fileID: 0}
+  constellationDiagram: {fileID: 2800000, guid: e4b0c886d67544a7383ffa3800d59f11, type: 3}
   visualScale: 4
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 0}

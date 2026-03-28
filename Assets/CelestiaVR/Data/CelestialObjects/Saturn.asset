@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
   objectName: Saturn
   objectType: 0
-  rightAscensionHours: 22.85
-  declinationDegrees: -13.5
+  rightAscensionHours: 0.929
+  declinationDegrees: 3.153
   description: The ringed jewel of the solar system. Saturn's rings are made of ice
     and rock fragments.
   distanceFromEarth: ~1.4 billion km from Earth
@@ -24,3 +24,4 @@ MonoBehaviour:
   constellationDiagram: {fileID: 0}
   visualScale: 3.5
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 8771091787928289351, guid: ff77c969afbad419aa42689555b620ae, type: 3}

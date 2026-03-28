@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: CelestiaVR.Sky::CelestiaVR.CelestialObjectData
   objectName: Mercury
   objectType: 0
-  rightAscensionHours: 19.8
-  declinationDegrees: -22
+  rightAscensionHours: 8.816
+  declinationDegrees: 18.862
   description: The smallest planet and closest to the Sun. Rarely visible, hugging
     the twilight horizon.
   distanceFromEarth: ~180 million km from Earth
@@ -24,3 +24,4 @@ MonoBehaviour:
   constellationDiagram: {fileID: 0}
   visualScale: 0.8
   objectMaterial: {fileID: 0}
+  modelPrefab: {fileID: 7485007097152462643, guid: 23877dfc8b1664f568849a071c246dbd, type: 3}

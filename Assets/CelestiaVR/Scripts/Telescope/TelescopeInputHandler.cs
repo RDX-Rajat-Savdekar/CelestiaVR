@@ -16,6 +16,10 @@ namespace CelestiaVR
         [SerializeField] private GameObject discoveryModeIndicator;
         [SerializeField] private GameObject settingsPanel;
 
+        [Header("Audio")]
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip discoveryWhoosh;
+
         private InputAction _xButton;
         private InputAction _bButton;
         private bool _discoveryModeOn = false;
@@ -48,6 +52,7 @@ namespace CelestiaVR
         {
             _discoveryModeOn = !_discoveryModeOn;
             ConstellationManager.Instance?.ToggleLines();
+            audioSource?.PlayOneShot(discoveryWhoosh);
 
             if (discoveryModeIndicator != null)
                 discoveryModeIndicator.SetActive(_discoveryModeOn);

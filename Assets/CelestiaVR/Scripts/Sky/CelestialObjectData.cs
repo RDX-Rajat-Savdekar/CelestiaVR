@@ -25,12 +25,14 @@ namespace CelestiaVR
         public string description = "";
         public string distanceFromEarth = "";
         public string objectFact = "";
-        public Sprite constellationDiagram;
+        public Texture2D constellationDiagram;
 
         [Header("Visual")]
         [Tooltip("Scale multiplier applied to the prefab when placed in the sky dome")]
         public float visualScale = 1f;
         public Material objectMaterial;
+        [Tooltip("NASA GLB prefab for inspection panel display. If set, overrides the primitive sphere.")]
+        public GameObject modelPrefab;
     }
 
     public enum CelestialObjectType

@@ -18,6 +18,10 @@ namespace CelestiaVR
         [Tooltip("UI Image used as a circular dwell progress indicator in the eyepiece")]
         [SerializeField] private UnityEngine.UI.Image dwellCursorFill;
 
+        [Header("Audio")]
+        [SerializeField] private AudioSource dwellAudio;
+        [SerializeField] private AudioClip dwellTone;
+
         private TelescopeController _telescope;
         private CelestialObjectTag _lastHit;
 
@@ -55,6 +59,12 @@ namespace CelestiaVR
                 _lastHit = hit;
                 DiscoveryManager.Instance?.SetGazeTarget(hit);
                 SetCursorProgress(0f);
+
+                // Play dwell tone softly when a new target is acquired
+                if (hit != null && dwellAudio != null && dwellTone != null)
+                    dwellAudio.PlayOneShot(dwellTone, 0.25f);
+                else if (hit == null && dwellAudio != null)
+                    dwellAudio.Stop();
             }
         }
 
